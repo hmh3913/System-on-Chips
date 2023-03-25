@@ -1,0 +1,197 @@
+
+/*
+ * HW1_ALU.c
+ *
+ * This application configures UART 16550 to baud rate 9600.
+ * PS7 UART (Zynq) is not initialized by this application, since
+ * bootrom/bsp configures it to baud rate 115200
+ *
+ * ------------------------------------------------
+ * | UART TYPE   BAUD RATE                        |
+ * ------------------------------------------------
+ *   uartns550   9600
+ *   uartlite    Configurable only in HW design
+ *   ps7_uart    115200 (configured by bootrom/bsp)
+ */
+
+/*
+ * PL의 deep switch와 button을 입력으로 받아
+ * PS에서 ALU를 구현하고
+ * PL의 LED로 출력하는 프로그램이다.
+ */
+#include <stdio.h>
+#include <unistd.h>
+#include "platform.h"
+#include "xparameters.h"
+#include "xgpio.h"
+
+//overflow 를 검사하는 코드
+u8 add_with_overflow(u8 a, u8 b, u8 *overflow){
+	u16 result = (u16)a + (u16)b;
+	if(result > 0xff)
+		*overflow = 1;
+	else
+		*overflow = 0;
+	return (u8)result;
+}
+u8 multi_with_overflow(u8 a, u8 b, u8 *overflow){
+	u16 result = (u16)a * (u16)b;
+	if(result > 0xff)
+		*overflow = 1;
+	else
+		*overflow = 0;
+	return (u8)result;
+}
+//underflow 를 검사하는 코드
+u8 sub_with_underflow(u8 a, u8 b, u8 *underflow){
+	if(a < b)
+		*underflow = 1;
+	else
+		*underflow = 0;
+	return (u8)(a-b);
+}
+// rotation left 하는 코드
+u8 rotate_left(u8 result, int shift){
+	shift %= 8;
+	return (result << shift) | (result >> (8 - shift));
+}
+// rotation right 하는 코드
+u8 rotate_right(u8 result, int shift){
+	shift %= 8;
+	return (result >> shift) | (result << (8 - shift));
+}
+
+int main (void)
+{
+	static XGpio SW;		//딥스위치의 InstancePtr
+	static XGpio BTN;		//버튼의 InstancePtr
+	static XGpio LED;		//LED의 InstancePtr
+	u8 SW_status;			//딥스위치의 상태을 저장할 변수
+	u8 BTN_status;			//버튼의 상태을 저장할 변수
+	u8 opcode;
+	u8 stepsize;
+
+	u8 overflow;
+	u8 underflow;
+
+	u8 Result = 0x01;				//AlU의 값을 저장할 변수 unsigned로 선언
+	/*PL GPIO 상태 체크 및 입출력 설정*/
+	int status;
+    status = XGpio_Initialize(&SW, XPAR_SW_DEVICE_ID);
+	//int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+    //XPAR_SW_DEVICE_ID는 xparameters.h에 정의
+    if (status != XST_SUCCESS){
+    	return XST_FAILURE;
+    }
+
+	XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+	/*
+	 * void XGpio_SetDataDirection (XGpio *      InstancePtr,
+                             unsigned     Channel,
+                             u32          DirectionMask
+                            )
+	 * InstancePtr is a pointer to an XGpio instance to be worked on.
+	 * Channel contains the channel of the GPIO (1 or 2) to operate on.
+	 * DirectionMask is a bitmask specifying which discretes are input and which are output. Bits set to 0 are output and bits set to 1 are input.
+	 */
+
+	status = XGpio_Initialize(&BTN, XPAR_BTN_DEVICE_ID);
+	if (status != XST_SUCCESS)
+    	return XST_FAILURE;
+	XGpio_SetDataDirection(&BTN, 1, 0xff); //1번 채널, 입력으로 지정.
+
+	status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+	if (status != XST_SUCCESS)
+    	return XST_FAILURE;
+	XGpio_SetDataDirection(&LED, 1, 0x00);	//1번 채널, 출력으로 지정.
+	////////////////
+
+	while (1) // infinite loop
+	{
+		BTN_status = XGpio_DiscreteRead(&BTN, 1);
+		//u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+		if(BTN_status == 1){
+			Result = 0x01;		//버튼 입력이 1이면 값 0x01로 초기화
+			xil_printf("BTN Reset = %u \n\r", Result);
+		}
+
+		SW_status = XGpio_DiscreteRead(&SW, 1);
+		opcode = (SW_status >> 4) & 0xF;	//SW_status의 앞 4bit 추출
+		stepsize = SW_status & 0xF;			//SW_status의 뒷 4bit 추출
+
+		switch(opcode){
+		//덧셈 연산
+		case 0b0000:
+			Result = add_with_overflow(Result, stepsize, &overflow);
+			if(overflow){
+				xil_printf("overflow! Reset R = 0x01 \n\r");
+			    Result = 0x01;
+			}
+			else{
+				xil_printf("ADD operation R = R + %u \n\r", stepsize);
+				xil_printf("Result = %u \n\r", Result);
+			}
+			break;
+		//뺄셈 연산
+		case 0b0001:
+			Result = Result - stepsize;
+			break;
+			/*
+			 * 			Result = sub_with_underflow(Result, stepsize, &underflow);
+			if(underflow){
+				xil_printf("underflow! Reset R = 0x01 \n\r");
+			    Result = 0x01;
+			}
+			else{
+				xil_printf("SUB operation R = R - %u \n\r", stepsize);
+				xil_printf("Result = %u \n\r", Result);*/
+		//곱셈연산
+		case 0b0010:
+			Result = multi_with_overflow(Result, stepsize, &overflow);
+			if(overflow){
+				xil_printf("overflow! Reset R = 0x01 \n\r");
+				Result = 0x01;
+			}
+			else{
+				xil_printf("Multiplication R = R * %u \n\r", stepsize);
+				xil_printf("Result = %u \n\r", Result);
+			}
+			break;
+		//왼쪽으로 이동
+		case 0b0011:
+			Result = rotate_left(Result, stepsize);
+			xil_printf("rotate_left stepsize = %u \n\r", stepsize);
+			xil_printf("Result = %u \n\r", Result);
+			break;
+		//오른쪽으로 이동
+		case 0b0100:
+			Result = rotate_right(Result, stepsize);
+			xil_printf("rotate_right stepsize = %u \n\r", stepsize);
+			xil_printf("Result = %u \n\r", Result);
+			break;
+		//비트 and 연산
+		case 0b0101:
+			Result = Result & stepsize;		//bitwise and
+			xil_printf("bitwise and /stepsize = %u \n\r", stepsize);
+			xil_printf("Result = %u %6 \n\r", Result);
+			break;
+		//비트 or 연산
+		case 0b0111:
+			Result = Result | stepsize;		//bitwise or
+			xil_printf("bitwise or /stepsize = %u \n\r", stepsize);
+			xil_printf("Result = %u \n\r", Result);
+			break;
+		//비트 xor 연산
+		case 0b1000:
+			Result = Result ^ stepsize;		//bitwise xor
+			xil_printf("bitwise xor /stepsize = %u \n\r", stepsize);
+			xil_printf("Result = %u \n\r", Result);
+			break;
+		}
+
+	  XGpio_DiscreteWrite(&LED, 1, Result);	  //ALU연산 결과값을 LED로 출력함.
+	  //void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+
+	  sleep(1); //1 초 지연
+	}
+}

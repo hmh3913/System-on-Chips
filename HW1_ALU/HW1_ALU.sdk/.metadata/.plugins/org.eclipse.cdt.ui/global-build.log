@@ -1,0 +1,2147 @@
+12:39:59 **** Build of project HW_ALU_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+12:40:27 **** Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+12:41:14 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+12:58:35 **** Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xgpio_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+'Finished building: ../src/xgpio_example.c'
+' '
+'Building target: HW_ALU_bsp_xgpio_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU_bsp_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU_bsp_xgpio_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU_bsp_xgpio_example_1.elf  |tee "HW_ALU_bsp_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23776	   1200	  22600	  47576	   b9d8	HW_ALU_bsp_xgpio_example_1.elf
+'Finished building: HW_ALU_bsp_xgpio_example_1.elf.size'
+' '
+15:04:27 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:04:29 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:07:05 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:07:28 **** Clean-only build of configuration Debug for project HW_ALU ****
+make clean 
+rm -rf  ./src/HW1_ALU.o ./src/helloworld.o ./src/platform.o  ./src/HW1_ALU.d ./src/helloworld.d ./src/platform.d  HW_ALU.elf.size  HW_ALU.elf
+' '
+15:07:29 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:07:33 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:07:47 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:07:48 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:07:52 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:12:14 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:12:16 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:20:54 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:20:55 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:23:13 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:23:15 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:23:31 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:23:32 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:24:32 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:24:33 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:24:49 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:24:51 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:27:09 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:65:9: error: unknown type name 'XGPio'
+  static XGPio LED;  //LED의 InstancePtr
+         ^~~~~
+../src/HW1_ALU.c:82:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:86:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:102:28: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XGpio_Initialize(&LED, XPAR_LED_DEVICE_ID);
+                            ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:172:5: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:105:25: warning: passing argument 1 of 'XGpio_SetDataDirection' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_SetDataDirection(&LED, 1, 0x00); //1번 채널, 출력으로 지정.
+                         ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:180:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:128:5: error: too many arguments to function 'print'
+     print("ADD operation R = R + %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:138:5: error: too many arguments to function 'print'
+     print("Sub operation R = R - %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:148:5: error: too many arguments to function 'print'
+     print("Multiplication operation R = R * %u \n\r Result = %u \n\r", &stepsize, &Result);
+     ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:153:4: error: too many arguments to function 'print'
+    print("rotate_left stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:157:4: error: too many arguments to function 'print'
+    print("rotate_right stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:162:4: error: too many arguments to function 'print'
+    print("bitwise and, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:167:4: error: too many arguments to function 'print'
+    print("bitwise or, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:172:4: error: too many arguments to function 'print'
+    print("bitwise xor, stepsize = %u \n\r Result = %08b \n\r", &stepsize, &Result);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:177:24: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+    XGpio_DiscreteWrite(&LED, 1, Result);
+                        ^
+In file included from ../src/HW1_ALU.c:23:0:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:182:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+../src/HW1_ALU.c:69:5: warning: unused variable 'LED_status' [-Wunused-variable]
+  u8 LED_status;   //LED의 상태를 지정할 변수
+     ^~~~~~~~~~
+make: *** [src/HW1_ALU.o] 오류 1
+15:27:11 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:27:33 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:80:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:83:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:144:16: error: lvalue required as left operand of assignment
+     xil_printf = 0x01;
+                ^
+../src/HW1_ALU.c:163:4: warning: implicit declaration of function 'prinxil_printft'; did you mean 'xil_printf'? [-Wimplicit-function-declaration]
+    prinxil_printft("bitwise and /stepsize = %u \n\r", stepsize);
+    ^~~~~~~~~~~~~~~
+    xil_printf
+../src/HW1_ALU.c:169:4: warning: implicit declaration of function 'pxil_printfrint'; did you mean 'xil_printf'? [-Wimplicit-function-declaration]
+    pxil_printfrint("Result = %u \n\r", Result);
+    ^~~~~~~~~~~~~~~
+    xil_printf
+../src/HW1_ALU.c:183:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+make: *** [src/HW1_ALU.o] 오류 1
+15:27:50 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:80:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:83:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:144:5: error: 'result' undeclared (first use in this function); did you mean 'Result'?
+     result = 0x01;
+     ^~~~~~
+     Result
+../src/HW1_ALU.c:144:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/HW1_ALU.c:163:4: warning: implicit declaration of function 'prinxil_printft'; did you mean 'xil_printf'? [-Wimplicit-function-declaration]
+    prinxil_printft("bitwise and /stepsize = %u \n\r", stepsize);
+    ^~~~~~~~~~~~~~~
+    xil_printf
+../src/HW1_ALU.c:169:4: warning: implicit declaration of function 'pxil_printfrint'; did you mean 'xil_printf'? [-Wimplicit-function-declaration]
+    pxil_printfrint("Result = %u \n\r", Result);
+    ^~~~~~~~~~~~~~~
+    xil_printf
+../src/HW1_ALU.c:183:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+make: *** [src/HW1_ALU.o] 오류 1
+15:27:57 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:80:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:83:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:163:4: warning: implicit declaration of function 'prinxil_printft'; did you mean 'xil_printf'? [-Wimplicit-function-declaration]
+    prinxil_printft("bitwise and /stepsize = %u \n\r", stepsize);
+    ^~~~~~~~~~~~~~~
+    xil_printf
+../src/HW1_ALU.c:169:4: warning: implicit declaration of function 'pxil_printfrint'; did you mean 'xil_printf'? [-Wimplicit-function-declaration]
+    pxil_printfrint("Result = %u \n\r", Result);
+    ^~~~~~~~~~~~~~~
+    xil_printf
+../src/HW1_ALU.c:183:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/HW1_ALU.o: In function `main':
+C:\Xilinx\SoC\HW1_ALU\HW1_ALU.sdk\HW_ALU\Debug/../src/HW1_ALU.c:163: undefined reference to `prinxil_printft'
+C:\Xilinx\SoC\HW1_ALU\HW1_ALU.sdk\HW_ALU\Debug/../src/HW1_ALU.c:169: undefined reference to `pxil_printfrint'
+collect2.exe: error: ld returned 1 exit status
+make: *** [HW_ALU.elf] 오류 1
+15:28:19 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:80:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:83:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:168:4: error: too many arguments to function 'print'
+    print("bitwise or /stepsize = %u \n\r", stepsize);
+    ^~~~~
+In file included from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../HW_ALU_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/HW1_ALU.c:23:
+../../HW_ALU_bsp/ps7_cortexa9_0/include/xil_printf.h:40:6: note: declared here
+ void print( const char8 *ptr);
+      ^~~~~
+../src/HW1_ALU.c:183:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+make: *** [src/HW1_ALU.o] 오류 1
+15:28:34 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:80:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (status != XST_SUCCESS)
+     ^~
+../src/HW1_ALU.c:83:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  XGpio_SetDataDirection(&SW, 1, 0xff); //1번 채널, 입력으로 지정.
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/HW1_ALU.c:183:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);   //delay 저장
+    ^~~~~
+    strsep
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25332	   1200	  22632	  49164	   c00c	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+15:29:31 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25204	   1200	  22632	  49036	   bf8c	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+15:29:45 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:29:46 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:29:55 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25204	   1200	  22632	  49036	   bf8c	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+15:43:03 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:185:4: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+    delay(1000000); //1 초 지연
+    ^~~~~
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/HW1_ALU.o: In function `main':
+C:\Xilinx\SoC\HW1_ALU\HW1_ALU.sdk\HW_ALU\Debug/../src/HW1_ALU.c:185: undefined reference to `delay'
+collect2.exe: error: ld returned 1 exit status
+make: *** [HW_ALU.elf] 오류 1
+15:43:39 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:186:4: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+    delay(1000000); //1 초 지연
+    ^~~~~
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/HW1_ALU.o: In function `main':
+C:\Xilinx\SoC\HW1_ALU\HW1_ALU.sdk\HW_ALU\Debug/../src/HW1_ALU.c:186: undefined reference to `delay'
+collect2.exe: error: ld returned 1 exit status
+make: *** [HW_ALU.elf] 오류 1
+15:44:31 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:185:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1); //1 초 지연
+    ^~~~~
+    strsep
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25372	   1200	  22632	  49204	   c034	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+15:45:08 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25372	   1200	  22632	  49204	   c034	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+15:45:16 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:45:17 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+15:45:22 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+16:01:17 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:75:5: warning: unused variable 'underflow' [-Wunused-variable]
+  u8 underflow;
+     ^~~~~~~~~
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25248	   1200	  22632	  49080	   bfb8	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+16:01:24 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+16:03:25 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+../src/HW1_ALU.c: In function 'main':
+../src/HW1_ALU.c:75:5: warning: unused variable 'underflow' [-Wunused-variable]
+  u8 underflow;
+     ^~~~~~~~~
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25248	   1200	  22632	  49080	   bfb8	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+16:03:28 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+16:03:29 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+16:03:33 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+16:05:24 **** Auto Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25372	   1200	  22632	  49204	   c034	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
+16:12:37 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+16:12:38 **** Incremental Build of configuration Debug for project HW_ALU_bsp_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+16:12:54 **** Incremental Build of configuration Debug for project HW_ALU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/HW1_ALU.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HW1_ALU.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HW_ALU_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HW1_ALU.d" -MT"src/HW1_ALU.o" -o "src/HW1_ALU.o" "../src/HW1_ALU.c"
+'Finished building: ../src/HW1_ALU.c'
+' '
+'Building target: HW_ALU.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HW_ALU_bsp/ps7_cortexa9_0/lib -o "HW_ALU.elf"  ./src/HW1_ALU.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HW_ALU.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HW_ALU.elf  |tee "HW_ALU.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25372	   1200	  22632	  49204	   c034	HW_ALU.elf
+'Finished building: HW_ALU.elf.size'
+' '
