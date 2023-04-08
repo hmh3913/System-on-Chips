@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  31820	   1160	  22600	  55580	   d91c	test_bsp_xadcps_polled_printf_example_1.elf

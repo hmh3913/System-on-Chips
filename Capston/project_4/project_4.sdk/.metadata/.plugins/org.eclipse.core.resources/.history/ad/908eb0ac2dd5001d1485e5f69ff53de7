@@ -1,0 +1,80 @@
+#include <stdio.h>
+#include <unistd.h>
+#include "platform.h"
+#include "xsysmon.h"
+#include "xfir_hw.h"
+#include "xfir.h"
+#define SYSMON_DEVICE_ID XPAR_SYSMON_0_DEVICE_ID //ID of xadc_wiz_0
+#define XSysMon_RawToExtVoltage(AdcData) \
+((((float)(AdcData))*(1.0f))/65536.0f) //(ADC 16bit result)/16/4096 = (ADC 16bit result)/65536
+// voltage value = (ADC 16bit result)/65536 * 1Volt
+static XSysMon SysMonInst; //a sysmon instance
+static int SysMonFractionToInt(float FloatNum);
+int main()
+{
+	static XFir InstancePtr;
+	XFir_Initialize(&InstancePtr, XPAR_FIR_0_DEVICE_ID);
+	 //const int    SAMPLES=60000; //샘플링
+	  int output;
+	  int taps[] = {0,-10,-9,23,56,63,56,23,-9,-10,0,};
+////////////////////////////////
+
+
+	u32 ExtVolRawData;
+	float ExtVolData;
+	int xStatus;
+	XSysMon_Config* SysMonConfigPtr;
+	XSysMon* SysMonInstPtr = &SysMonInst;
+	init_platform();
+	print("Hello World\n\r");
+	//----------------------------------------------------------------------- SysMon Initialize
+	SysMonConfigPtr = XSysMon_LookupConfig(SYSMON_DEVICE_ID);
+	if (SysMonConfigPtr == NULL)
+		printf("LookupConfig FAILURE\n\r");
+	xStatus = XSysMon_CfgInitialize(SysMonInstPtr, SysMonConfigPtr, SysMonConfigPtr->BaseAddress);
+	if (XST_SUCCESS != xStatus)
+		printf("CfgInitialize FAILED\r\n");
+	//-----------------------------------------------------------------------------------------
+	XSysMon_GetStatus(SysMonInstPtr); // Clear the old status
+
+
+/////////////////////
+
+	//////////////////////////////
+	while(1)
+	{ //wait until EOS activated
+		ExtVolRawData = XSysMon_GetAdcData(SysMonInstPtr, XSM_CH_VPVN); //Read the external Vpn Data
+		ExtVolData = XSysMon_RawToExtVoltage(ExtVolRawData);
+		xil_printf("The Current VpVn is %0d.%03d Volts. \r\n",
+			(int)(ExtVolData), SysMonFractionToInt(ExtVolData));
+
+		XFir_Set_x(&InstancePtr, ExtVolRawData);
+
+		XFir_Write_c_Words(&InstancePtr, 0, taps, 11);
+
+		output = XFir_Get_y(&InstancePtr);	//fir 통과 데이터
+
+		//////////////비교용/////////////////////////
+		ExtVolData = XSysMon_RawToExtVoltage(output);	//fir통과 전압
+
+		xil_printf(" %d      %d\r\n",ExtVolRawData, output);
+		//xil_printf("current output : %d\r\n", ExtVolRawData);
+		//xil_printf("fir output : %d\r\n", output);
+		//xil_printf("FIR VpVn is %0d.%03d Volts. \r\n*************\r\n",
+		//		(int)(ExtVolData), SysMonFractionToInt(ExtVolData));
+
+	    /////////
+		usleep(500000);
+	}
+	return 0;
+}
+//----------------------------------------------------------------------------------------------
+int SysMonFractionToInt(float FloatNum)
+{
+	float Temp;
+	Temp = FloatNum;
+	if (FloatNum < 0) {
+		Temp = -(FloatNum);
+	}
+	return(((int)((Temp - (float)((int)Temp)) * (1000.0f))));
+}

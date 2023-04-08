@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xsysmon.h"
+#define SYSMON_DEVICE_ID XPAR_SYSMON_0_DEVICE_ID //ID of xadc_wiz_0
+#define XSysMon_RawToExtVoltage(AdcData) \
+((((float)(AdcData))*(1.0f))/65536.0f) //(ADC 16bit result)/16/4096 = (ADC 16bit result)/65536
+ // voltage value = (ADC 16bit result)/65536 * 1Volt
+static XSysMon SysMonInst; //a sysmon instance
+static int SysMonFractionToInt(float FloatNum);
+int main()
+{
+ u8 SeqMode;
+ u32 TempRawData,VccIntRawData,ExtVolRawData,i;
+ float TempData,VccIntData,ExtVolData;
+ int xStatus;
+ XSysMon_Config *SysMonConfigPtr;
+ XSysMon *SysMonInstPtr = &SysMonInst;
+ init_platform();
+ print("Hello World\n\r");
+ //----------------------------------------------------------------------- SysMon Initialize
+ SysMonConfigPtr = XSysMon_LookupConfig(SYSMON_DEVICE_ID);
+ if(SysMonConfigPtr == NULL) printf("LookupConfig FAILURE\n\r");
+ xStatus = XSysMon_CfgInitialize(SysMonInstPtr, SysMonConfigPtr,SysMonConfigPtr->BaseAddress);
+ if(XST_SUCCESS != xStatus) printf("CfgInitialize FAILED\r\n");
+ //-----------------------------------------------------------------------------------------
+ XSysMon_GetStatus(SysMonInstPtr); // Clear the old status
+ while(1)
+ { //wait until EOS activated
+while ((XSysMon_GetStatus(SysMonInstPtr) & XSM_SR_EOS_MASK) != XSM_SR_EOS_MASK);
+TempRawData = XSysMon_GetAdcData(SysMonInstPtr, XSM_CH_TEMP);//Read the on-chip Temperature Data
+ TempData = XSysMon_RawToTemperature(TempRawData);
+ printf("\r\nThe Current Temperature is %0d.%03d Centigrades.\r\n",
+ (int)(TempData), SysMonFractionToInt(TempData));- 9 -
+VccIntRawData = XSysMon_GetAdcData(SysMonInstPtr, XSM_CH_VCCINT); //Read the on-chip Vccint Data
+ VccIntData = XSysMon_RawToVoltage(VccIntRawData);
+ printf("The Current VCCINT is %0d.%03d Volts. \r\n",
+ (int)(VccIntData), SysMonFractionToInt(VccIntData));
+ ExtVolRawData = XSysMon_GetAdcData(SysMonInstPtr,XSM_CH_VPVN); //Read the external Vpn Data
+ ExtVolData = XSysMon_RawToExtVoltage(ExtVolRawData);
+ printf("The Current VpVn is %0d.%03d Volts. \r\n",
+ (int)(ExtVolData), SysMonFractionToInt(ExtVolData));
+ExtVolRawData = XSysMon_GetAdcData(SysMonInstPtr,XSM_CH_AUX_MIN); //Read the external Vaux0 Data
+ ExtVolData = XSysMon_RawToExtVoltage(ExtVolRawData);
+ printf("The Current Vaux0 is %0d.%03d Volts. \r\n",
+ (int)(ExtVolData), SysMonFractionToInt(ExtVolData));
+ExtVolRawData = XSysMon_GetAdcData(SysMonInstPtr,XSM_CH_AUX_MIN+8);//Read the external Vaux8 Data
+ ExtVolData = XSysMon_RawToExtVoltage(ExtVolRawData);
+ printf("The Current Vaux8 is %0d.%03d Volts. \r\n",
+ (int)(ExtVolData), SysMonFractionToInt(ExtVolData));
+ usleep(500000); //wait 500ms
+ }
+ return 0;
+}
+//----------------------------------------------------------------------------------------------
+int SysMonFractionToInt(float FloatNum)
+{
+float Temp;
+Temp = FloatNum;
+if (FloatNum < 0) {
+Temp = -(FloatNum);
+}
+return( ((int)((Temp -(float)((int)Temp)) * (1000.0f))));

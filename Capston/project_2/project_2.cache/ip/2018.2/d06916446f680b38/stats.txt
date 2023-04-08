@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Thu Mar 30 15:18:21 UTC 2023
+VLNV: xilinx.com:ip:xadc_wiz:3.3
+SynthRuntime: 96

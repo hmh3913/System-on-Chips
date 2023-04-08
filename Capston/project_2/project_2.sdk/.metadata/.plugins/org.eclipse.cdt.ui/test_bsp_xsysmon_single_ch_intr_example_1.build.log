@@ -1,0 +1,24 @@
+08:57:54 **** Incremental Build of configuration Debug for project test_bsp_xsysmon_single_ch_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xsysmon_single_ch_intr_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xsysmon_single_ch_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xsysmon_single_ch_intr_example.d" -MT"src/xsysmon_single_ch_intr_example.o" -o "src/xsysmon_single_ch_intr_example.o" "../src/xsysmon_single_ch_intr_example.c"
+../src/xsysmon_single_ch_intr_example.c: In function 'main':
+../src/xsysmon_single_ch_intr_example.c:99:18: error: 'XPAR_FABRIC_SYSTEM_MANAGEMENT_WIZ_0_IP2INTC_IRPT_INTR' undeclared (first use in this function)
+ #define INTR_ID  XPAR_FABRIC_SYSTEM_MANAGEMENT_WIZ_0_IP2INTC_IRPT_INTR
+                  ^
+../src/xsysmon_single_ch_intr_example.c:99:18: note: in definition of macro 'INTR_ID'
+ #define INTR_ID  XPAR_FABRIC_SYSTEM_MANAGEMENT_WIZ_0_IP2INTC_IRPT_INTR
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/xsysmon_single_ch_intr_example.c:99:18: note: each undeclared identifier is reported only once for each function it appears in
+ #define INTR_ID  XPAR_FABRIC_SYSTEM_MANAGEMENT_WIZ_0_IP2INTC_IRPT_INTR
+                  ^
+../src/xsysmon_single_ch_intr_example.c:99:18: note: in definition of macro 'INTR_ID'
+ #define INTR_ID  XPAR_FABRIC_SYSTEM_MANAGEMENT_WIZ_0_IP2INTC_IRPT_INTR
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/xsysmon_single_ch_intr_example.o] ¿À·ù 1
+
+08:57:55 Build Finished (took 674ms)
+
