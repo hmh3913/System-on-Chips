@@ -14,7 +14,7 @@ int main()
 {
 	static XFir InstancePtr;
 	XFir_Initialize(&InstancePtr, XPAR_FIR_0_DEVICE_ID);
-	 //const int    SAMPLES=60000; //»ùÇÃ¸µ
+	 //const int    SAMPLES=60000; //ìƒ˜í”Œë§
 	  int output;
 	  int taps[] = {0,-10,-9,23,56,63,56,23,-9,-10,0,};
 ////////////////////////////////
@@ -52,17 +52,16 @@ int main()
 
 		XFir_Write_c_Words(&InstancePtr, 0, taps, 11);
 
-		output = XFir_Get_y(&InstancePtr);	//fir Åë°ú µ¥ÀÌÅÍ
-		output = output/183;
+		output = XFir_Get_y(&InstancePtr);	//fir í†µê³¼ ë°ì´í„°
 
-		//////////////ºñ±³¿ë/////////////////////////
-		ExtVolData = XSysMon_RawToExtVoltage(output);	//firÅë°ú Àü¾Ğ
+		//////////////ë¹„êµìš©/////////////////////////
+		ExtVolData = XSysMon_RawToExtVoltage(output);	//firí†µê³¼ ì „ì••
 
 		xil_printf(" %d      %d\r\n",ExtVolRawData, output);
-		xil_printf("current output : %d\r\n", ExtVolRawData);
-		xil_printf("fir output : %d\r\n", output);
-		xil_printf("FIR VpVn is %0d.%03d Volts. \r\n*************\r\n",
-				(int)(ExtVolData), SysMonFractionToInt(ExtVolData));
+		//xil_printf("current output : %d\r\n", ExtVolRawData);
+		//xil_printf("fir output : %d\r\n", output);
+		//xil_printf("FIR VpVn is %0d.%03d Volts. \r\n*************\r\n",
+		//		(int)(ExtVolData), SysMonFractionToInt(ExtVolData));
 
 	    usleep(500000);
 	}
