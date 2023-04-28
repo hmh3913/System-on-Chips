@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr 28 16:18:29 2023
+# Process ID: 33224
+# Current directory: C:/Xilinx/SoC/matrixmul/solution1/sim/verilog
+# Command line: wbtcv.exe -mode batch -source C:/Xilinx/SoC/matrixmul/solution1/sim/verilog/xsim.dir/matrixmul/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Xilinx/SoC/matrixmul/solution1/sim/verilog/webtalk.log
+# Journal file: C:/Xilinx/SoC/matrixmul/solution1/sim/verilog\webtalk.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SoC/matrixmul/solution1/sim/verilog/xsim.dir/matrixmul/webtalk/xsim_webtalk.tcl -notrace
