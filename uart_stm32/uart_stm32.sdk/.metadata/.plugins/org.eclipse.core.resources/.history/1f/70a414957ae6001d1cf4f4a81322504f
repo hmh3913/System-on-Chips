@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "xuartlite.h"
+#include "xparameters.h"
+
+#define uart_id XPAR_UARTLITE_0_DEVICE_ID
+
+XUartLite uart;
+
+int main()
+{
+	char msg_send[] = "hello\n\r";
+	XUartLite_Initialize(&uart, uart_id);
+}

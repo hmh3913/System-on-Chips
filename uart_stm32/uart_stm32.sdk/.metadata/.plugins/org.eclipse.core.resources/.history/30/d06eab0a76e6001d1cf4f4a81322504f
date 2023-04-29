@@ -1,0 +1,61 @@
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xstatus.h"
+//#include "ps7_init.h"
+#include "xscugic.h"
+#include "xparameters.h"
+#include "xuartlite.h"
+#include "xil_printf.h"
+#define TEST_BUFFER_SIZE 700
+u8 SendBuffer[TEST_BUFFER_SIZE]; /* Buffer for Transmitting Data */
+u8 RecvBuffer[TEST_BUFFER_SIZE]; /* Buffer for Receiving Data */
+XUartLite UartLite; /* Instance of the UartLite Device */
+
+int UartLitePolledExample(u32 DeviceId)
+{
+	int Status;
+	/*
+	 * * Initialize the UartLite driver so that it is ready to use.
+	 * */
+	Status = XUartLite_Initialize(&UartLite, DeviceId);
+	if (Status != XST_SUCCESS) {
+		xil_printf("XUartlite initialize error\r\n");
+		return XST_FAILURE;
+}
+	/*
+	 *
+	 * * Perform a self-test to ensure that the hardware was built correctly.
+	 * 	 */
+	Status = XUartLite_SelfTest(&UartLite);
+	if (Status != XST_SUCCESS) {
+		xil_printf("XUartlite selfish test error\r\n");
+		return XST_FAILURE;
+	}
+
+	return XST_SUCCESS;
+}
+
+int main()
+{
+	//int ReceivedCount = 0;
+	int i;
+	init_platform();
+	//enable the pl
+	//ps7_post_config();
+	// xil_printf("status is %d\n\r",status1);
+	//enable uartlite
+	UartLitePolledExample(XPAR_AXI_UARTLITE_0_DEVICE_ID);
+	//xil_printf("status is %d\n\r",Status2);
+	xil_printf("Hello World, GCP!\n\r");
+	while(1) {
+		xil_printf("1, GCP!\n\r");
+		XUartLite_Recv(&UartLite,RecvBuffer,TEST_BUFFER_SIZE);
+		xil_printf("Hello 2, GCP!\n\r");
+		xil_printf("%x\n\r", RecvBuffer[0]);
+
+	}
+	cleanup_platform();
+	return 0;
+}

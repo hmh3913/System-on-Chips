@@ -1,0 +1,138 @@
+
+
+#include "xparameters.h"
+#include "xstatus.h"
+#include "xuartlite.h"
+#include "xil_printf.h"
+
+
+#define UARTLITE_DEVICE_ID          XPAR_AXI_UARTLITE_0_DEVICE_ID
+
+
+#define TEST_BUFFER_SIZE 16
+
+XStatus UartLitePolledExample(uint16_t DeviceId);
+XUartLite UartLite;                    /* Instance of the UartLite Device */
+uint8_t SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+uint8_t RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+
+int main(void)
+{
+    XStatus Status;
+    //unsigned int SentCount;
+    unsigned int ReceivedCount;
+    int Index;
+
+    Status = UartLitePolledExample(UARTLITE_DEVICE_ID);
+    if (Status != XST_SUCCESS)
+    {
+    	xil_printf("test is failed\r\n");
+        return XST_FAILURE;
+    }
+
+    while(1){
+    	ReceivedCount = XUartLite_Recv(&UartLite, RecvBuffer, TEST_BUFFER_SIZE);
+    	    if (ReceivedCount != TEST_BUFFER_SIZE)
+    	    {
+    	        return XST_FAILURE;
+    	    }
+
+    	    /*
+    	     * Check the receive buffer data against the send buffer and verify the
+    	     * data was correctly received.
+    	     */
+    	    for (Index = 0; Index < TEST_BUFFER_SIZE; Index++)
+    	    {
+    	        if (SendBuffer[Index] != RecvBuffer[Index])
+    	        {
+    	            return XST_FAILURE;
+    	        }
+    	    }
+    }
+
+    return XST_SUCCESS;
+
+}
+
+
+XStatus UartLitePolledExample(uint16_t DeviceId)
+{
+    XStatus Status;
+    unsigned int SentCount;
+    unsigned int ReceivedCount;
+    int Index;
+
+    /*
+     * Initialize the UartLite driver so that it is ready to use.
+     */
+    Status = XUartLite_Initialize(&UartLite, DeviceId);
+    if (Status != XST_SUCCESS)
+    {
+        return XST_FAILURE;
+    }
+
+    /*
+     * Perform a self-test to ensure that the hardware was built correctly.
+     */
+    Status = XUartLite_SelfTest(&UartLite);
+    if (Status != XST_SUCCESS)
+    {
+        return XST_FAILURE;
+    }
+
+    /*
+     * Initialize the send buffer bytes with a pattern to send and the
+     * the receive buffer bytes to zero.
+     */
+    for (Index = 0; Index < TEST_BUFFER_SIZE; Index++)
+    {
+        SendBuffer[Index] = Index;
+        RecvBuffer[Index] = 0;
+    }
+
+    /*
+     * Send the buffer through the UartLite waiting til the data can be sent
+     * (block), if the specified number of bytes was not sent successfully,
+     * then an error occurred.
+     */
+    SentCount = XUartLite_Send(&UartLite, SendBuffer, TEST_BUFFER_SIZE);
+    if (SentCount != TEST_BUFFER_SIZE)
+    {
+        return XST_FAILURE;
+    }
+
+    /*
+     * Wait while the UartLite is sending the data so that we are guaranteed
+     * to get the data the 1st time we call receive, otherwise this function
+     * may enter receive before the data has arrived.
+     */
+    while (XUartLite_IsSending(&UartLite))
+    {
+    }
+
+    /*
+     * Receive the buffer from the UartLite waiting til there's data by (block),
+     * if the specified number of bytes was not received successfully, then
+     * an error occurred.
+     */
+
+    ReceivedCount = XUartLite_Recv(&UartLite, RecvBuffer, TEST_BUFFER_SIZE);
+    if (ReceivedCount != TEST_BUFFER_SIZE)
+    {
+        return XST_FAILURE;
+    }
+
+    /*
+     * Check the receive buffer data against the send buffer and verify the
+     * data was correctly received.
+     */
+    for (Index = 0; Index < TEST_BUFFER_SIZE; Index++)
+    {
+        if (SendBuffer[Index] != RecvBuffer[Index])
+        {
+            return XST_FAILURE;
+        }
+    }
+
+    return XST_SUCCESS;
+}

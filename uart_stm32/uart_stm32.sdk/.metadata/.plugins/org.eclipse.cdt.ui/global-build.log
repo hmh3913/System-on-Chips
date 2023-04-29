@@ -1,0 +1,2875 @@
+16:29:53 **** Build of project uart_stm32_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartlite"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+16:30:11 **** Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+16:30:26 **** Build of configuration Debug for project uart_stm32_bsp_xuartlite_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xuartlite_intr_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartlite_intr_example.d" -MT"src/xuartlite_intr_example.o" -o "src/xuartlite_intr_example.o" "../src/xuartlite_intr_example.c"
+../src/xuartlite_intr_example.c:65:10: fatal error: xintc.h: No such file or directory
+ #include "xintc.h"
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/xuartlite_intr_example.o] 오류 1
+16:36:30 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:51:10: fatal error: xparameter.h: No such file or directory
+ #include "xparameter.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+16:36:33 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:51:10: fatal error: xparamater.h: No such file or directory
+ #include "xparamater.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+16:36:41 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:51:10: fatal error: Xparameter.h: No such file or directory
+ #include "Xparameter.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+16:36:45 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:51:10: fatal error: XParameter.h: No such file or directory
+ #include "XParameter.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+16:37:32 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:14: warning: implicit declaration of function 'UartLiteIntrExample' [-Wimplicit-function-declaration]
+     Status = UartLiteIntrExample(XPAR_AXI_UARTLITE_0_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:64:19: error: 'XST_SUCCESS' undeclared (first use in this function)
+     if (Status != XST_SUCCESS) {
+                   ^~~~~~~~~~~
+../src/helloworld.c:64:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:66:13: error: 'XST_FAILURE' undeclared (first use in this function)
+      return XST_FAILURE;
+             ^~~~~~~~~~~
+../src/helloworld.c:71:6: warning: implicit declaration of function 'XUartLite_Recv' [-Wimplicit-function-declaration]
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:71:22: error: 'UartLite' undeclared (first use in this function); did you mean 'fwrite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      fwrite
+../src/helloworld.c:71:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:71:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:37:51 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:14: warning: implicit declaration of function 'UartLiteIntrExample' [-Wimplicit-function-declaration]
+     Status = UartLiteIntrExample(XPAR_AXI_UARTLITE_0_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:64:19: error: 'XST_SUCCESS' undeclared (first use in this function)
+     if (Status != XST_SUCCESS) {
+                   ^~~~~~~~~~~
+../src/helloworld.c:64:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:66:13: error: 'XST_FAILURE' undeclared (first use in this function)
+      return XST_FAILURE;
+             ^~~~~~~~~~~
+../src/helloworld.c:71:6: warning: implicit declaration of function 'XUartLite_Recv' [-Wimplicit-function-declaration]
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:71:22: error: 'UartLite' undeclared (first use in this function); did you mean 'fwrite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      fwrite
+../src/helloworld.c:71:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:71:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:40:19 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:5: error: too few arguments to function 'XUartLite_Initialize'
+     XUartLite_Initialize();
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:52:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:244:5: note: declared here
+ int XUartLite_Initialize(XUartLite *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:65:14: warning: implicit declaration of function 'UartLiteIntrExample'; did you mean 'XUartLite_Initialize'? [-Wimplicit-function-declaration]
+     Status = UartLiteIntrExample(XPAR_AXI_UARTLITE_0_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~
+              XUartLite_Initialize
+../src/helloworld.c:73:22: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      XUartLite
+../src/helloworld.c:73:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:73:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:73:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+../src/helloworld.c:59:15: warning: unused variable 'XUartLite_InstancePtr' [-Wunused-variable]
+     XUartLite XUartLite_InstancePtr;
+               ^~~~~~~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:40:38 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:14: warning: implicit declaration of function 'UartLiteIntrExample'; did you mean 'XUartLite_Initialize'? [-Wimplicit-function-declaration]
+     Status = UartLiteIntrExample(XPAR_AXI_UARTLITE_0_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~
+              XUartLite_Initialize
+../src/helloworld.c:73:22: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      XUartLite
+../src/helloworld.c:73:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:73:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:73:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:40:54 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:22: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      XUartLite
+../src/helloworld.c:72:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:72:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:72:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:41:01 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:22: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      XUartLite
+../src/helloworld.c:72:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:72:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:72:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:41:14 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:22: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      XUartLite
+../src/helloworld.c:72:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:72:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:72:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:42:29 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:12: error: void value not ignored as it ought to be
+     Status =  XUartLite_EnableInterrupt(&XUartLite_InstancePtr);
+            ^
+../src/helloworld.c:74:22: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      XUartLite
+../src/helloworld.c:74:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:74:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:74:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:42:39 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:74:22: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      XUartLite
+../src/helloworld.c:74:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:74:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:74:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:45:09 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:11: warning: implicit declaration of function 'SetupInterruptSystem' [-Wimplicit-function-declaration]
+  Status = SetupInterruptSystem(&XUartLite_InstancePtr);
+           ^~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:80:28: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+  XUartLite_SetSendHandler(&UartLite, SendHandler, &UartLite);
+                            ^~~~~~~~
+                            XUartLite
+../src/helloworld.c:80:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:80:38: error: 'SendHandler' undeclared (first use in this function); did you mean 'XNullHandler'?
+  XUartLite_SetSendHandler(&UartLite, SendHandler, &UartLite);
+                                      ^~~~~~~~~~~
+                                      XNullHandler
+../src/helloworld.c:81:38: error: 'RecvHandler' undeclared (first use in this function); did you mean 'SendHandler'?
+  XUartLite_SetRecvHandler(&UartLite, RecvHandler, &UartLite);
+                                      ^~~~~~~~~~~
+                                      SendHandler
+../src/helloworld.c:90:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:90:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:45:13 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:11: warning: implicit declaration of function 'SetupInterruptSystem' [-Wimplicit-function-declaration]
+  Status = SetupInterruptSystem(&XUartLite_InstancePtr);
+           ^~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:80:28: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+  XUartLite_SetSendHandler(&UartLite, SendHandler, &XUartLite_InstancePtr);
+                            ^~~~~~~~
+                            XUartLite
+../src/helloworld.c:80:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:80:38: error: 'SendHandler' undeclared (first use in this function); did you mean 'XNullHandler'?
+  XUartLite_SetSendHandler(&UartLite, SendHandler, &XUartLite_InstancePtr);
+                                      ^~~~~~~~~~~
+                                      XNullHandler
+../src/helloworld.c:81:38: error: 'RecvHandler' undeclared (first use in this function); did you mean 'SendHandler'?
+  XUartLite_SetRecvHandler(&UartLite, RecvHandler, &XUartLite_InstancePtr);
+                                      ^~~~~~~~~~~
+                                      SendHandler
+../src/helloworld.c:90:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:90:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:45:52 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:11: warning: implicit declaration of function 'SetupInterruptSystem' [-Wimplicit-function-declaration]
+  Status = SetupInterruptSystem(&XUartLite_InstancePtr);
+           ^~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:80:51: error: 'SendHandler' undeclared (first use in this function); did you mean 'XNullHandler'?
+  XUartLite_SetSendHandler(&XUartLite_InstancePtr, SendHandler, &XUartLite_InstancePtr);
+                                                   ^~~~~~~~~~~
+                                                   XNullHandler
+../src/helloworld.c:80:51: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:81:51: error: 'RecvHandler' undeclared (first use in this function); did you mean 'SendHandler'?
+  XUartLite_SetRecvHandler(&XUartLite_InstancePtr, RecvHandler, &XUartLite_InstancePtr);
+                                                   ^~~~~~~~~~~
+                                                   SendHandler
+../src/helloworld.c:90:22: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      XUartLite
+../src/helloworld.c:90:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:90:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+16:47:02 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:96:22: error: 'UartLite' undeclared (first use in this function); did you mean 'XUartLite'?
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                      ^~~~~~~~
+                      XUartLite
+../src/helloworld.c:96:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:96:32: error: 'ReceiveBuffer' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                ^~~~~~~~~~~~~
+../src/helloworld.c:96:47: error: 'TEST_BUFFER_SIZE' undeclared (first use in this function)
+      XUartLite_Recv(&UartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'SendHandler':
+../src/helloworld.c:107:2: error: 'TotalSentCount' undeclared (first use in this function)
+  TotalSentCount = EventData;
+  ^~~~~~~~~~~~~~
+../src/helloworld.c: In function 'RecvHandler':
+../src/helloworld.c:112:2: error: 'TotalReceivedCount' undeclared (first use in this function)
+  TotalReceivedCount = EventData;
+  ^~~~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+17:08:13 **** Build of project AXI_UART_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartlite"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+17:08:30 **** Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AXI_UART.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_UART_bsp/ps7_cortexa9_0/lib -o "AXI_UART.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_UART.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_UART.elf  |tee "AXI_UART.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	AXI_UART.elf
+'Finished building: AXI_UART.elf.size'
+' '
+17:12:20 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:5:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xparameters.h:276:39: error: expected identifier or '(' before numeric constant
+ #define XPAR_AXI_UARTLITE_0_DEVICE_ID 0
+                                       ^
+../src/helloworld.c:7:14: note: in expansion of macro 'XPAR_AXI_UARTLITE_0_DEVICE_ID'
+ #define uart XPAR_AXI_UARTLITE_0_DEVICE_ID
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:8:11: note: in expansion of macro 'uart'
+ XUartLite uart;
+           ^~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:12:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/helloworld.c:13:26: error: expected expression before 'XUartLite'
+     XUartLite_Initialize(XUartLite *InstancePtr, u16 DeviceId);
+                          ^~~~~~~~~
+../src/helloworld.c:13:5: error: too few arguments to function 'XUartLite_Initialize'
+     XUartLite_Initialize(XUartLite *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:4:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:244:5: note: declared here
+ int XUartLite_Initialize(XUartLite *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:15:5: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+     print("Hello World\n\r");
+     ^~~~~
+     printf
+../src/helloworld.c:17:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+17:12:39 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:12:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/helloworld.c:13:26: error: expected expression before 'XUartLite'
+     XUartLite_Initialize(XUartLite *InstancePtr, u16 DeviceId);
+                          ^~~~~~~~~
+../src/helloworld.c:13:5: error: too few arguments to function 'XUartLite_Initialize'
+     XUartLite_Initialize(XUartLite *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:4:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:244:5: note: declared here
+ int XUartLite_Initialize(XUartLite *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:15:5: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+     print("Hello World\n\r");
+     ^~~~~
+     printf
+../src/helloworld.c:17:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+17:14:13 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:17:6: error: too few arguments to function 'XUartLite_Send'
+      XUartLite_Send();
+      ^~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:4:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: declared here
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:21:6: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+make: *** [src/helloworld.o] 오류 1
+17:15:13 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:17:28: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+      XUartLite_Send(&uart, msg, sizeof(msg));
+                            ^~~
+In file included from ../src/helloworld.c:4:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:21:6: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: AXI_UART.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_UART_bsp/ps7_cortexa9_0/lib -o "AXI_UART.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_UART.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_UART.elf  |tee "AXI_UART.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21232	   1160	  22664	  45056	   b000	AXI_UART.elf
+'Finished building: AXI_UART.elf.size'
+' '
+17:16:42 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:18:28: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+      XUartLite_Send(&uart, msg, sizeof(msg));
+                            ^~~
+In file included from ../src/helloworld.c:4:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:19:6: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: AXI_UART.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_UART_bsp/ps7_cortexa9_0/lib -o "AXI_UART.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_UART.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_UART.elf  |tee "AXI_UART.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21232	   1160	  22664	  45056	   b000	AXI_UART.elf
+'Finished building: AXI_UART.elf.size'
+' '
+17:16:59 **** Incremental Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+17:17:49 **** Incremental Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+17:18:48 **** Incremental Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+17:19:47 **** Incremental Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:18:28: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+      XUartLite_Send(&uart, msg, sizeof(msg));
+                            ^~~
+In file included from ../src/helloworld.c:3:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:19:6: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: AXI_UART.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_UART_bsp/ps7_cortexa9_0/lib -o "AXI_UART.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_UART.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_UART.elf  |tee "AXI_UART.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21232	   1160	  22664	  45056	   b000	AXI_UART.elf
+'Finished building: AXI_UART.elf.size'
+' '
+17:19:49 **** Incremental Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+17:23:30 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:18:28: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+      XUartLite_Send(&uart, msg_send, sizeof(msg_send));
+                            ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:19:28: warning: pointer targets in passing argument 2 of 'XUartLite_Recv' differ in signedness [-Wpointer-sign]
+      XUartLite_Recv(&uart, msg_recv, sizeof(msg_recv));
+                            ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:258:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:20:6: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: AXI_UART.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_UART_bsp/ps7_cortexa9_0/lib -o "AXI_UART.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_UART.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_UART.elf  |tee "AXI_UART.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21256	   1160	  22664	  45080	   b018	AXI_UART.elf
+'Finished building: AXI_UART.elf.size'
+' '
+17:30:47 **** Incremental Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+18:25:55 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:18:28: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+      XUartLite_Send(&uart, msg_send, sizeof(msg_send));
+                            ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:19:28: warning: pointer targets in passing argument 2 of 'XUartLite_Recv' differ in signedness [-Wpointer-sign]
+      XUartLite_Recv(&uart, msg_recv, sizeof(msg_recv));
+                            ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:258:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:20:6: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
+      xil_printf("%c"->msg_recv);
+      ^~~~~~~~~~
+      viprintf
+../src/helloworld.c:20:21: error: request for member 'msg_recv' in something not a structure or union
+      xil_printf("%c"->msg_recv);
+                     ^~
+../src/helloworld.c:21:6: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+make: *** [src/helloworld.o] 오류 1
+18:26:24 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:18:28: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+      XUartLite_Send(&uart, msg_send, sizeof(msg_send));
+                            ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:19:28: warning: pointer targets in passing argument 2 of 'XUartLite_Recv' differ in signedness [-Wpointer-sign]
+      XUartLite_Recv(&uart, msg_recv, sizeof(msg_recv));
+                            ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:258:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:20:6: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
+      xil_printf("%c", msg_recv);
+      ^~~~~~~~~~
+      viprintf
+../src/helloworld.c:21:6: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: AXI_UART.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_UART_bsp/ps7_cortexa9_0/lib -o "AXI_UART.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_UART.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_UART.elf  |tee "AXI_UART.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24152	   1168	  22664	  47984	   bb70	AXI_UART.elf
+'Finished building: AXI_UART.elf.size'
+' '
+18:26:47 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:5:10: fatal error: xprintf.h: No such file or directory
+ #include "xprintf.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+18:27:44 **** Build of configuration Debug for project AXI_UART_bsp_xuartlite_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xuartlite_intr_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartlite_intr_example.d" -MT"src/xuartlite_intr_example.o" -o "src/xuartlite_intr_example.o" "../src/xuartlite_intr_example.c"
+../src/xuartlite_intr_example.c:65:10: fatal error: xintc.h: No such file or directory
+ #include "xintc.h"
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/xuartlite_intr_example.o] 오류 1
+18:27:59 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:19:28: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+      XUartLite_Send(&uart, msg_send, sizeof(msg_send));
+                            ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:20:28: warning: pointer targets in passing argument 2 of 'XUartLite_Recv' differ in signedness [-Wpointer-sign]
+      XUartLite_Recv(&uart, msg_recv, sizeof(msg_recv));
+                            ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../AXI_UART_bsp/ps7_cortexa9_0/include/xuartlite.h:258:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:22:6: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+      strsep
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: AXI_UART.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AXI_UART_bsp/ps7_cortexa9_0/lib -o "AXI_UART.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_UART.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXI_UART.elf  |tee "AXI_UART.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24152	   1168	  22664	  47984	   bb70	AXI_UART.elf
+'Finished building: AXI_UART.elf.size'
+' '
+18:28:29 **** Incremental Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+18:31:37 **** Incremental Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:53:10: fatal error: ps7_init.h: No such file or directory
+ #include "ps7_init.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+18:33:13 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:53:10: fatal error: ps7_init.h: No such file or directory
+ #include "ps7_init.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+18:33:16 **** Incremental Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:53:10: fatal error: ps7_init.h: No such file or directory
+ #include "ps7_init.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+18:33:45 **** Auto Build of configuration Debug for project AXI_UART ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:53:10: fatal error: ps7_init.h: No such file or directory
+ #include "ps7_init.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+18:33:45 **** Auto Build of configuration Debug for project AXI_UART_bsp_xuartlite_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xuartlite_intr_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartlite_intr_example.d" -MT"src/xuartlite_intr_example.o" -o "src/xuartlite_intr_example.o" "../src/xuartlite_intr_example.c"
+../src/xuartlite_intr_example.c:65:10: fatal error: xintc.h: No such file or directory
+ #include "xintc.h"
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/xuartlite_intr_example.o] 오류 1
+18:35:03 **** Build of project AX_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartlite"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+18:35:20 **** Build of configuration Debug for project AX ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AX_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AX_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AX.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../AX_bsp/ps7_cortexa9_0/lib -o "AX.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AX.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AX.elf  |tee "AX.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	AX.elf
+'Finished building: AX.elf.size'
+' '
+18:36:08 **** Build of project uart_stm32_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartlite_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartlite"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+18:36:24 **** Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+18:37:07 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:52:10: fatal error: ps7_init.h: No such file or directory
+ #include "ps7_init.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+18:37:16 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:104:1: warning: implicit declaration of function 'ps7_post_config' [-Wimplicit-function-declaration]
+ ps7_post_config();
+ ^~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+C:\Xilinx\SoC\uart_stm32\uart_stm32.sdk\uart_stm32\Debug/../src/helloworld.c:104: undefined reference to `ps7_post_config'
+collect2.exe: error: ld returned 1 exit status
+make: *** [uart_stm32.elf] 오류 1
+18:37:24 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24340	   1168	  24056	  49564	   c19c	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+18:38:20 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+18:50:27 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:76:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId);
+                               ^~~~~~~
+                               Xuint64
+../src/helloworld.c:86:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:87:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:14: warning: implicit declaration of function 'UartLitePolledExample'; did you mean 'XUartLite_SetSendHandler'? [-Wimplicit-function-declaration]
+     Status = UartLitePolledExample(UARTLITE_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~~~
+              XUartLite_SetSendHandler
+../src/helloworld.c: At top level:
+../src/helloworld.c:146:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId)
+                               ^~~~~~~
+                               Xuint64
+make: *** [src/helloworld.o] 오류 1
+18:50:59 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:76:31: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+ XStatus UartLitePolledExample(uint16 DeviceId);
+                               ^~~~~~
+                               uint16_t
+../src/helloworld.c:86:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:87:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:14: warning: implicit declaration of function 'UartLitePolledExample'; did you mean 'XUartLite_SetSendHandler'? [-Wimplicit-function-declaration]
+     Status = UartLitePolledExample(UARTLITE_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~~~
+              XUartLite_SetSendHandler
+../src/helloworld.c: At top level:
+../src/helloworld.c:146:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId)
+                               ^~~~~~~
+                               Xuint64
+make: *** [src/helloworld.o] 오류 1
+18:51:16 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:76:31: error: unknown type name 'uint_16'; did you mean 'uint16_t'?
+ XStatus UartLitePolledExample(uint_16 DeviceId);
+                               ^~~~~~~
+                               uint16_t
+../src/helloworld.c:86:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:87:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:14: warning: implicit declaration of function 'UartLitePolledExample'; did you mean 'XUartLite_SetSendHandler'? [-Wimplicit-function-declaration]
+     Status = UartLitePolledExample(UARTLITE_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~~~
+              XUartLite_SetSendHandler
+../src/helloworld.c: At top level:
+../src/helloworld.c:146:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId)
+                               ^~~~~~~
+                               Xuint64
+make: *** [src/helloworld.o] 오류 1
+18:51:28 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:86:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:87:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:146:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId)
+                               ^~~~~~~
+                               Xuint64
+make: *** [src/helloworld.o] 오류 1
+18:51:56 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:76:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId);
+                               ^~~~~~~
+                               Xuint64
+../src/helloworld.c:86:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:87:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:14: warning: implicit declaration of function 'UartLitePolledExample'; did you mean 'XUartLite_SetSendHandler'? [-Wimplicit-function-declaration]
+     Status = UartLitePolledExample(UARTLITE_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~~~
+              XUartLite_SetSendHandler
+../src/helloworld.c: At top level:
+../src/helloworld.c:146:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId)
+                               ^~~~~~~
+                               Xuint64
+make: *** [src/helloworld.o] 오류 1
+18:52:04 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:76:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId);
+                               ^~~~~~~
+                               Xuint64
+../src/helloworld.c:86:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:87:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:14: warning: implicit declaration of function 'UartLitePolledExample'; did you mean 'XUartLite_SetSendHandler'? [-Wimplicit-function-declaration]
+     Status = UartLitePolledExample(UARTLITE_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~~~
+              XUartLite_SetSendHandler
+../src/helloworld.c: At top level:
+../src/helloworld.c:146:9: error: conflicting types for 'UartLitePolledExample'
+ XStatus UartLitePolledExample(uint16_t DeviceId)
+         ^~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:110:14: note: previous implicit declaration of 'UartLitePolledExample' was here
+     Status = UartLitePolledExample(UARTLITE_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'UartLitePolledExample':
+../src/helloworld.c:186:43: warning: passing argument 2 of 'XUartLite_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+     SentCount = XUartLite_Send(&UartLite, SendBuffer, TEST_BUFFER_SIZE);
+                                           ^~~~~~~~~~
+In file included from ../src/helloworld.c:48:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:207:47: warning: passing argument 2 of 'XUartLite_Recv' from incompatible pointer type [-Wincompatible-pointer-types]
+     ReceivedCount = XUartLite_Recv(&UartLite, RecvBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~
+In file included from ../src/helloworld.c:48:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:258:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int *'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+18:52:15 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:86:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:87:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c: In function 'UartLitePolledExample':
+../src/helloworld.c:186:43: warning: passing argument 2 of 'XUartLite_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+     SentCount = XUartLite_Send(&UartLite, SendBuffer, TEST_BUFFER_SIZE);
+                                           ^~~~~~~~~~
+In file included from ../src/helloworld.c:48:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:207:47: warning: passing argument 2 of 'XUartLite_Recv' from incompatible pointer type [-Wincompatible-pointer-types]
+     ReceivedCount = XUartLite_Recv(&UartLite, RecvBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~
+In file included from ../src/helloworld.c:48:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:258:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int *'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+18:52:25 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:86:1: error: unknown type name 'uint_8'; did you mean 'uint8_t'?
+ uint_8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ uint8_t
+../src/helloworld.c:87:1: error: unknown type name 'uint_8'; did you mean 'uint8_t'?
+ uint_8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ uint8_t
+../src/helloworld.c: In function 'UartLitePolledExample':
+../src/helloworld.c:186:43: warning: passing argument 2 of 'XUartLite_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+     SentCount = XUartLite_Send(&UartLite, SendBuffer, TEST_BUFFER_SIZE);
+                                           ^~~~~~~~~~
+In file included from ../src/helloworld.c:48:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:207:47: warning: passing argument 2 of 'XUartLite_Recv' from incompatible pointer type [-Wincompatible-pointer-types]
+     ReceivedCount = XUartLite_Recv(&UartLite, RecvBuffer, TEST_BUFFER_SIZE);
+                                               ^~~~~~~~~~
+In file included from ../src/helloworld.c:48:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:258:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int *'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+18:52:37 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21644	   1160	  22696	  45500	   b1bc	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+18:54:21 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:25:5: warning: implicit declaration of function 'xprintf' [-Wimplicit-function-declaration]
+     xprintf("pass\r\n");
+     ^~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+C:\Xilinx\SoC\uart_stm32\uart_stm32.sdk\uart_stm32\Debug/../src/helloworld.c:25: undefined reference to `xprintf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [uart_stm32.elf] 오류 1
+18:54:31 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:25:5: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+     xil_printf("pass\r\n");
+     ^~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24556	   1168	  22696	  48420	   bd24	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+18:54:45 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24556	   1168	  22696	  48420	   bd24	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+18:54:53 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+18:55:32 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+18:56:33 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24572	   1168	  22696	  48436	   bd34	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+18:56:43 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+18:57:47 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24572	   1168	  22696	  48436	   bd34	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+18:57:54 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:00:47 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:10: fatal error: ps7_init.h: No such file or directory
+ #include "ps7_init.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+19:00:52 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:1: warning: implicit declaration of function 'ps7_post_config' [-Wimplicit-function-declaration]
+ ps7_post_config();
+ ^~~~~~~~~~~~~~~
+../src/helloworld.c:94:28: error: stray '\' in program
+ for(i=0; i<ReceivedCount; i\+\+)
+                            ^
+../src/helloworld.c:94:30: error: stray '\' in program
+ for(i=0; i<ReceivedCount; i\+\+)
+                              ^
+../src/helloworld.c:94:32: error: expected expression before ')' token
+ for(i=0; i<ReceivedCount; i\+\+)
+                                ^
+make: *** [src/helloworld.o] 오류 1
+19:00:59 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:94:28: error: stray '\' in program
+ for(i=0; i<ReceivedCount; i\+\+)
+                            ^
+../src/helloworld.c:94:30: error: stray '\' in program
+ for(i=0; i<ReceivedCount; i\+\+)
+                              ^
+../src/helloworld.c:94:32: error: expected expression before ')' token
+ for(i=0; i<ReceivedCount; i\+\+)
+                                ^
+make: *** [src/helloworld.o] 오류 1
+19:01:04 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24404	   1168	  24056	  49628	   c1dc	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:01:12 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:03:21 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24404	   1168	  24056	  49628	   c1dc	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:03:56 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24404	   1168	  24056	  49628	   c1dc	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:04:57 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24404	   1168	  24056	  49628	   c1dc	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:05:10 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:06:23 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24432	   1168	  24056	  49656	   c1f8	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:06:27 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:08:18 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:42:6: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  int ReceivedCount = 0;
+      ^~~~~~~~~~~~~
+../src/helloworld.c:56:56: warning: 'i' is used uninitialized in this function [-Wuninitialized]
+   xil_printf("ReceivedCount[%d] = %x\n\r" ,i,RecvBuffer[i]);
+                                              ~~~~~~~~~~^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24496	   1168	  24056	  49720	   c238	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:08:29 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:56: warning: 'i' is used uninitialized in this function [-Wuninitialized]
+   xil_printf("ReceivedCount[%d] = %x\n\r" ,i,RecvBuffer[i]);
+                                              ~~~~~~~~~~^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24432	   1168	  24056	  49656	   c1f8	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:08:44 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:34: warning: 'i' is used uninitialized in this function [-Wuninitialized]
+   xil_printf("%x\n\r", RecvBuffer[i]);
+                        ~~~~~~~~~~^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24412	   1168	  24056	  49636	   c1e4	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:08:51 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:35: error: expected expression before ']' token
+   xil_printf("%x\n\r", RecvBuffer[]);
+                                   ^
+../src/helloworld.c:43:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] 오류 1
+19:08:55 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:43:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24412	   1168	  24056	  49636	   c1e4	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:09:05 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:10:17 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:43:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24400	   1168	  24056	  49624	   c1d8	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:10:24 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:18:11 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:54:7: warning: unused variable 'U_Recv' [-Wunused-variable]
+   u32 U_Recv = XUartLite_Recv(&UartLite,RecvBuffer,TEST_BUFFER_SIZE);
+       ^~~~~~
+../src/helloworld.c:43:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24400	   1168	  24056	  49624	   c1d8	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:19:19 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:76:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId);
+                               ^~~~~~~
+                               Xuint64
+../src/helloworld.c:86:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:87:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:14: warning: implicit declaration of function 'UartLitePolledExample'; did you mean 'XUartLite_SetSendHandler'? [-Wimplicit-function-declaration]
+     Status = UartLitePolledExample(UARTLITE_DEVICE_ID);
+              ^~~~~~~~~~~~~~~~~~~~~
+              XUartLite_SetSendHandler
+../src/helloworld.c: At top level:
+../src/helloworld.c:146:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId)
+                               ^~~~~~~
+                               Xuint64
+make: *** [src/helloworld.o] 오류 1
+19:19:46 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:86:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 SendBuffer[TEST_BUFFER_SIZE];    /* Buffer for Transmitting Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:87:1: error: unknown type name 'Xuint8'; did you mean 'Xuint64'?
+ Xuint8 RecvBuffer[TEST_BUFFER_SIZE];    /* Buffer for Receiving Data */
+ ^~~~~~
+ Xuint64
+../src/helloworld.c:146:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId)
+                               ^~~~~~~
+                               Xuint64
+make: *** [src/helloworld.o] 오류 1
+19:19:57 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:146:31: error: unknown type name 'Xuint16'; did you mean 'Xuint64'?
+ XStatus UartLitePolledExample(Xuint16 DeviceId)
+                               ^~~~~~~
+                               Xuint64
+make: *** [src/helloworld.o] 오류 1
+19:20:08 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21644	   1160	  22696	  45500	   b1bc	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:20:50 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:6: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+      xil_printf("test is failed\r\n");
+      ^~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24568	   1168	  22696	  48432	   bd30	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:21:04 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24568	   1168	  22696	  48432	   bd30	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:21:29 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24568	   1168	  22696	  48432	   bd30	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:23:26 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:31:6: error: 'ReceivedCount' undeclared (first use in this function)
+      ReceivedCount = XUartLite_Recv(&UartLite, RecvBuffer, TEST_BUFFER_SIZE);
+      ^~~~~~~~~~~~~
+../src/helloworld.c:31:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:41:15: error: 'Index' undeclared (first use in this function); did you mean 'index'?
+          for (Index = 0; Index < TEST_BUFFER_SIZE; Index++)
+               ^~~~~
+               index
+make: *** [src/helloworld.o] 오류 1
+19:23:50 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:41:15: error: 'Index' undeclared (first use in this function); did you mean 'index'?
+          for (Index = 0; Index < TEST_BUFFER_SIZE; Index++)
+               ^~~~~
+               index
+../src/helloworld.c:41:15: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] 오류 1
+19:24:03 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:18: warning: unused variable 'SentCount' [-Wunused-variable]
+     unsigned int SentCount;
+                  ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24696	   1168	  22696	  48560	   bdb0	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:24:10 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24696	   1168	  22696	  48560	   bdb0	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:24:31 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:26:09 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:25:46: error: 'DeviceId' undeclared (first use in this function)
+     Status = XUartLite_Initialize(&UartLite, DeviceId);
+                                              ^~~~~~~~
+../src/helloworld.c:25:46: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:22:18: warning: unused variable 'SentCount' [-Wunused-variable]
+     unsigned int SentCount;
+                  ^~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+19:26:37 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:18: warning: unused variable 'SentCount' [-Wunused-variable]
+     unsigned int SentCount;
+                  ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21828	   1160	  22696	  45684	   b274	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:26:59 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:27:31 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:18: warning: unused variable 'SentCount' [-Wunused-variable]
+     unsigned int SentCount;
+                  ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24820	   1168	  22696	  48684	   be2c	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:27:36 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:40:51 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:3:10: fatal error: xparameter.h: No such file or directory
+ #include "xparameter.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+19:41:01 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19132	   1144	  22648	  42924	   a7ac	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:41:50 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:11:7: warning: unused variable 'msg_send' [-Wunused-variable]
+  char msg_send[] = "hello\n\r";
+       ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21064	   1160	  22664	  44888	   af58	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:42:48 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:15:42: error: 'msg' undeclared (first use in this function)
+   XUartLite_Send(&uart, msg_send, sizeof(msg));
+                                          ^~~
+../src/helloworld.c:15:42: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:15:25: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+   XUartLite_Send(&uart, msg_send, sizeof(msg));
+                         ^~~~~~~~
+In file included from ../src/helloworld.c:2:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:16:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^~~~~
+make: *** [src/helloworld.o] 오류 1
+19:43:07 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:15:25: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+   XUartLite_Send(&uart, msg_send, sizeof(msg_send));
+                         ^~~~~~~~
+In file included from ../src/helloworld.c:2:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:16:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21232	   1160	  22664	  45056	   b000	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:43:49 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:16:25: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+   XUartLite_Send(&uart, msg_send, sizeof(msg_send));
+                         ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21232	   1160	  22664	  45056	   b000	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:44:24 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:16:25: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+   XUartLite_Send(&uart, msg_send, sizeof(msg_send));
+                         ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:256:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21232	   1160	  22664	  45056	   b000	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:44:43 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21232	   1160	  22664	  45056	   b000	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:45:49 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:20:2: error: expected ';' before '}' token
+  }
+  ^
+../src/helloworld.c:13:5: warning: unused variable 'msg_recv' [-Wunused-variable]
+  u8 msg_recv[] = "";
+     ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+19:46:07 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21264	   1160	  22664	  45088	   b020	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:46:47 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:20:3: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
+   xil_printf("%s", msg_recv)
+   ^~~~~~~~~~
+   viprintf
+../src/helloworld.c:21:2: error: expected ';' before '}' token
+  }
+  ^
+make: *** [src/helloworld.o] 오류 1
+19:46:49 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:20:3: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
+   xil_printf("%s", msg_recv);
+   ^~~~~~~~~~
+   viprintf
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24152	   1168	  22664	  47984	   bb70	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:47:01 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24152	   1168	  22664	  47984	   bb70	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:47:43 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:49:02 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24152	   1168	  22664	  47984	   bb70	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:49:32 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:50:40 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24024	   1168	  22664	  47856	   baf0	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:50:44 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:51:42 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24216	   1168	  22664	  48048	   bbb0	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:51:50 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:54:03 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24304	   1168	  22664	  48136	   bc08	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:54:09 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:55:10 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:55:41 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24112	   1168	  22664	  47944	   bb48	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:55:46 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+19:58:50 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24176	   1168	  22664	  48008	   bb88	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+19:58:53 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+20:00:02 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24304	   1168	  22664	  48136	   bc08	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+20:00:06 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+20:01:25 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24176	   1168	  22664	  48008	   bb88	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+20:01:29 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다

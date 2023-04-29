@@ -1,0 +1,15 @@
+18:33:45 **** Auto Build of configuration Debug for project AXI_UART_bsp_xuartlite_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xuartlite_intr_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../AXI_UART_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartlite_intr_example.d" -MT"src/xuartlite_intr_example.o" -o "src/xuartlite_intr_example.o" "../src/xuartlite_intr_example.c"
+../src/xuartlite_intr_example.c:65:10: fatal error: xintc.h: No such file or directory
+ #include "xintc.h"
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/xuartlite_intr_example.o] ¿À·ù 1
+
+18:33:46 Build Finished (took 424ms)
+

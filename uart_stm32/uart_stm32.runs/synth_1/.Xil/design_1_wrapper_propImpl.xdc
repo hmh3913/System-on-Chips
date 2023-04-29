@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/Xilinx/SoC/uart_stm32/uart_stm32.srcs/constrs_1/new/axiuart.xdc rfile:../../../uart_stm32.srcs/constrs_1/new/axiuart.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y11 [get_ports uart_rtl_rxd]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AA11 [get_ports uart_rtl_txd]
