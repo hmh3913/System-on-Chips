@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xD;&#xA;&#x9;'mul' operation ('tmp_6', Matrix_Mul/matrixmul.c:37) (3.36 ns)&#xD;&#xA;&#x9;'add' operation ('tmp_8', Matrix_Mul/matrixmul.c:37) (3.02 ns)&#xD;&#xA;&#x9;'store' operation (Matrix_Mul/matrixmul.c:37) of variable 'tmp_8', Matrix_Mul/matrixmul.c:37 on array 'AB' (3.25 ns)" projectName="Matrix_Mul" solutionName="solution1" date="2023-04-30T06:45:26.933+0900" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (9.634ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns)." projectName="Matrix_Mul" solutionName="solution1" date="2023-04-30T06:45:26.925+0900" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

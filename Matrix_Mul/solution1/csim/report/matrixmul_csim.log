@@ -1,0 +1,35 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../matrixmul_test.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'hmh39' on host 'desktop-k0idmnb' (Windows NT_amd64 version 6.2) on Sun Apr 30 06:44:34 +0900 2023
+INFO: [HLS 200-10] In directory 'C:/Xilinx/SoC/Matrix_Mul/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating csim.exe
+m = 4
+n = 4
+p = 4
+Show matrix A
+1 1 1 1 
+2 2 2 2 
+3 3 3 3 
+4 4 4 4 
+Show matrix B
+1 10 100 0 
+200 12 2 2 
+63 34 12 3 
+47 45 4 0 
+Show matrix sw_result
+311 101 118 5 
+622 202 236 10 
+933 303 354 15 
+1244 404 472 20 
+Show matrix hw_result
+311 101 118 5 
+622 202 236 10 
+933 303 354 15 
+1244 404 472 20 
+test pass
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

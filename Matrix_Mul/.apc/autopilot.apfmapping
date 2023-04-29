@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="matrixmul.c" path="C:\Xilinx\SoC\Matrix_Mul\matrixmul.c"/>
+    <originFiles name="matrixmul.h" path="C:\Xilinx\SoC\Matrix_Mul\matrixmul.h"/>
+  </source>
+  <testbench>
+    <originFiles name="matrixmul_test.c" path="C:\Xilinx\SoC\Matrix_Mul\matrixmul_test.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
