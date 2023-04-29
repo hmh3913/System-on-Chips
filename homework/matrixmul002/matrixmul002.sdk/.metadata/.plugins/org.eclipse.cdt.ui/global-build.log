@@ -1,0 +1,3229 @@
+11:12:42 **** Build of project matrixmul_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_7/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/matrixmul_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/matrixmul_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_7/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling axidma"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/matrixmul_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/matrixmul_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling matrixmul"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+11:13:01 **** Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+11:24:50 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:92:2: error: 'Config' undeclared (first use in this function); did you mean 'Config_0'?
+  Config = XAxiDma_LookupConfig(DMA_DEV_ID);
+  ^~~~~~
+  Config_0
+../src/helloworld.c:92:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:100:34: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_CfgInitialize(&AxiDma, Config);
+                                  ^~~~~~
+                                  XAxiDma
+../src/helloworld.c:87:18: warning: unused variable 'Config_0' [-Wunused-variable]
+  XAxiDma_Config *Config_0;
+                  ^~~~~~~~
+At top level:
+../src/helloworld.c:41:16: warning: 'AxiDma_1' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_1;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+../src/helloworld.c:40:16: warning: 'AxiDma_0' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_0;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+11:25:02 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:93:7: error: 'Config' undeclared (first use in this function); did you mean 'Config_0'?
+  if (!Config) {
+       ^~~~~~
+       Config_0
+../src/helloworld.c:93:7: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../src/helloworld.c:2:0:
+../src/helloworld.c:107:20: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  if(XAxiDma_HasSg(&AxiDma)){
+                    ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma.h:632:38: note: in definition of macro 'XAxiDma_HasSg'
+ #define XAxiDma_HasSg(InstancePtr) ((InstancePtr)->HasSg) ? TRUE : FALSE
+                                      ^~~~~~~~~~~
+../src/helloworld.c:87:18: warning: variable 'Config_0' set but not used [-Wunused-but-set-variable]
+  XAxiDma_Config *Config_0;
+                  ^~~~~~~~
+At top level:
+../src/helloworld.c:41:16: warning: 'AxiDma_1' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_1;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+11:25:09 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:100:44: error: 'Config' undeclared (first use in this function); did you mean 'Config_0'?
+  Status = XAxiDma_CfgInitialize(&AxiDma_0, Config);
+                                            ^~~~~~
+                                            Config_0
+../src/helloworld.c:100:44: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../src/helloworld.c:2:0:
+../src/helloworld.c:107:20: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  if(XAxiDma_HasSg(&AxiDma)){
+                    ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma.h:632:38: note: in definition of macro 'XAxiDma_HasSg'
+ #define XAxiDma_HasSg(InstancePtr) ((InstancePtr)->HasSg) ? TRUE : FALSE
+                                      ^~~~~~~~~~~
+At top level:
+../src/helloworld.c:41:16: warning: 'AxiDma_1' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_1;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+11:25:16 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+In file included from ../src/helloworld.c:2:0:
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:107:20: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  if(XAxiDma_HasSg(&AxiDma)){
+                    ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma.h:632:38: note: in definition of macro 'XAxiDma_HasSg'
+ #define XAxiDma_HasSg(InstancePtr) ((InstancePtr)->HasSg) ? TRUE : FALSE
+                                      ^~~~~~~~~~~
+../src/helloworld.c:107:20: note: each undeclared identifier is reported only once for each function it appears in
+  if(XAxiDma_HasSg(&AxiDma)){
+                    ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma.h:632:38: note: in definition of macro 'XAxiDma_HasSg'
+ #define XAxiDma_HasSg(InstancePtr) ((InstancePtr)->HasSg) ? TRUE : FALSE
+                                      ^~~~~~~~~~~
+At top level:
+../src/helloworld.c:41:16: warning: 'AxiDma_1' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_1;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+11:25:20 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:113:35: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/helloworld.c:41:16: warning: 'AxiDma_1' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_1;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+11:25:25 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+In file included from ../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_bd.h:117:0,
+                 from ../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_bdring.h:87,
+                 from ../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma.h:492,
+                 from ../src/helloworld.c:2:
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:122:23: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+                       ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_hw.h:337:20: note: in definition of macro 'XAxiDma_WriteReg'
+     XAxiDma_Out32((BaseAddress) + (RegOffset), (Data))
+                    ^~~~~~~~~~~
+../src/helloworld.c:122:2: note: in expansion of macro 'XAxiDma_IntrDisable'
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+  ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:122:23: note: each undeclared identifier is reported only once for each function it appears in
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+                       ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_hw.h:337:20: note: in definition of macro 'XAxiDma_WriteReg'
+     XAxiDma_Out32((BaseAddress) + (RegOffset), (Data))
+                    ^~~~~~~~~~~
+../src/helloworld.c:122:2: note: in expansion of macro 'XAxiDma_IntrDisable'
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+  ^~~~~~~~~~~~~~~~~~~
+At top level:
+../src/helloworld.c:41:16: warning: 'AxiDma_1' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_1;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+11:25:30 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+In file included from ../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_bd.h:117:0,
+                 from ../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_bdring.h:87,
+                 from ../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma.h:492,
+                 from ../src/helloworld.c:2:
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:125:23: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+                       ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_hw.h:337:20: note: in definition of macro 'XAxiDma_WriteReg'
+     XAxiDma_Out32((BaseAddress) + (RegOffset), (Data))
+                    ^~~~~~~~~~~
+../src/helloworld.c:125:2: note: in expansion of macro 'XAxiDma_IntrDisable'
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+  ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:125:23: note: each undeclared identifier is reported only once for each function it appears in
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+                       ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_hw.h:337:20: note: in definition of macro 'XAxiDma_WriteReg'
+     XAxiDma_Out32((BaseAddress) + (RegOffset), (Data))
+                    ^~~~~~~~~~~
+../src/helloworld.c:125:2: note: in expansion of macro 'XAxiDma_IntrDisable'
+  XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+  ^~~~~~~~~~~~~~~~~~~
+At top level:
+../src/helloworld.c:41:16: warning: 'AxiDma_1' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_1;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+11:25:39 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+In file included from ../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_bd.h:117:0,
+                 from ../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_bdring.h:87,
+                 from ../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma.h:492,
+                 from ../src/helloworld.c:2:
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:133:22: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  XAxiDma_IntrEnable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+                      ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_hw.h:337:20: note: in definition of macro 'XAxiDma_WriteReg'
+     XAxiDma_Out32((BaseAddress) + (RegOffset), (Data))
+                    ^~~~~~~~~~~
+../src/helloworld.c:133:2: note: in expansion of macro 'XAxiDma_IntrEnable'
+  XAxiDma_IntrEnable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+  ^~~~~~~~~~~~~~~~~~
+../src/helloworld.c:133:22: note: each undeclared identifier is reported only once for each function it appears in
+  XAxiDma_IntrEnable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+                      ^
+../../matrixmul_bsp/ps7_cortexa9_0/include/xaxidma_hw.h:337:20: note: in definition of macro 'XAxiDma_WriteReg'
+     XAxiDma_Out32((BaseAddress) + (RegOffset), (Data))
+                    ^~~~~~~~~~~
+../src/helloworld.c:133:2: note: in expansion of macro 'XAxiDma_IntrEnable'
+  XAxiDma_IntrEnable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+  ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/helloworld.c:41:16: warning: 'AxiDma_1' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_1;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+11:25:44 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:155:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:155:35: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/helloworld.c:41:16: warning: 'AxiDma_1' defined but not used [-Wunused-variable]
+ static XAxiDma AxiDma_1;  /* Instance of the XAxiDma */
+                ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+11:27:55 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:195:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:195:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] 오류 1
+11:39:05 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:14: error: 'ARRAY_LENGTH' undeclared here (not in a function)
+ u32 TxBuffer[ARRAY_LENGTH];
+              ^~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:196:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:196:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] 오류 1
+11:39:43 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:197:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:197:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] 오류 1
+11:43:05 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:206:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:206:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] 오류 1
+11:43:36 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:190:26: error: initializer element is not constant
+  static unsigned int m = 1 << lm;
+                          ^
+../src/helloworld.c:191:26: error: initializer element is not constant
+  static unsigned int n = 1 << ln;
+                          ^
+../src/helloworld.c:192:26: error: initializer element is not constant
+  static unsigned int p = 1 << lp;
+                          ^
+../src/helloworld.c:214:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:214:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:192:22: warning: unused variable 'p' [-Wunused-variable]
+  static unsigned int p = 1 << lp;
+                      ^
+../src/helloworld.c:191:22: warning: unused variable 'n' [-Wunused-variable]
+  static unsigned int n = 1 << ln;
+                      ^
+../src/helloworld.c:190:22: warning: unused variable 'm' [-Wunused-variable]
+  static unsigned int m = 1 << lm;
+                      ^
+At top level:
+../src/helloworld.c:190:22: warning: 'm' defined but not used [-Wunused-variable]
+../src/helloworld.c:191:22: warning: 'n' defined but not used [-Wunused-variable]
+  static unsigned int n = 1 << ln;
+                      ^
+../src/helloworld.c:192:22: warning: 'p' defined but not used [-Wunused-variable]
+  static unsigned int p = 1 << lp;
+                      ^
+make: *** [src/helloworld.o] 오류 1
+11:44:10 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:190:26: error: initializer element is not constant
+  static unsigned int m = 1 << lm;
+                          ^
+../src/helloworld.c:191:26: error: initializer element is not constant
+  static unsigned int n = 1 << ln;
+                          ^
+../src/helloworld.c:192:26: error: initializer element is not constant
+  static unsigned int p = 1 << lp;
+                          ^
+../src/helloworld.c:214:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:214:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:192:22: warning: unused variable 'p' [-Wunused-variable]
+  static unsigned int p = 1 << lp;
+                      ^
+../src/helloworld.c:191:22: warning: unused variable 'n' [-Wunused-variable]
+  static unsigned int n = 1 << ln;
+                      ^
+../src/helloworld.c:190:22: warning: unused variable 'm' [-Wunused-variable]
+  static unsigned int m = 1 << lm;
+                      ^
+At top level:
+../src/helloworld.c:190:22: warning: 'm' defined but not used [-Wunused-variable]
+../src/helloworld.c:191:22: warning: 'n' defined but not used [-Wunused-variable]
+  static unsigned int n = 1 << ln;
+                      ^
+../src/helloworld.c:192:22: warning: 'p' defined but not used [-Wunused-variable]
+  static unsigned int p = 1 << lp;
+                      ^
+make: *** [src/helloworld.o] 오류 1
+11:44:29 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:212:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:212:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:189:22: warning: unused variable 'lp' [-Wunused-variable]
+  static unsigned int lp = 0;
+                      ^~
+../src/helloworld.c:188:22: warning: unused variable 'ln' [-Wunused-variable]
+  static unsigned int ln = 0;
+                      ^~
+../src/helloworld.c:187:22: warning: unused variable 'lm' [-Wunused-variable]
+  static unsigned int lm = 0;
+                      ^~
+At top level:
+../src/helloworld.c:187:22: warning: 'lm' defined but not used [-Wunused-variable]
+../src/helloworld.c:188:22: warning: 'ln' defined but not used [-Wunused-variable]
+  static unsigned int ln = 0;
+                      ^~
+../src/helloworld.c:189:22: warning: 'lp' defined but not used [-Wunused-variable]
+  static unsigned int lp = 0;
+                      ^~
+make: *** [src/helloworld.o] 오류 1
+11:44:37 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:190:26: error: initializer element is not constant
+  static unsigned int m = 1 << lm;
+                          ^
+../src/helloworld.c:191:26: error: initializer element is not constant
+  static unsigned int n = 1 << ln;
+                          ^
+../src/helloworld.c:192:26: error: initializer element is not constant
+  static unsigned int p = 1 << lp;
+                          ^
+../src/helloworld.c:214:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:214:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:192:22: warning: unused variable 'p' [-Wunused-variable]
+  static unsigned int p = 1 << lp;
+                      ^
+../src/helloworld.c:191:22: warning: unused variable 'n' [-Wunused-variable]
+  static unsigned int n = 1 << ln;
+                      ^
+../src/helloworld.c:190:22: warning: unused variable 'm' [-Wunused-variable]
+  static unsigned int m = 1 << lm;
+                      ^
+At top level:
+../src/helloworld.c:190:22: warning: 'm' defined but not used [-Wunused-variable]
+../src/helloworld.c:191:22: warning: 'n' defined but not used [-Wunused-variable]
+  static unsigned int n = 1 << ln;
+                      ^
+../src/helloworld.c:192:22: warning: 'p' defined but not used [-Wunused-variable]
+  static unsigned int p = 1 << lp;
+                      ^
+make: *** [src/helloworld.o] 오류 1
+11:45:11 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:191:26: error: initializer element is not constant
+  static unsigned int n = 1 << ln;
+                          ^
+../src/helloworld.c:192:26: error: initializer element is not constant
+  static unsigned int p = 1 << lp;
+                          ^
+../src/helloworld.c:214:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:214:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:192:22: warning: unused variable 'p' [-Wunused-variable]
+  static unsigned int p = 1 << lp;
+                      ^
+../src/helloworld.c:191:22: warning: unused variable 'n' [-Wunused-variable]
+  static unsigned int n = 1 << ln;
+                      ^
+../src/helloworld.c:190:6: warning: unused variable 'm' [-Wunused-variable]
+  u32 m = 1 << lm;
+      ^
+At top level:
+../src/helloworld.c:191:22: warning: 'n' defined but not used [-Wunused-variable]
+  static unsigned int n = 1 << ln;
+                      ^
+../src/helloworld.c:192:22: warning: 'p' defined but not used [-Wunused-variable]
+  static unsigned int p = 1 << lp;
+                      ^
+make: *** [src/helloworld.o] 오류 1
+11:45:21 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:214:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:214:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:192:6: warning: unused variable 'p' [-Wunused-variable]
+  u32 p = 1 << lp;
+      ^
+../src/helloworld.c:191:6: warning: unused variable 'n' [-Wunused-variable]
+  u32 n = 1 << ln;
+      ^
+../src/helloworld.c:190:6: warning: unused variable 'm' [-Wunused-variable]
+  u32 m = 1 << lm;
+      ^
+make: *** [src/helloworld.o] 오류 1
+11:45:54 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:225:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:225:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:205:12: warning: unused variable 'B' [-Wunused-variable]
+    mat_b_t B[][MAX] = {
+            ^
+../src/helloworld.c:198:10: warning: unused variable 'A' [-Wunused-variable]
+  mat_a_t A[][MAX] = {
+          ^
+../src/helloworld.c:192:6: warning: unused variable 'p' [-Wunused-variable]
+  u32 p = 1 << lp;
+      ^
+../src/helloworld.c:191:6: warning: unused variable 'n' [-Wunused-variable]
+  u32 n = 1 << ln;
+      ^
+../src/helloworld.c:190:6: warning: unused variable 'm' [-Wunused-variable]
+  u32 m = 1 << lm;
+      ^
+make: *** [src/helloworld.o] 오류 1
+11:46:03 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:225:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:225:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:205:10: warning: unused variable 'B' [-Wunused-variable]
+  mat_b_t B[][MAX] = {
+          ^
+../src/helloworld.c:198:10: warning: unused variable 'A' [-Wunused-variable]
+  mat_a_t A[][MAX] = {
+          ^
+../src/helloworld.c:192:6: warning: unused variable 'p' [-Wunused-variable]
+  u32 p = 1 << lp;
+      ^
+../src/helloworld.c:191:6: warning: unused variable 'n' [-Wunused-variable]
+  u32 n = 1 << ln;
+      ^
+../src/helloworld.c:190:6: warning: unused variable 'm' [-Wunused-variable]
+  u32 m = 1 << lm;
+      ^
+make: *** [src/helloworld.o] 오류 1
+11:46:32 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:226:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:226:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:210:32: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+                                ^~~~~~~~~
+../src/helloworld.c:210:11: warning: unused variable 'hw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+           ^~~~~~~~~
+../src/helloworld.c:205:10: warning: unused variable 'B' [-Wunused-variable]
+  mat_b_t B[][MAX] = {
+          ^
+../src/helloworld.c:198:10: warning: unused variable 'A' [-Wunused-variable]
+  mat_a_t A[][MAX] = {
+          ^
+../src/helloworld.c:192:6: warning: unused variable 'p' [-Wunused-variable]
+  u32 p = 1 << lp;
+      ^
+../src/helloworld.c:191:6: warning: unused variable 'n' [-Wunused-variable]
+  u32 n = 1 << ln;
+      ^
+../src/helloworld.c:190:6: warning: unused variable 'm' [-Wunused-variable]
+  u32 m = 1 << lm;
+      ^
+make: *** [src/helloworld.o] 오류 1
+11:47:23 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:229:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:229:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:213:32: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+                                ^~~~~~~~~
+../src/helloworld.c:213:11: warning: unused variable 'hw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+           ^~~~~~~~~
+../src/helloworld.c:208:10: warning: unused variable 'B' [-Wunused-variable]
+  mat_b_t B[][MAX] = {
+          ^
+../src/helloworld.c:201:10: warning: unused variable 'A' [-Wunused-variable]
+  mat_a_t A[][MAX] = {
+          ^
+../src/helloworld.c:104:6: warning: unused variable 'p' [-Wunused-variable]
+  u32 p = 1 << lp;
+      ^
+../src/helloworld.c:103:6: warning: unused variable 'n' [-Wunused-variable]
+  u32 n = 1 << ln;
+      ^
+../src/helloworld.c:102:6: warning: unused variable 'm' [-Wunused-variable]
+  u32 m = 1 << lm;
+      ^
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:97:9: warning: unused variable 'j' [-Wunused-variable]
+  u32 i, j ,k;
+         ^
+make: *** [src/helloworld.o] 오류 1
+11:47:36 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:228:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:228:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:213:32: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+                                ^~~~~~~~~
+../src/helloworld.c:213:11: warning: unused variable 'hw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+           ^~~~~~~~~
+../src/helloworld.c:208:10: warning: unused variable 'B' [-Wunused-variable]
+  mat_b_t B[][MAX] = {
+          ^
+../src/helloworld.c:201:10: warning: unused variable 'A' [-Wunused-variable]
+  mat_a_t A[][MAX] = {
+          ^
+../src/helloworld.c:104:6: warning: unused variable 'p' [-Wunused-variable]
+  u32 p = 1 << lp;
+      ^
+../src/helloworld.c:103:6: warning: unused variable 'n' [-Wunused-variable]
+  u32 n = 1 << ln;
+      ^
+../src/helloworld.c:102:6: warning: unused variable 'm' [-Wunused-variable]
+  u32 m = 1 << lm;
+      ^
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:97:9: warning: unused variable 'j' [-Wunused-variable]
+  u32 i, j ,k;
+         ^
+make: *** [src/helloworld.o] 오류 1
+11:49:25 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:239:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:239:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:213:32: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+                                ^~~~~~~~~
+../src/helloworld.c:213:11: warning: unused variable 'hw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+           ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+11:50:14 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:240:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) TxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DMA_TO_DEVICE);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:240:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:213:32: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+                                ^~~~~~~~~
+../src/helloworld.c:213:11: warning: unused variable 'hw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+           ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+11:51:03 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:247:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) RxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DEVICE_TO_DMA);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:247:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:213:32: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+                                ^~~~~~~~~
+../src/helloworld.c:213:11: warning: unused variable 'hw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+           ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+11:52:17 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:257:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) RxBuffer, BYTES_TO_TRANSFER, XAXIDMA_DEVICE_TO_DMA);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:257:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:213:32: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+                                ^~~~~~~~~
+../src/helloworld.c:213:11: warning: unused variable 'hw_result' [-Wunused-variable]
+  result_t hw_result[MAX][MAX], sw_result[MAX][MAX];
+           ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+11:54:13 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:263:35: error: 'AxiDma' undeclared (first use in this function); did you mean 'XAxiDma'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma,(u32) AB, BYTES_TO_TRANSFER, XAXIDMA_DEVICE_TO_DMA);
+                                   ^~~~~~
+                                   XAxiDma
+../src/helloworld.c:263:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:213:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+11:54:24 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:213:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:157:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40996	   3896	  26664	  71556	  11784	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+11:55:05 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:266:3: error: expected ';' before 'return'
+   return XST_FAILURE;
+   ^~~~~~
+../src/helloworld.c:213:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+11:55:10 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:213:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:157:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41020	   3896	  26664	  71580	  1179c	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+11:57:13 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:213:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:157:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41248	   3896	  26664	  71808	  11880	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:00:06 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:283:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%d ", AB[i][j]);
+    ^~~~~~
+../src/helloworld.c:283:4: warning: incompatible implicit declaration of built-in function 'printf'
+../src/helloworld.c:283:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/helloworld.c:283:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'result_t {aka long unsigned int}' [-Wformat=]
+    printf("%d ", AB[i][j]);
+            ~^    ~~~~~~~~
+            %ld
+../src/helloworld.c:285:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("\n");
+   ^~~~~~
+../src/helloworld.c:285:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/helloworld.c:213:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:157:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87080	   4288	  27376	 118744	  1cfd8	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:00:40 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:278:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%d ", AB[i][j]);
+    ^~~~~~
+../src/helloworld.c:278:4: warning: incompatible implicit declaration of built-in function 'printf'
+../src/helloworld.c:278:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/helloworld.c:278:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'result_t {aka long unsigned int}' [-Wformat=]
+    printf("%d ", AB[i][j]);
+            ~^    ~~~~~~~~
+            %ld
+../src/helloworld.c:280:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("\n");
+   ^~~~~~
+../src/helloworld.c:280:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/helloworld.c:213:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:157:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86952	   4288	  27376	 118616	  1cf58	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:00:52 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:213:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:97:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:157:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40836	   3896	  26664	  71396	  116e4	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:12:06 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:2: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+  init_platform();
+  ^~~~~~~~~~~~~
+../src/helloworld.c:96:24: error: incompatible type for argument 1 of 'XMatrixmul_Initialize'
+  XMatrixmul_Initialize(XMatrixmulInstance_Ptr, XPAR_MATRIXMUL_0_DEVICE_ID);
+                        ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:8:0:
+../../matrixmul_bsp/ps7_cortexa9_0/include/xmatrixmul.h:75:5: note: expected 'XMatrixmul * {aka struct <anonymous> *}' but argument is of type 'XMatrixmul {aka struct <anonymous>}'
+ int XMatrixmul_Initialize(XMatrixmul *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:308:2: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+  cleanup_platform();
+  ^~~~~~~~~~~~~~~~
+../src/helloworld.c:225:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:101:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+12:13:33 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:2: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+  init_platform();
+  ^~~~~~~~~~~~~
+../src/helloworld.c:96:24: error: incompatible type for argument 1 of 'XMatrixmul_Initialize'
+  XMatrixmul_Initialize(XMatrixmulInstance_Ptr, XPAR_MATRIXMUL_0_DEVICE_ID);
+                        ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:8:0:
+../../matrixmul_bsp/ps7_cortexa9_0/include/xmatrixmul.h:75:5: note: expected 'XMatrixmul * {aka struct <anonymous> *}' but argument is of type 'XMatrixmul {aka struct <anonymous>}'
+ int XMatrixmul_Initialize(XMatrixmul *InstancePtr, u16 DeviceId);
+     ^~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:308:2: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+  cleanup_platform();
+  ^~~~~~~~~~~~~~~~
+../src/helloworld.c:225:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:101:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+12:14:10 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:2: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+  init_platform();
+  ^~~~~~~~~~~~~
+../src/helloworld.c:308:2: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+  cleanup_platform();
+  ^~~~~~~~~~~~~~~~
+../src/helloworld.c:225:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:101:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:169:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42136	   3904	  26680	  72720	  11c10	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:14:50 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:226:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:102:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:170:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42136	   3904	  26680	  72720	  11c10	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:15:33 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:226:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:102:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:170:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42136	   3904	  26680	  72720	  11c10	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:15:45 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:226:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:102:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+../src/helloworld.c:170:9: warning: 'Config_1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  Status = XAxiDma_CfgInitialize(&AxiDma_1, Config_1);
+  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42136	   3904	  26680	  72720	  11c10	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:17:26 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:123:34: error: 'DMA_DEV_ID' undeclared (first use in this function); did you mean 'DMA_DEV_ID_0'?
+  Config_0 = XAxiDma_LookupConfig(DMA_DEV_ID);
+                                  ^~~~~~~~~~
+                                  DMA_DEV_ID_0
+../src/helloworld.c:123:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:227:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+12:17:33 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:125:44: error: 'DMA_DEV_ID' undeclared (first use in this function); did you mean 'DMA_DEV_ID_0'?
+   xil_printf("No config found for %d\r\n", DMA_DEV_ID);
+                                            ^~~~~~~~~~
+                                            DMA_DEV_ID_0
+../src/helloworld.c:125:44: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:227:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+12:17:43 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:126:44: error: 'DMA_DEV_ID' undeclared (first use in this function); did you mean 'DMA_DEV_ID_0'?
+   xil_printf("No config found for %d\r\n", DMA_DEV_ID);
+                                            ^~~~~~~~~~
+                                            DMA_DEV_ID_0
+../src/helloworld.c:126:44: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:228:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+12:17:48 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:228:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42200	   3904	  26680	  72784	  11c50	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:20:50 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:228:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42200	   3904	  26680	  72784	  11c50	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:20:54 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:21:10 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:228:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42260	   3904	  26680	  72844	  11c8c	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:21:14 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:21:24 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:228:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42200	   3904	  26680	  72784	  11c50	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:21:27 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:21:55 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:22:46 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:228:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[MAX][MAX];
+                         ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42204	   3904	  26680	  72788	  11c54	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:22:54 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:27:53 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:222:2: error: variable-sized object may not be initialized
+  mat_a_t A[n][m] = {
+  ^~~~~~~
+../src/helloworld.c:223:7: warning: excess elements in array initializer
+      {1, 1},
+       ^
+../src/helloworld.c:223:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:223:10: warning: excess elements in array initializer
+      {1, 1},
+          ^
+../src/helloworld.c:223:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:223:6: warning: excess elements in array initializer
+      {1, 1},
+      ^
+../src/helloworld.c:223:6: note: (near initialization for 'A')
+../src/helloworld.c:224:7: warning: excess elements in array initializer
+      {2, 2},
+       ^
+../src/helloworld.c:224:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:224:10: warning: excess elements in array initializer
+      {2, 2},
+          ^
+../src/helloworld.c:224:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:224:6: warning: excess elements in array initializer
+      {2, 2},
+      ^
+../src/helloworld.c:224:6: note: (near initialization for 'A')
+../src/helloworld.c:225:7: warning: excess elements in array initializer
+      {3, 3},
+       ^
+../src/helloworld.c:225:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:225:10: warning: excess elements in array initializer
+      {3, 3},
+          ^
+../src/helloworld.c:225:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:225:6: warning: excess elements in array initializer
+      {3, 3},
+      ^
+../src/helloworld.c:225:6: note: (near initialization for 'A')
+../src/helloworld.c:226:7: warning: excess elements in array initializer
+      {4, 4}
+       ^
+../src/helloworld.c:226:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:226:10: warning: excess elements in array initializer
+      {4, 4}
+          ^
+../src/helloworld.c:226:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:226:6: warning: excess elements in array initializer
+      {4, 4}
+      ^
+../src/helloworld.c:226:6: note: (near initialization for 'A')
+../src/helloworld.c:229:2: error: variable-sized object may not be initialized
+  mat_b_t B[m][p] = {
+  ^~~~~~~
+../src/helloworld.c:230:7: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+       ^
+../src/helloworld.c:230:7: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:10: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+          ^
+../src/helloworld.c:230:10: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:13: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+             ^
+../src/helloworld.c:230:13: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:16: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                ^
+../src/helloworld.c:230:16: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:19: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                   ^
+../src/helloworld.c:230:19: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:22: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                      ^
+../src/helloworld.c:230:22: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:25: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                         ^
+../src/helloworld.c:230:25: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:28: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                            ^
+../src/helloworld.c:230:28: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:31: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                               ^
+../src/helloworld.c:230:31: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:6: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+      ^
+../src/helloworld.c:230:6: note: (near initialization for 'B')
+../src/helloworld.c:231:7: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+       ^
+../src/helloworld.c:231:7: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:10: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+          ^
+../src/helloworld.c:231:10: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:13: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+             ^
+../src/helloworld.c:231:13: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:16: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                ^
+../src/helloworld.c:231:16: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:19: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                   ^
+../src/helloworld.c:231:19: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:22: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                      ^
+../src/helloworld.c:231:22: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:25: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                         ^
+../src/helloworld.c:231:25: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:28: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                            ^
+../src/helloworld.c:231:28: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:31: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                               ^
+../src/helloworld.c:231:31: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:6: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+      ^
+../src/helloworld.c:231:6: note: (near initialization for 'B')
+../src/helloworld.c:234:21: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[n][p], sw_result[n][p];
+                     ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+12:27:56 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:222:2: error: variable-sized object may not be initialized
+  mat_a_t A[n][m] = {
+  ^~~~~~~
+../src/helloworld.c:223:7: warning: excess elements in array initializer
+      {1, 1},
+       ^
+../src/helloworld.c:223:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:223:10: warning: excess elements in array initializer
+      {1, 1},
+          ^
+../src/helloworld.c:223:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:223:6: warning: excess elements in array initializer
+      {1, 1},
+      ^
+../src/helloworld.c:223:6: note: (near initialization for 'A')
+../src/helloworld.c:224:7: warning: excess elements in array initializer
+      {2, 2},
+       ^
+../src/helloworld.c:224:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:224:10: warning: excess elements in array initializer
+      {2, 2},
+          ^
+../src/helloworld.c:224:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:224:6: warning: excess elements in array initializer
+      {2, 2},
+      ^
+../src/helloworld.c:224:6: note: (near initialization for 'A')
+../src/helloworld.c:225:7: warning: excess elements in array initializer
+      {3, 3},
+       ^
+../src/helloworld.c:225:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:225:10: warning: excess elements in array initializer
+      {3, 3},
+          ^
+../src/helloworld.c:225:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:225:6: warning: excess elements in array initializer
+      {3, 3},
+      ^
+../src/helloworld.c:225:6: note: (near initialization for 'A')
+../src/helloworld.c:226:7: warning: excess elements in array initializer
+      {4, 4}
+       ^
+../src/helloworld.c:226:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:226:10: warning: excess elements in array initializer
+      {4, 4}
+          ^
+../src/helloworld.c:226:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:226:6: warning: excess elements in array initializer
+      {4, 4}
+      ^
+../src/helloworld.c:226:6: note: (near initialization for 'A')
+../src/helloworld.c:229:2: error: variable-sized object may not be initialized
+  mat_b_t B[m][p] = {
+  ^~~~~~~
+../src/helloworld.c:230:7: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+       ^
+../src/helloworld.c:230:7: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:10: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+          ^
+../src/helloworld.c:230:10: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:13: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+             ^
+../src/helloworld.c:230:13: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:16: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                ^
+../src/helloworld.c:230:16: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:19: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                   ^
+../src/helloworld.c:230:19: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:22: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                      ^
+../src/helloworld.c:230:22: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:25: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                         ^
+../src/helloworld.c:230:25: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:28: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                            ^
+../src/helloworld.c:230:28: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:31: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                               ^
+../src/helloworld.c:230:31: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:6: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+      ^
+../src/helloworld.c:230:6: note: (near initialization for 'B')
+../src/helloworld.c:231:7: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+       ^
+../src/helloworld.c:231:7: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:10: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+          ^
+../src/helloworld.c:231:10: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:13: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+             ^
+../src/helloworld.c:231:13: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:16: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                ^
+../src/helloworld.c:231:16: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:19: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                   ^
+../src/helloworld.c:231:19: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:22: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                      ^
+../src/helloworld.c:231:22: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:25: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                         ^
+../src/helloworld.c:231:25: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:28: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                            ^
+../src/helloworld.c:231:28: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:31: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                               ^
+../src/helloworld.c:231:31: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:6: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+      ^
+../src/helloworld.c:231:6: note: (near initialization for 'B')
+../src/helloworld.c:234:21: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[n][p], sw_result[n][p];
+                     ^~~~~~~~~
+../src/helloworld.c:103:12: warning: unused variable 'k' [-Wunused-variable]
+  u32 i, j ,k;
+            ^
+make: *** [src/helloworld.o] 오류 1
+12:28:29 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:222:2: error: variable-sized object may not be initialized
+  mat_a_t A[n][m] = {
+  ^~~~~~~
+../src/helloworld.c:223:7: warning: excess elements in array initializer
+      {1, 1},
+       ^
+../src/helloworld.c:223:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:223:10: warning: excess elements in array initializer
+      {1, 1},
+          ^
+../src/helloworld.c:223:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:223:6: warning: excess elements in array initializer
+      {1, 1},
+      ^
+../src/helloworld.c:223:6: note: (near initialization for 'A')
+../src/helloworld.c:224:7: warning: excess elements in array initializer
+      {2, 2},
+       ^
+../src/helloworld.c:224:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:224:10: warning: excess elements in array initializer
+      {2, 2},
+          ^
+../src/helloworld.c:224:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:224:6: warning: excess elements in array initializer
+      {2, 2},
+      ^
+../src/helloworld.c:224:6: note: (near initialization for 'A')
+../src/helloworld.c:225:7: warning: excess elements in array initializer
+      {3, 3},
+       ^
+../src/helloworld.c:225:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:225:10: warning: excess elements in array initializer
+      {3, 3},
+          ^
+../src/helloworld.c:225:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:225:6: warning: excess elements in array initializer
+      {3, 3},
+      ^
+../src/helloworld.c:225:6: note: (near initialization for 'A')
+../src/helloworld.c:226:7: warning: excess elements in array initializer
+      {4, 4}
+       ^
+../src/helloworld.c:226:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:226:10: warning: excess elements in array initializer
+      {4, 4}
+          ^
+../src/helloworld.c:226:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:226:6: warning: excess elements in array initializer
+      {4, 4}
+      ^
+../src/helloworld.c:226:6: note: (near initialization for 'A')
+../src/helloworld.c:229:2: error: variable-sized object may not be initialized
+  mat_b_t B[m][p] = {
+  ^~~~~~~
+../src/helloworld.c:230:7: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+       ^
+../src/helloworld.c:230:7: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:10: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+          ^
+../src/helloworld.c:230:10: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:13: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+             ^
+../src/helloworld.c:230:13: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:16: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                ^
+../src/helloworld.c:230:16: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:19: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                   ^
+../src/helloworld.c:230:19: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:22: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                      ^
+../src/helloworld.c:230:22: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:25: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                         ^
+../src/helloworld.c:230:25: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:28: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                            ^
+../src/helloworld.c:230:28: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:31: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                               ^
+../src/helloworld.c:230:31: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:6: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+      ^
+../src/helloworld.c:230:6: note: (near initialization for 'B')
+../src/helloworld.c:231:7: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+       ^
+../src/helloworld.c:231:7: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:10: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+          ^
+../src/helloworld.c:231:10: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:13: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+             ^
+../src/helloworld.c:231:13: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:16: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                ^
+../src/helloworld.c:231:16: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:19: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                   ^
+../src/helloworld.c:231:19: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:22: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                      ^
+../src/helloworld.c:231:22: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:25: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                         ^
+../src/helloworld.c:231:25: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:28: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                            ^
+../src/helloworld.c:231:28: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:31: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                               ^
+../src/helloworld.c:231:31: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:6: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+      ^
+../src/helloworld.c:231:6: note: (near initialization for 'B')
+../src/helloworld.c:234:21: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[n][p], sw_result[n][p];
+                     ^~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+12:28:44 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:222:2: error: variable-sized object may not be initialized
+  mat_a_t A[][m] = {
+  ^~~~~~~
+../src/helloworld.c:223:7: warning: excess elements in array initializer
+      {1, 1},
+       ^
+../src/helloworld.c:223:7: note: (near initialization for 'A[0]')
+../src/helloworld.c:223:10: warning: excess elements in array initializer
+      {1, 1},
+          ^
+../src/helloworld.c:223:10: note: (near initialization for 'A[0]')
+../src/helloworld.c:224:7: warning: excess elements in array initializer
+      {2, 2},
+       ^
+../src/helloworld.c:224:7: note: (near initialization for 'A[1]')
+../src/helloworld.c:224:10: warning: excess elements in array initializer
+      {2, 2},
+          ^
+../src/helloworld.c:224:10: note: (near initialization for 'A[1]')
+../src/helloworld.c:225:7: warning: excess elements in array initializer
+      {3, 3},
+       ^
+../src/helloworld.c:225:7: note: (near initialization for 'A[2]')
+../src/helloworld.c:225:10: warning: excess elements in array initializer
+      {3, 3},
+          ^
+../src/helloworld.c:225:10: note: (near initialization for 'A[2]')
+../src/helloworld.c:226:7: warning: excess elements in array initializer
+      {4, 4}
+       ^
+../src/helloworld.c:226:7: note: (near initialization for 'A[3]')
+../src/helloworld.c:226:10: warning: excess elements in array initializer
+      {4, 4}
+          ^
+../src/helloworld.c:226:10: note: (near initialization for 'A[3]')
+../src/helloworld.c:222:10: error: array size missing in 'A'
+  mat_a_t A[][m] = {
+          ^
+../src/helloworld.c:229:2: error: variable-sized object may not be initialized
+  mat_b_t B[][p] = {
+  ^~~~~~~
+../src/helloworld.c:230:7: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+       ^
+../src/helloworld.c:230:7: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:10: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+          ^
+../src/helloworld.c:230:10: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:13: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+             ^
+../src/helloworld.c:230:13: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:16: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                ^
+../src/helloworld.c:230:16: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:19: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                   ^
+../src/helloworld.c:230:19: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:22: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                      ^
+../src/helloworld.c:230:22: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:25: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                         ^
+../src/helloworld.c:230:25: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:28: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                            ^
+../src/helloworld.c:230:28: note: (near initialization for 'B[0]')
+../src/helloworld.c:230:31: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9},
+                               ^
+../src/helloworld.c:230:31: note: (near initialization for 'B[0]')
+../src/helloworld.c:231:7: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+       ^
+../src/helloworld.c:231:7: note: (near initialization for 'B[1]')
+../src/helloworld.c:231:10: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+          ^
+../src/helloworld.c:231:10: note: (near initialization for 'B[1]')
+../src/helloworld.c:231:13: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+             ^
+../src/helloworld.c:231:13: note: (near initialization for 'B[1]')
+../src/helloworld.c:231:16: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                ^
+../src/helloworld.c:231:16: note: (near initialization for 'B[1]')
+../src/helloworld.c:231:19: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                   ^
+../src/helloworld.c:231:19: note: (near initialization for 'B[1]')
+../src/helloworld.c:231:22: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                      ^
+../src/helloworld.c:231:22: note: (near initialization for 'B[1]')
+../src/helloworld.c:231:25: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                         ^
+../src/helloworld.c:231:25: note: (near initialization for 'B[1]')
+../src/helloworld.c:231:28: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                            ^
+../src/helloworld.c:231:28: note: (near initialization for 'B[1]')
+../src/helloworld.c:231:31: warning: excess elements in array initializer
+      {1, 2, 3, 4, 5, 6, 7 ,8 ,9}
+                               ^
+../src/helloworld.c:231:31: note: (near initialization for 'B[1]')
+../src/helloworld.c:229:10: error: array size missing in 'B'
+  mat_b_t B[][p] = {
+          ^
+../src/helloworld.c:234:21: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[n][p], sw_result[n][p];
+                     ^~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+12:28:53 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:21: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[n][p], sw_result[n][p];
+                     ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42652	   3904	  26680	  73236	  11e14	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:29:06 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:11: error: array size missing in 'AB'
+  result_t AB[][MAX], sw_result[n][p];
+           ^~
+../src/helloworld.c:234:22: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[][MAX], sw_result[n][p];
+                      ^~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+12:29:16 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42460	   3904	  26680	  73044	  11d54	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:29:21 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:30:06 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42456	   3904	  26680	  73040	  11d50	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:31:10 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42456	   3904	  26680	  73040	  11d50	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:32:06 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42456	   3904	  26680	  73040	  11d50	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:32:36 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42456	   3904	  26680	  73040	  11d50	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:32:39 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:33:30 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:34:32 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:34:53 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42456	   3904	  26680	  73040	  11d50	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:34:58 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:36:02 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:260:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:262:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8) A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:269:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:271:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42456	   3904	  26680	  73040	  11d50	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:36:27 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:38:12 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:260:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:262:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8) A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:269:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:271:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42520	   3904	  26680	  73104	  11d90	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:38:49 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:260:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:262:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8) A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:269:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:271:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42464	   3904	  26680	  73048	  11d58	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:42:24 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:260:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:262:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:269:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:271:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:234:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42464	   3904	  26680	  73048	  11d58	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:42:51 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:50:49 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:115:2: error: unknown type name 'U32'; did you mean 's32'?
+  U32 SIZE_AB = n*p;
+  ^~~
+  s32
+../src/helloworld.c:118:25: error: 'SIZE_C' undeclared (first use in this function); did you mean 'SIZE_B'?
+  result_t dma_size_ab = SIZE_C * sizeof(mat_ab_t);
+                         ^~~~~~
+                         SIZE_B
+../src/helloworld.c:118:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:118:41: error: 'mat_ab_t' undeclared (first use in this function); did you mean 'mat_b_t'?
+  result_t dma_size_ab = SIZE_C * sizeof(mat_ab_t);
+                                         ^~~~~~~~
+                                         mat_b_t
+../src/helloworld.c:264:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:266:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:266:51: error: 'matrix_A_size' undeclared (first use in this function)
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                                   ^~~~~~~~~~~~~
+../src/helloworld.c:273:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:275:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:275:52: error: 'matrix_B_size' undeclared (first use in this function); did you mean 'matrix_A_size'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                                    ^~~~~~~~~~~~~
+                                                    matrix_A_size
+../src/helloworld.c:283:53: error: 'matrix_AB_size' undeclared (first use in this function); did you mean 'matrix_B_size'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u32)AB, matrix_AB_size, XAXIDMA_DEVICE_TO_DMA);
+                                                     ^~~~~~~~~~~~~~
+                                                     matrix_B_size
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+../src/helloworld.c:118:11: warning: unused variable 'dma_size_ab' [-Wunused-variable]
+  result_t dma_size_ab = SIZE_C * sizeof(mat_ab_t);
+           ^~~~~~~~~~~
+../src/helloworld.c:117:10: warning: unused variable 'dma_size_b' [-Wunused-variable]
+  mat_a_t dma_size_b = SIZE_B * sizeof(mat_b_t);
+          ^~~~~~~~~~
+../src/helloworld.c:116:10: warning: unused variable 'dma_size_a' [-Wunused-variable]
+  mat_a_t dma_size_a = SIZE_A * sizeof(mat_a_t);
+          ^~~~~~~~~~
+../src/helloworld.c:115:6: warning: unused variable 'SIZE_AB' [-Wunused-variable]
+  U32 SIZE_AB = n*p;
+      ^~~~~~~
+make: *** [src/helloworld.o] 오류 1
+12:50:55 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:115:2: error: unknown type name 'U32'; did you mean 's32'?
+  U32 SIZE_AB = n*p;
+  ^~~
+  s32
+../src/helloworld.c:118:42: error: 'mat_ab_t' undeclared (first use in this function); did you mean 'mat_b_t'?
+  result_t dma_size_ab = SIZE_AB * sizeof(mat_ab_t);
+                                          ^~~~~~~~
+                                          mat_b_t
+../src/helloworld.c:118:42: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:264:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:266:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:266:51: error: 'matrix_A_size' undeclared (first use in this function)
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                                   ^~~~~~~~~~~~~
+../src/helloworld.c:273:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:275:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:275:52: error: 'matrix_B_size' undeclared (first use in this function); did you mean 'matrix_A_size'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                                    ^~~~~~~~~~~~~
+                                                    matrix_A_size
+../src/helloworld.c:283:53: error: 'matrix_AB_size' undeclared (first use in this function); did you mean 'matrix_B_size'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u32)AB, matrix_AB_size, XAXIDMA_DEVICE_TO_DMA);
+                                                     ^~~~~~~~~~~~~~
+                                                     matrix_B_size
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+../src/helloworld.c:118:11: warning: unused variable 'dma_size_ab' [-Wunused-variable]
+  result_t dma_size_ab = SIZE_AB * sizeof(mat_ab_t);
+           ^~~~~~~~~~~
+../src/helloworld.c:117:10: warning: unused variable 'dma_size_b' [-Wunused-variable]
+  mat_a_t dma_size_b = SIZE_B * sizeof(mat_b_t);
+          ^~~~~~~~~~
+../src/helloworld.c:116:10: warning: unused variable 'dma_size_a' [-Wunused-variable]
+  mat_a_t dma_size_a = SIZE_A * sizeof(mat_a_t);
+          ^~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+12:51:04 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:118:42: error: 'mat_ab_t' undeclared (first use in this function); did you mean 'mat_b_t'?
+  result_t dma_size_ab = SIZE_AB * sizeof(mat_ab_t);
+                                          ^~~~~~~~
+                                          mat_b_t
+../src/helloworld.c:118:42: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:264:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:266:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:266:51: error: 'matrix_A_size' undeclared (first use in this function)
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                                   ^~~~~~~~~~~~~
+../src/helloworld.c:273:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:275:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:275:52: error: 'matrix_B_size' undeclared (first use in this function); did you mean 'matrix_A_size'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                                    ^~~~~~~~~~~~~
+                                                    matrix_A_size
+../src/helloworld.c:283:53: error: 'matrix_AB_size' undeclared (first use in this function); did you mean 'matrix_B_size'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u32)AB, matrix_AB_size, XAXIDMA_DEVICE_TO_DMA);
+                                                     ^~~~~~~~~~~~~~
+                                                     matrix_B_size
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+../src/helloworld.c:118:11: warning: unused variable 'dma_size_ab' [-Wunused-variable]
+  result_t dma_size_ab = SIZE_AB * sizeof(mat_ab_t);
+           ^~~~~~~~~~~
+../src/helloworld.c:117:10: warning: unused variable 'dma_size_b' [-Wunused-variable]
+  mat_a_t dma_size_b = SIZE_B * sizeof(mat_b_t);
+          ^~~~~~~~~~
+../src/helloworld.c:116:10: warning: unused variable 'dma_size_a' [-Wunused-variable]
+  mat_a_t dma_size_a = SIZE_A * sizeof(mat_a_t);
+          ^~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+12:51:17 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:264:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:266:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:266:51: error: 'matrix_A_size' undeclared (first use in this function)
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, matrix_A_size, XAXIDMA_DMA_TO_DEVICE);
+                                                   ^~~~~~~~~~~~~
+../src/helloworld.c:266:51: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:273:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:275:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:275:52: error: 'matrix_B_size' undeclared (first use in this function); did you mean 'matrix_A_size'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, matrix_B_size, XAXIDMA_DMA_TO_DEVICE);
+                                                    ^~~~~~~~~~~~~
+                                                    matrix_A_size
+../src/helloworld.c:283:53: error: 'matrix_AB_size' undeclared (first use in this function); did you mean 'matrix_B_size'?
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u32)AB, matrix_AB_size, XAXIDMA_DEVICE_TO_DMA);
+                                                     ^~~~~~~~~~~~~~
+                                                     matrix_B_size
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+../src/helloworld.c:118:11: warning: unused variable 'dma_size_ab' [-Wunused-variable]
+  result_t dma_size_ab = SIZE_AB * sizeof(result_t);
+           ^~~~~~~~~~~
+../src/helloworld.c:117:10: warning: unused variable 'dma_size_b' [-Wunused-variable]
+  mat_a_t dma_size_b = SIZE_B * sizeof(mat_b_t);
+          ^~~~~~~~~~
+../src/helloworld.c:116:10: warning: unused variable 'dma_size_a' [-Wunused-variable]
+  mat_a_t dma_size_a = SIZE_A * sizeof(mat_a_t);
+          ^~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+12:51:41 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:264:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:266:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, dma_size_a, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:273:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:275:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, dma_size_b, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:297:37: error: 'matrix_AB_size' undeclared (first use in this function)
+  Xil_DCacheInvalidateRange((u32)AB, matrix_AB_size);
+                                     ^~~~~~~~~~~~~~
+../src/helloworld.c:297:37: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+12:51:59 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:264:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)A, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:266:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(u8)A, dma_size_a, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:273:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Xil_DCacheFlushRange((u8)B, BYTES_TO_TRANSFER);
+                       ^
+../src/helloworld.c:275:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(u8) B, dma_size_b, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42528	   3904	  26680	  73112	  11d98	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:52:07 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:53:00 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42528	   3904	  26680	  73112	  11d98	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:53:08 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:53:24 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:53:44 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:57:31 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42528	   3904	  26680	  73112	  11d98	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+12:57:35 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+12:59:41 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:275:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(mat_a_t)B, dma_size_b, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:283:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(mat_b_t)AB, dma_size_ab, XAXIDMA_DEVICE_TO_DMA);
+                                            ^
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42528	   3904	  26680	  73112	  11d98	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:00:08 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:275:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_1,(mat_a_t)B, dma_size_b, XAXIDMA_DMA_TO_DEVICE);
+                                            ^
+../src/helloworld.c:283:44: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  Status = XAxiDma_SimpleTransfer(&AxiDma_0,(mat_b_t)AB, dma_size_ab, XAXIDMA_DEVICE_TO_DMA);
+                                            ^
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42528	   3904	  26680	  73112	  11d98	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:00:24 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42528	   3904	  26680	  73112	  11d98	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:00:37 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:03:17 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:238:25: warning: unused variable 'sw_result' [-Wunused-variable]
+  result_t AB[MAX][MAX], sw_result[n][p];
+                         ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42592	   3904	  26680	  73176	  11dd8	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:03:26 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42400	   3904	  26680	  72984	  11d18	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:03:33 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:08:06 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:97:45: error: 'XPAR_MATRIXMUL_0_S_AXI_CONTROL_BUS_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_MATRIXMUL_0_S_AXI_AXILITES_BASEADDR'?
+  XMatrixmul_Config XMatrixmul_config  = {0, XPAR_MATRIXMUL_0_S_AXI_CONTROL_BUS_BASEADDR}
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                             XPAR_MATRIXMUL_0_S_AXI_AXILITES_BASEADDR
+../src/helloworld.c:97:45: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:98:2: error: expected ',' or ';' before 'init_platform'
+  init_platform();
+  ^~~~~~~~~~~~~
+../src/helloworld.c:100:52: error: expected expression before ')' token
+  XMatrixmul_CfgInitialize(&XMatrixmulInstance_Ptr, );
+                                                    ^
+../src/helloworld.c:97:20: warning: unused variable 'XMatrixmul_config' [-Wunused-variable]
+  XMatrixmul_Config XMatrixmul_config  = {0, XPAR_MATRIXMUL_0_S_AXI_CONTROL_BUS_BASEADDR}
+                    ^~~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+13:08:11 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:97:45: error: 'XPAR_MATRIXMUL_0_S_AXI_CONTROL_BUS_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_MATRIXMUL_0_S_AXI_AXILITES_BASEADDR'?
+  XMatrixmul_Config XMatrixmul_config  = {0, XPAR_MATRIXMUL_0_S_AXI_CONTROL_BUS_BASEADDR};
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                             XPAR_MATRIXMUL_0_S_AXI_AXILITES_BASEADDR
+../src/helloworld.c:97:45: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:100:52: error: expected expression before ')' token
+  XMatrixmul_CfgInitialize(&XMatrixmulInstance_Ptr, );
+                                                    ^
+../src/helloworld.c:97:20: warning: unused variable 'XMatrixmul_config' [-Wunused-variable]
+  XMatrixmul_Config XMatrixmul_config  = {0, XPAR_MATRIXMUL_0_S_AXI_CONTROL_BUS_BASEADDR};
+                    ^~~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+13:09:44 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:100:52: error: expected expression before ')' token
+  XMatrixmul_CfgInitialize(&XMatrixmulInstance_Ptr, );
+                                                    ^
+../src/helloworld.c:97:20: warning: unused variable 'XMatrixmul_config' [-Wunused-variable]
+  XMatrixmul_Config XMatrixmul_config  = {0, XPAR_MATRIXMUL_0_S_AXI_AXILITES_BASEADDR};
+                    ^~~~~~~~~~~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+13:09:55 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42400	   3904	  26680	  72984	  11d18	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:10:06 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:11:22 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42400	   3904	  26680	  72984	  11d18	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:13:56 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42464	   3904	  26680	  73048	  11d58	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:14:02 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:14:18 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:15:23 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42592	   3904	  26680	  73176	  11dd8	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:16:21 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:18:08 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42592	   3904	  26680	  73176	  11dd8	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:18:43 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42656	   3904	  26680	  73240	  11e18	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:18:58 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:19:58 **** Auto Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../matrixmul_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: matrixmul.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../matrixmul_bsp/ps7_cortexa9_0/lib -o "matrixmul.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: matrixmul.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size matrixmul.elf  |tee "matrixmul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42592	   3904	  26680	  73176	  11dd8	matrixmul.elf
+'Finished building: matrixmul.elf.size'
+' '
+13:20:01 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:43:26 **** Incremental Build of configuration Debug for project matrixmul ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다

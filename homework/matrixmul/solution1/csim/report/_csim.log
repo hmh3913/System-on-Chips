@@ -1,0 +1,30 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../matrixmul.cpp in debug mode
+   Generating csim.exe
+m = 4
+n = 4
+p = 4
+Show matrix A
+1 2 3 4 
+1 2 3 4 
+1 2 3 4 
+1 2 3 4 
+Show matrix B
+1 2 0 0 
+2 1 0 0 
+0 0 1 0 
+0 0 0 1 
+Show matrix sw_result
+5 4 3 4 
+5 4 3 4 
+5 4 3 4 
+5 4 3 4 
+Show matrix hw_result
+5 4 3 4 
+5 4 3 4 
+5 4 3 4 
+5 4 3 4 
+test pass
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
