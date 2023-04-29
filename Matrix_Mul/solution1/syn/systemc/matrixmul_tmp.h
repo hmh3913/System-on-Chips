@@ -5,8 +5,8 @@
 // 
 // ==============================================================
 
-#ifndef __matrixmul_A_H__
-#define __matrixmul_A_H__
+#ifndef __matrixmul_tmp_H__
+#define __matrixmul_tmp_H__
 
 
 #include <systemc>
@@ -19,9 +19,9 @@ using namespace sc_dt;
 #include <iostream>
 #include <fstream>
 
-struct matrixmul_A_ram : public sc_core::sc_module {
+struct matrixmul_tmp_ram : public sc_core::sc_module {
 
-  static const unsigned DataWidth = 8;
+  static const unsigned DataWidth = 32;
   static const unsigned AddressRange = 1024;
   static const unsigned AddressWidth = 10;
 
@@ -40,7 +40,7 @@ sc_core::sc_in<bool> clk;
 sc_lv<DataWidth> ram[AddressRange];
 
 
-   SC_CTOR(matrixmul_A_ram) {
+   SC_CTOR(matrixmul_tmp_ram) {
 
 
 SC_METHOD(prc_write_0);
@@ -75,10 +75,10 @@ void prc_write_0()
 }; //endmodule
 
 
-SC_MODULE(matrixmul_A) {
+SC_MODULE(matrixmul_tmp) {
 
 
-static const unsigned DataWidth = 8;
+static const unsigned DataWidth = 32;
 static const unsigned AddressRange = 1024;
 static const unsigned AddressWidth = 10;
 
@@ -91,11 +91,11 @@ sc_core::sc_in<sc_logic> reset;
 sc_core::sc_in<bool> clk;
 
 
-matrixmul_A_ram* meminst;
+matrixmul_tmp_ram* meminst;
 
 
-SC_CTOR(matrixmul_A) {
-meminst = new matrixmul_A_ram("matrixmul_A_ram");
+SC_CTOR(matrixmul_tmp) {
+meminst = new matrixmul_tmp_ram("matrixmul_tmp_ram");
 meminst->address0(address0);
 meminst->ce0(ce0);
 meminst->q0(q0);
@@ -106,7 +106,7 @@ meminst->d0(d0);
 meminst->reset(reset);
 meminst->clk(clk);
 }
-~matrixmul_A() {
+~matrixmul_tmp() {
     delete meminst;
 }
 

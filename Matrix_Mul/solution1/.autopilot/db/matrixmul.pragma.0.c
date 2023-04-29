@@ -155,38 +155,32 @@ void matrixmul(unsigned int lm, unsigned int ln, unsigned int lp, INPUT_MATRIX_M
 
 void matrixmul(unsigned int lm, unsigned int ln, unsigned int lp, INPUT_MATRIX_MUL input, result_t AB[32][32])
 {_ssdm_SpecArrayDimSize(AB, 32);
-    unsigned int i, j, k;
+#pragma HLS INTERFACE axis register both port=&AB
+#pragma HLS INTERFACE axis register both port=&input
+#pragma HLS INTERFACE s_axilite port=&lp
+#pragma HLS INTERFACE s_axilite port=&ln
+#pragma HLS INTERFACE s_axilite port=&lm
+ unsigned int i, j, k;
     unsigned int m = 1 << lm;
     unsigned int n = 1 << ln;
     unsigned int p = 1 << lp;
 
-    mat_a_t A[32][32];
- mat_b_t B[32][32];
-
-
-    for(i = 0; i < n; i++){
-     for(j = 0; j < m; j++){
-      A[i][j] = input.A[i][j];
-     }
-    }
-
-    for(i = 0; i < m; i++){
-     for(j = 0; j < p; j++){
-      B[i][j] = input.B[i][j];
-     }
-    }
+ result_t tmp[32][32];
 
 
      for (i = 0; i < n; i++) {
-        for (j = 0; j < p; j++) {
-           AB[i][j] = 0;
-        }
+      for (j = 0; j < p; j++) {
+       AB[i][j] = 0;
+       tmp[i][j] = 0;
+      }
      }
+
 
     for (i = 0; i < n; i++) {
         for (j = 0; j < p; j++) {
             for (k = 0; k < m; k++) {
-                AB[i][j] += A[i][k] * B[k][j];
+             tmp[i][j] += input.A[i][k] * input.B[k][j];
+             AB[i][j] = tmp[i][j];
             }
         }
     }

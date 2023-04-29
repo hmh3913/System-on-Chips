@@ -10,10 +10,10 @@ library ieee;
 use ieee.std_logic_1164.all; 
 use ieee.std_logic_unsigned.all;
 
-entity matrixmul_A_ram is 
+entity matrixmul_tmp_ram is 
     generic(
             MEM_TYPE    : string := "block"; 
-            DWIDTH     : integer := 8; 
+            DWIDTH     : integer := 32; 
             AWIDTH     : integer := 10; 
             MEM_SIZE    : integer := 1024
     ); 
@@ -28,7 +28,7 @@ entity matrixmul_A_ram is
 end entity; 
 
 
-architecture rtl of matrixmul_A_ram is 
+architecture rtl of matrixmul_tmp_ram is 
 
 signal addr0_tmp : std_logic_vector(AWIDTH-1 downto 0); 
 type mem_array is array (0 to MEM_SIZE-1) of std_logic_vector (DWIDTH-1 downto 0); 
@@ -73,9 +73,9 @@ end rtl;
 Library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity matrixmul_A is
+entity matrixmul_tmp is
     generic (
-        DataWidth : INTEGER := 8;
+        DataWidth : INTEGER := 32;
         AddressRange : INTEGER := 1024;
         AddressWidth : INTEGER := 10);
     port (
@@ -88,8 +88,8 @@ entity matrixmul_A is
         q0 : OUT STD_LOGIC_VECTOR(DataWidth - 1 DOWNTO 0));
 end entity;
 
-architecture arch of matrixmul_A is
-    component matrixmul_A_ram is
+architecture arch of matrixmul_tmp is
+    component matrixmul_tmp_ram is
         port (
             clk : IN STD_LOGIC;
             addr0 : IN STD_LOGIC_VECTOR;
@@ -102,7 +102,7 @@ architecture arch of matrixmul_A is
 
 
 begin
-    matrixmul_A_ram_U :  component matrixmul_A_ram
+    matrixmul_tmp_ram_U :  component matrixmul_tmp_ram
     port map (
         clk => clk,
         addr0 => address0,

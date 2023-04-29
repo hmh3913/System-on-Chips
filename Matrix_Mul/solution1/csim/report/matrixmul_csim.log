@@ -1,8 +1,8 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
-   Compiling(apcc) ../../../matrixmul_test.c in debug mode
+   Compiling(apcc) ../../../matrixmul.c in debug mode
 INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/apcc.exe'
-INFO: [HLS 200-10] For user 'hmh39' on host 'desktop-k0idmnb' (Windows NT_amd64 version 6.2) on Sun Apr 30 06:44:34 +0900 2023
+INFO: [HLS 200-10] For user 'hmh39' on host 'desktop-k0idmnb' (Windows NT_amd64 version 6.2) on Sun Apr 30 06:56:44 +0900 2023
 INFO: [HLS 200-10] In directory 'C:/Xilinx/SoC/Matrix_Mul/solution1/csim/build'
 INFO: [APCC 202-3] Tmp directory is apcc_db
 INFO: [APCC 202-1] APCC is done.

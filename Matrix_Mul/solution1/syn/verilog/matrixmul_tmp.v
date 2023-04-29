@@ -6,9 +6,9 @@
 // ==============================================================
 
 `timescale 1 ns / 1 ps
-module matrixmul_A_ram (addr0, ce0, d0, we0, q0,  clk);
+module matrixmul_tmp_ram (addr0, ce0, d0, we0, q0,  clk);
 
-parameter DWIDTH = 8;
+parameter DWIDTH = 32;
 parameter AWIDTH = 10;
 parameter MEM_SIZE = 1024;
 
@@ -43,7 +43,7 @@ endmodule
 
 
 `timescale 1 ns / 1 ps
-module matrixmul_A(
+module matrixmul_tmp(
     reset,
     clk,
     address0,
@@ -52,7 +52,7 @@ module matrixmul_A(
     d0,
     q0);
 
-parameter DataWidth = 32'd8;
+parameter DataWidth = 32'd32;
 parameter AddressRange = 32'd1024;
 parameter AddressWidth = 32'd10;
 input reset;
@@ -65,7 +65,7 @@ output[DataWidth - 1:0] q0;
 
 
 
-matrixmul_A_ram matrixmul_A_ram_U(
+matrixmul_tmp_ram matrixmul_tmp_ram_U(
     .clk( clk ),
     .addr0( address0 ),
     .ce0( ce0 ),

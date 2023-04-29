@@ -20,65 +20,89 @@ set isEnableWaveformDebug 1
 set C_modelName {matrixmul}
 set C_modelType { void 0 }
 set C_modelArgList {
-	{ lm int 32 regular  }
-	{ ln int 32 regular  }
-	{ lp int 32 regular  }
-	{ input_A int 8 regular {array 1024 { 1 3 } 1 1 }  }
-	{ input_B int 8 regular {array 1024 { 1 3 } 1 1 }  }
-	{ AB int 32 regular {array 1024 { 2 3 } 1 1 }  }
+	{ lm int 32 regular {axi_slave 0}  }
+	{ ln int 32 regular {axi_slave 0}  }
+	{ lp int 32 regular {axi_slave 0}  }
+	{ input_A int 8 regular {axi_s 0 volatile  { input_A Data } }  }
+	{ input_B int 8 regular {axi_s 0 volatile  { input_B Data } }  }
+	{ AB int 32 regular {axi_s 1 volatile  { AB Data } }  }
 }
 set C_modelArgMapList {[ 
-	{ "Name" : "lm", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY", "bitSlice":[{"low":0,"up":31,"cElement": [{"cName": "lm","cData": "unsigned int","bit_use": { "low": 0,"up": 31},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
- 	{ "Name" : "ln", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY", "bitSlice":[{"low":0,"up":31,"cElement": [{"cName": "ln","cData": "unsigned int","bit_use": { "low": 0,"up": 31},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
- 	{ "Name" : "lp", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY", "bitSlice":[{"low":0,"up":31,"cElement": [{"cName": "lp","cData": "unsigned int","bit_use": { "low": 0,"up": 31},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
- 	{ "Name" : "input_A", "interface" : "memory", "bitwidth" : 8, "direction" : "READONLY", "bitSlice":[{"low":0,"up":7,"cElement": [{"cName": "input.A","cData": "unsigned char","bit_use": { "low": 0,"up": 7},"cArray": [{"low" : 0,"up" : 31,"step" : 1},{"low" : 0,"up" : 31,"step" : 1}]}]}]} , 
- 	{ "Name" : "input_B", "interface" : "memory", "bitwidth" : 8, "direction" : "READONLY", "bitSlice":[{"low":0,"up":7,"cElement": [{"cName": "input.B","cData": "unsigned char","bit_use": { "low": 0,"up": 7},"cArray": [{"low" : 0,"up" : 31,"step" : 1},{"low" : 0,"up" : 31,"step" : 1}]}]}]} , 
- 	{ "Name" : "AB", "interface" : "memory", "bitwidth" : 32, "direction" : "READWRITE", "bitSlice":[{"low":0,"up":31,"cElement": [{"cName": "AB","cData": "unsigned int","bit_use": { "low": 0,"up": 31},"cArray": [{"low" : 0,"up" : 31,"step" : 1},{"low" : 0,"up" : 31,"step" : 1}]}]}]} ]}
+	{ "Name" : "lm", "interface" : "axi_slave", "bundle":"AXILiteS","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "bitSlice":[{"low":0,"up":31,"cElement": [{"cName": "lm","cData": "unsigned int","bit_use": { "low": 0,"up": 31},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}], "offset" : {"in":16}, "offset_end" : {"in":23}} , 
+ 	{ "Name" : "ln", "interface" : "axi_slave", "bundle":"AXILiteS","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "bitSlice":[{"low":0,"up":31,"cElement": [{"cName": "ln","cData": "unsigned int","bit_use": { "low": 0,"up": 31},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}], "offset" : {"in":24}, "offset_end" : {"in":31}} , 
+ 	{ "Name" : "lp", "interface" : "axi_slave", "bundle":"AXILiteS","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "bitSlice":[{"low":0,"up":31,"cElement": [{"cName": "lp","cData": "unsigned int","bit_use": { "low": 0,"up": 31},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}], "offset" : {"in":32}, "offset_end" : {"in":39}} , 
+ 	{ "Name" : "input_A", "interface" : "axis", "bitwidth" : 8, "direction" : "READONLY", "bitSlice":[{"low":0,"up":7,"cElement": [{"cName": "input.A","cData": "unsigned char","bit_use": { "low": 0,"up": 7},"cArray": [{"low" : 0,"up" : 31,"step" : 1},{"low" : 0,"up" : 31,"step" : 1}]}]}]} , 
+ 	{ "Name" : "input_B", "interface" : "axis", "bitwidth" : 8, "direction" : "READONLY", "bitSlice":[{"low":0,"up":7,"cElement": [{"cName": "input.B","cData": "unsigned char","bit_use": { "low": 0,"up": 7},"cArray": [{"low" : 0,"up" : 31,"step" : 1},{"low" : 0,"up" : 31,"step" : 1}]}]}]} , 
+ 	{ "Name" : "AB", "interface" : "axis", "bitwidth" : 32, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":31,"cElement": [{"cName": "AB","cData": "unsigned int","bit_use": { "low": 0,"up": 31},"cArray": [{"low" : 0,"up" : 31,"step" : 1},{"low" : 0,"up" : 31,"step" : 1}]}]}]} ]}
 # RTL Port declarations: 
-set portNum 20
+set portNum 32
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
-	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
+	{ ap_rst_n sc_in sc_logic 1 reset -1 active_low_sync } 
 	{ ap_start sc_in sc_logic 1 start -1 } 
 	{ ap_done sc_out sc_logic 1 predone -1 } 
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
-	{ lm sc_in sc_lv 32 signal 0 } 
-	{ ln sc_in sc_lv 32 signal 1 } 
-	{ lp sc_in sc_lv 32 signal 2 } 
-	{ input_A_address0 sc_out sc_lv 10 signal 3 } 
-	{ input_A_ce0 sc_out sc_logic 1 signal 3 } 
-	{ input_A_q0 sc_in sc_lv 8 signal 3 } 
-	{ input_B_address0 sc_out sc_lv 10 signal 4 } 
-	{ input_B_ce0 sc_out sc_logic 1 signal 4 } 
-	{ input_B_q0 sc_in sc_lv 8 signal 4 } 
-	{ AB_address0 sc_out sc_lv 10 signal 5 } 
-	{ AB_ce0 sc_out sc_logic 1 signal 5 } 
-	{ AB_we0 sc_out sc_logic 1 signal 5 } 
-	{ AB_d0 sc_out sc_lv 32 signal 5 } 
-	{ AB_q0 sc_in sc_lv 32 signal 5 } 
+	{ input_A_TDATA sc_in sc_lv 8 signal 3 } 
+	{ input_A_TVALID sc_in sc_logic 1 invld 3 } 
+	{ input_A_TREADY sc_out sc_logic 1 inacc 3 } 
+	{ input_B_TDATA sc_in sc_lv 8 signal 4 } 
+	{ input_B_TVALID sc_in sc_logic 1 invld 4 } 
+	{ input_B_TREADY sc_out sc_logic 1 inacc 4 } 
+	{ AB_TDATA sc_out sc_lv 32 signal 5 } 
+	{ AB_TVALID sc_out sc_logic 1 outvld 5 } 
+	{ AB_TREADY sc_in sc_logic 1 outacc 5 } 
+	{ s_axi_AXILiteS_AWVALID sc_in sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_AWREADY sc_out sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_AWADDR sc_in sc_lv 6 signal -1 } 
+	{ s_axi_AXILiteS_WVALID sc_in sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_WREADY sc_out sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_WDATA sc_in sc_lv 32 signal -1 } 
+	{ s_axi_AXILiteS_WSTRB sc_in sc_lv 4 signal -1 } 
+	{ s_axi_AXILiteS_ARVALID sc_in sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_ARREADY sc_out sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_ARADDR sc_in sc_lv 6 signal -1 } 
+	{ s_axi_AXILiteS_RVALID sc_out sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_RREADY sc_in sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_RDATA sc_out sc_lv 32 signal -1 } 
+	{ s_axi_AXILiteS_RRESP sc_out sc_lv 2 signal -1 } 
+	{ s_axi_AXILiteS_BVALID sc_out sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_BREADY sc_in sc_logic 1 signal -1 } 
+	{ s_axi_AXILiteS_BRESP sc_out sc_lv 2 signal -1 } 
 }
 set NewPortList {[ 
-	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
- 	{ "name": "ap_rst", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "reset", "bundle":{"name": "ap_rst", "role": "default" }} , 
+	{ "name": "s_axi_AXILiteS_AWADDR", "direction": "in", "datatype": "sc_lv", "bitwidth":6, "type": "signal", "bundle":{"name": "AXILiteS", "role": "AWADDR" },"address":[{"name":"lm","role":"data","value":"16"},{"name":"ln","role":"data","value":"24"},{"name":"lp","role":"data","value":"32"}] },
+	{ "name": "s_axi_AXILiteS_AWVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "AWVALID" } },
+	{ "name": "s_axi_AXILiteS_AWREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "AWREADY" } },
+	{ "name": "s_axi_AXILiteS_WVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "WVALID" } },
+	{ "name": "s_axi_AXILiteS_WREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "WREADY" } },
+	{ "name": "s_axi_AXILiteS_WDATA", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "AXILiteS", "role": "WDATA" } },
+	{ "name": "s_axi_AXILiteS_WSTRB", "direction": "in", "datatype": "sc_lv", "bitwidth":4, "type": "signal", "bundle":{"name": "AXILiteS", "role": "WSTRB" } },
+	{ "name": "s_axi_AXILiteS_ARADDR", "direction": "in", "datatype": "sc_lv", "bitwidth":6, "type": "signal", "bundle":{"name": "AXILiteS", "role": "ARADDR" },"address":[] },
+	{ "name": "s_axi_AXILiteS_ARVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "ARVALID" } },
+	{ "name": "s_axi_AXILiteS_ARREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "ARREADY" } },
+	{ "name": "s_axi_AXILiteS_RVALID", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "RVALID" } },
+	{ "name": "s_axi_AXILiteS_RREADY", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "RREADY" } },
+	{ "name": "s_axi_AXILiteS_RDATA", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "AXILiteS", "role": "RDATA" } },
+	{ "name": "s_axi_AXILiteS_RRESP", "direction": "out", "datatype": "sc_lv", "bitwidth":2, "type": "signal", "bundle":{"name": "AXILiteS", "role": "RRESP" } },
+	{ "name": "s_axi_AXILiteS_BVALID", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "BVALID" } },
+	{ "name": "s_axi_AXILiteS_BREADY", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AXILiteS", "role": "BREADY" } },
+	{ "name": "s_axi_AXILiteS_BRESP", "direction": "out", "datatype": "sc_lv", "bitwidth":2, "type": "signal", "bundle":{"name": "AXILiteS", "role": "BRESP" } }, 
+ 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
+ 	{ "name": "ap_rst_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "reset", "bundle":{"name": "ap_rst_n", "role": "default" }} , 
  	{ "name": "ap_start", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "start", "bundle":{"name": "ap_start", "role": "default" }} , 
  	{ "name": "ap_done", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "predone", "bundle":{"name": "ap_done", "role": "default" }} , 
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
- 	{ "name": "lm", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "lm", "role": "default" }} , 
- 	{ "name": "ln", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "ln", "role": "default" }} , 
- 	{ "name": "lp", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "lp", "role": "default" }} , 
- 	{ "name": "input_A_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "input_A", "role": "address0" }} , 
- 	{ "name": "input_A_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "input_A", "role": "ce0" }} , 
- 	{ "name": "input_A_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "input_A", "role": "q0" }} , 
- 	{ "name": "input_B_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "input_B", "role": "address0" }} , 
- 	{ "name": "input_B_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "input_B", "role": "ce0" }} , 
- 	{ "name": "input_B_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "input_B", "role": "q0" }} , 
- 	{ "name": "AB_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "AB", "role": "address0" }} , 
- 	{ "name": "AB_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AB", "role": "ce0" }} , 
- 	{ "name": "AB_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "AB", "role": "we0" }} , 
- 	{ "name": "AB_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "AB", "role": "d0" }} , 
- 	{ "name": "AB_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "AB", "role": "q0" }}  ]}
+ 	{ "name": "input_A_TDATA", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "input_A", "role": "TDATA" }} , 
+ 	{ "name": "input_A_TVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "invld", "bundle":{"name": "input_A", "role": "TVALID" }} , 
+ 	{ "name": "input_A_TREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "inacc", "bundle":{"name": "input_A", "role": "TREADY" }} , 
+ 	{ "name": "input_B_TDATA", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "input_B", "role": "TDATA" }} , 
+ 	{ "name": "input_B_TVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "invld", "bundle":{"name": "input_B", "role": "TVALID" }} , 
+ 	{ "name": "input_B_TREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "inacc", "bundle":{"name": "input_B", "role": "TREADY" }} , 
+ 	{ "name": "AB_TDATA", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "AB", "role": "TDATA" }} , 
+ 	{ "name": "AB_TVALID", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "AB", "role": "TVALID" }} , 
+ 	{ "name": "AB_TREADY", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "outacc", "bundle":{"name": "AB", "role": "TREADY" }}  ]}
 
 set RtlHierarchyInfo {[
 	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3"],
@@ -98,11 +122,17 @@ set RtlHierarchyInfo {[
 			{"Name" : "lm", "Type" : "None", "Direction" : "I"},
 			{"Name" : "ln", "Type" : "None", "Direction" : "I"},
 			{"Name" : "lp", "Type" : "None", "Direction" : "I"},
-			{"Name" : "input_A", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "input_B", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "AB", "Type" : "Memory", "Direction" : "IO"}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.A_U", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.B_U", "Parent" : "0"},
+			{"Name" : "input_A", "Type" : "Axis", "Direction" : "I",
+				"BlockSignal" : [
+					{"Name" : "input_A_TDATA_blk_n", "Type" : "RtlSignal"}]},
+			{"Name" : "input_B", "Type" : "Axis", "Direction" : "I",
+				"BlockSignal" : [
+					{"Name" : "input_B_TDATA_blk_n", "Type" : "RtlSignal"}]},
+			{"Name" : "AB", "Type" : "Axis", "Direction" : "O",
+				"BlockSignal" : [
+					{"Name" : "AB_TDATA_blk_n", "Type" : "RtlSignal"}]}]},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.matrixmul_AXILiteS_s_axi_U", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.tmp_U", "Parent" : "0"},
 	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.matrixmul_mac_mulbkb_U1", "Parent" : "0"}]}
 
 
@@ -111,9 +141,9 @@ set ArgLastReadFirstWriteLatency {
 		lm {Type I LastRead 0 FirstWrite -1}
 		ln {Type I LastRead 0 FirstWrite -1}
 		lp {Type I LastRead 0 FirstWrite -1}
-		input_A {Type I LastRead 2 FirstWrite -1}
-		input_B {Type I LastRead 3 FirstWrite -1}
-		AB {Type IO LastRead 6 FirstWrite 4}}}
+		input_A {Type I LastRead 4 FirstWrite -1}
+		input_B {Type I LastRead 4 FirstWrite -1}
+		AB {Type O LastRead -1 FirstWrite 2}}}
 
 set hasDtUnsupportedChannel 0
 
@@ -126,12 +156,9 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	lm { ap_none {  { lm in_data 0 32 } } }
-	ln { ap_none {  { ln in_data 0 32 } } }
-	lp { ap_none {  { lp in_data 0 32 } } }
-	input_A { ap_memory {  { input_A_address0 mem_address 1 10 }  { input_A_ce0 mem_ce 1 1 }  { input_A_q0 mem_dout 0 8 } } }
-	input_B { ap_memory {  { input_B_address0 mem_address 1 10 }  { input_B_ce0 mem_ce 1 1 }  { input_B_q0 mem_dout 0 8 } } }
-	AB { ap_memory {  { AB_address0 mem_address 1 10 }  { AB_ce0 mem_ce 1 1 }  { AB_we0 mem_we 1 1 }  { AB_d0 mem_din 1 32 }  { AB_q0 mem_dout 0 32 } } }
+	input_A { axis {  { input_A_TDATA in_data 0 8 }  { input_A_TVALID in_vld 0 1 }  { input_A_TREADY in_acc 1 1 } } }
+	input_B { axis {  { input_B_TDATA in_data 0 8 }  { input_B_TVALID in_vld 0 1 }  { input_B_TREADY in_acc 1 1 } } }
+	AB { axis {  { AB_TDATA out_data 1 32 }  { AB_TVALID out_vld 1 1 }  { AB_TREADY out_acc 0 1 } } }
 }
 
 set busDeadlockParameterList { 
