@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="matrixmul.cpp" path="C:\Xilinx\SoC\matrixmul\matrixmul.cpp"/>
     <originFiles name="matrixmul.h" path="C:\Xilinx\SoC\matrixmul\matrixmul.h"/>
+    <originFiles name="matrixmul.cpp" path="C:\Xilinx\SoC\matrixmul\matrixmul.cpp"/>
   </source>
   <testbench>
     <originFiles name="matrixmul_test.cpp" path="C:\Xilinx\SoC\matrixmul\matrixmul_test.cpp"/>

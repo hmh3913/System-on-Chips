@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="fir" xd:componentRef="fir" xd:initiationInterval="59" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="*(y)" xd:originalName="y" xd:direction="out" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x10" xd:statusOffset="0x14" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="c[]" xd:originalName="c" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x40" xd:arraySize="11" xd:dataWidth="32"/>
+  <xd:arg xd:name="x" xd:originalName="x" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x80" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="58" xd:worst-case="58" xd:average-case="58"/>
+  <xd:resourceEstimates xd:LUT="451" xd:FF="526" xd:BRAM="2" xd:DSP="3"/>
+</xd:acceleratorMap>

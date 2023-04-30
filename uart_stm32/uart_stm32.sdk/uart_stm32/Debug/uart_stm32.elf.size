@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-  24176	   1168	  22664	  48008	   bb88	uart_stm32.elf
+  24112	   1168	  22664	  47944	   bb48	uart_stm32.elf

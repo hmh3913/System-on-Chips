@@ -2,7 +2,9 @@
 <vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
   <errorLogs>
     <logs>
-      <synLog/>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Compilation errors found: Pragma processor failed: In file included from Matrix_Mul/matrixmul.c:1:&#xD;&#xA;Matrix_Mul/matrixmul.c:30:31: error: member reference type 'INPUT_MATRIX_MUL *' (aka 'struct Input_Matrix_Mul *') is a pointer; maybe you meant to use '->'?&#xD;&#xA;             tmp[i][j] = input.A[i][k] * input.B[k][j];&#xD;&#xA;                         ~~~~~^&#xD;&#xA;                              ->&#xD;&#xA;Matrix_Mul/matrixmul.c:30:47: error: member reference type 'INPUT_MATRIX_MUL *' (aka 'struct Input_Matrix_Mul *') is a pointer; maybe you meant to use '->'?&#xD;&#xA;             tmp[i][j] = input.A[i][k] * input.B[k][j];&#xD;&#xA;                                         ~~~~~^&#xD;&#xA;                                              ->&#xD;&#xA;2 errors generated.&#xD;&#xA;Failed checking during preprocessing.&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Xilinx/SoC/Matrix_Mul/solution1/csynth.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Xilinx/SoC/Matrix_Mul/solution1/csynth.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="Matrix_Mul" solutionName="solution1" date="2023-04-30T07:46:10.533+0900"/>
+      </synLog>
       <simLog/>
       <mgLog/>
       <packageLog/>
@@ -12,9 +14,7 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [XFORM 203-124] Array  'AB': may have improper streaming access(es), possible reasons: (1) some entries are accessed more than once; (2) some entries are not used; (3) the entries are not accessed in sequential order." projectName="Matrix_Mul" solutionName="solution1" date="2023-04-30T06:57:39.249+0900" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-124] Array  'input.B': may have improper streaming access(es), possible reasons: (1) some entries are accessed more than once; (2) some entries are not used; (3) the entries are not accessed in sequential order." projectName="Matrix_Mul" solutionName="solution1" date="2023-04-30T06:57:39.208+0900" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-124] Array  'input.A': may have improper streaming access(es), possible reasons: (1) some entries are accessed more than once; (2) some entries are not used; (3) the entries are not accessed in sequential order." projectName="Matrix_Mul" solutionName="solution1" date="2023-04-30T06:57:39.200+0900" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] In file included from Matrix_Mul/matrixmul.c:1:&#xD;&#xA;Matrix_Mul/matrixmul.c:30:31: error: member reference type 'INPUT_MATRIX_MUL *' (aka 'struct Input_Matrix_Mul *') is a pointer; maybe you meant to use '->'?&#xD;&#xA;             tmp[i][j] = input.A[i][k] * input.B[k][j];&#xD;&#xA;                         ~~~~~^&#xD;&#xA;                              ->&#xD;&#xA;Matrix_Mul/matrixmul.c:30:47: error: member reference type 'INPUT_MATRIX_MUL *' (aka 'struct Input_Matrix_Mul *') is a pointer; maybe you meant to use '->'?&#xD;&#xA;             tmp[i][j] = input.A[i][k] * input.B[k][j];&#xD;&#xA;                                         ~~~~~^&#xD;&#xA;                                              ->&#xD;&#xA;2 errors generated.\n" projectName="Matrix_Mul" solutionName="solution1" date="2023-04-30T07:46:10.486+0900" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

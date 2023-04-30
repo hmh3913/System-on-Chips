@@ -5,9 +5,9 @@
 ############################################################
 open_project matrixmul
 set_top matrixmul
-add_files matrixmul/matrixmul.cpp
 add_files matrixmul/matrixmul.h
-add_files -tb matrixmul/matrixmul_test.cpp
+add_files matrixmul/matrixmul.cpp
+add_files -tb matrixmul/matrixmul_test.cpp -cflags "-Wno-unknown-pragmas"
 open_solution "solution1"
 set_part {xc7z020clg484-1} -tool vivado
 create_clock -period 10 -name default
@@ -15,4 +15,4 @@ create_clock -period 10 -name default
 csim_design
 csynth_design
 cosim_design -trace_level all
-export_design -format ip_catalog
+export_design -flow impl -rtl verilog -format ip_catalog

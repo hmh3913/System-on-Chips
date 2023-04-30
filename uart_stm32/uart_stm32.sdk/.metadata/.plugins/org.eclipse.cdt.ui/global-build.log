@@ -2873,3 +2873,699 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: `main-build'를 위해 할 일이 없습니다
+12:19:38 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24112	   1168	  22664	  47944	   bb48	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+12:20:17 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24116	   1168	  22664	  47948	   bb4c	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+12:41:07 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24852	   1168	  22664	  48684	   be2c	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+12:46:30 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24848	   1168	  22664	  48680	   be28	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+13:12:19 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:28:00 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24848	   1168	  22664	  48680	   be28	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+13:28:29 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+13:30:05 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+../src/helloworld.c:22:9: warning: 'msg_recv' is used uninitialized in this function [-Wuninitialized]
+   while(XUartLite_Recv(&uart, msg_recv, sizeof(msg_recv)) == 0);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24528	   1168	  22664	  48360	   bce8	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+13:38:43 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24848	   1168	  22664	  48680	   be28	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+13:45:18 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:22:48: error: expected expression before ')' token
+   while(XUartLite_Recv(&uart, msg_recv, (sizeof)msg_recv) == 0);
+                                                ^
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+13:46:25 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24176	   1168	  22664	  48008	   bb88	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+13:51:46 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24656	   1168	  22664	  48488	   bd68	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+13:52:10 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25424	   1168	  22664	  49256	   c068	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+13:53:00 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25360	   1168	  22664	  49192	   c028	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+13:53:15 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24112	   1168	  22664	  47944	   bb48	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+13:58:55 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:5:10: fatal error: xintc.h: No such file or directory
+ #include "xintc.h"
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] 오류 1
+14:01:41 **** Clean-only build of configuration Debug for project uart_stm32_bsp_xuartlite_intr_example_1 ****
+make clean 
+rm -rf  ./src/xuartlite_intr_example.o  ./src/xuartlite_intr_example.d  uart_stm32_bsp_xuartlite_intr_example_1.elf.size  uart_stm32_bsp_xuartlite_intr_example_1.elf
+' '
+14:01:42 **** Build of configuration Debug for project uart_stm32_bsp_xuartlite_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xuartlite_intr_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartlite_intr_example.d" -MT"src/xuartlite_intr_example.o" -o "src/xuartlite_intr_example.o" "../src/xuartlite_intr_example.c"
+../src/xuartlite_intr_example.c:65:10: fatal error: xintc.h: No such file or directory
+ #include "xintc.h"
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/xuartlite_intr_example.o] 오류 1
+14:01:49 **** Build of configuration Debug for project uart_stm32_bsp_xuartlite_polled_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xuartlite_polled_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_polled_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartlite_polled_example.d" -MT"src/xuartlite_polled_example.o" -o "src/xuartlite_polled_example.o" "../src/xuartlite_polled_example.c"
+'Finished building: ../src/xuartlite_polled_example.c'
+' '
+'Building target: uart_stm32_bsp_xuartlite_polled_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32_bsp_xuartlite_polled_example_1.elf"  ./src/xuartlite_polled_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32_bsp_xuartlite_polled_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32_bsp_xuartlite_polled_example_1.elf  |tee "uart_stm32_bsp_xuartlite_polled_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24564	   1168	  22696	  48428	   bd2c	uart_stm32_bsp_xuartlite_polled_example_1.elf
+'Finished building: uart_stm32_bsp_xuartlite_polled_example_1.elf.size'
+' '
+14:03:32 **** Build of configuration Debug for project uart_stm32_bsp_xuartlite_low_level_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xuartlite_low_level_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_low_level_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartlite_low_level_example.d" -MT"src/xuartlite_low_level_example.o" -o "src/xuartlite_low_level_example.o" "../src/xuartlite_low_level_example.c"
+'Finished building: ../src/xuartlite_low_level_example.c'
+' '
+'Building target: uart_stm32_bsp_xuartlite_low_level_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32_bsp_xuartlite_low_level_example_1.elf"  ./src/xuartlite_low_level_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32_bsp_xuartlite_low_level_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32_bsp_xuartlite_low_level_example_1.elf  |tee "uart_stm32_bsp_xuartlite_low_level_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22444	   1144	  22600	  46188	   b46c	uart_stm32_bsp_xuartlite_low_level_example_1.elf
+'Finished building: uart_stm32_bsp_xuartlite_low_level_example_1.elf.size'
+' '
+14:06:20 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:26:5: error: 'RecvBuffer' undeclared (first use in this function); did you mean 'setbuffer'?
+     RecvBuffer[Index] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+     ^~~~~~~~~~
+     setbuffer
+../src/helloworld.c:26:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:26:25: warning: implicit declaration of function 'XUartLite_RecvByte'; did you mean 'XUartLite_Recv'? [-Wimplicit-function-declaration]
+     RecvBuffer[Index] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+                         ^~~~~~~~~~~~~~~~~~
+                         XUartLite_Recv
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+14:06:25 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:14:21: error: invalid initializer
+  u8 msg_recv[MAX] = 0;
+                     ^
+../src/helloworld.c:26:5: error: 'RecvBuffer' undeclared (first use in this function); did you mean 'setbuffer'?
+     RecvBuffer[Index] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+     ^~~~~~~~~~
+     setbuffer
+../src/helloworld.c:26:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:26:25: warning: implicit declaration of function 'XUartLite_RecvByte'; did you mean 'XUartLite_Recv'? [-Wimplicit-function-declaration]
+     RecvBuffer[Index] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+                         ^~~~~~~~~~~~~~~~~~
+                         XUartLite_Recv
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+14:06:41 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:14:21: error: invalid initializer
+  u8 msg_recv[MAX] = 0;
+                     ^
+../src/helloworld.c:26:22: warning: implicit declaration of function 'XUartLite_RecvByte'; did you mean 'XUartLite_Recv'? [-Wimplicit-function-declaration]
+    msg_recv[Index] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+                      ^~~~~~~~~~~~~~~~~~
+                      XUartLite_Recv
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+14:06:53 **** Auto Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:26:22: warning: implicit declaration of function 'XUartLite_RecvByte'; did you mean 'XUartLite_Recv'? [-Wimplicit-function-declaration]
+    msg_recv[Index] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+                      ^~~~~~~~~~~~~~~~~~
+                      XUartLite_Recv
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25028	   1168	  22664	  48860	   bedc	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+14:06:58 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+14:12:08 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:23:31: warning: passing argument 2 of 'XUartLite_Recv' from incompatible pointer type [-Wincompatible-pointer-types]
+   while(XUartLite_Recv(&uart, msg_recv, sizeof(msg_recv)) == 0);
+                               ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:258:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:25:12: error: 'Index' undeclared (first use in this function); did you mean 'index'?
+   msg_recv[Index] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+            ^~~~~
+            index
+../src/helloworld.c:25:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:25:21: warning: implicit declaration of function 'XUartLite_RecvByte'; did you mean 'XUartLite_Recv'? [-Wimplicit-function-declaration]
+   msg_recv[Index] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+                     ^~~~~~~~~~~~~~~~~~
+                     XUartLite_Recv
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+14:12:28 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:14:6: error: array size missing in 'msg_recv'
+  u16 msg_recv[];
+      ^~~~~~~~
+../src/helloworld.c:23:31: warning: passing argument 2 of 'XUartLite_Recv' from incompatible pointer type [-Wincompatible-pointer-types]
+   while(XUartLite_Recv(&uart, msg_recv, sizeof(msg_recv)) == 0);
+                               ^~~~~~~~
+In file included from ../src/helloworld.c:3:0:
+../../uart_stm32_bsp/ps7_cortexa9_0/include/xuartlite.h:258:14: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:25:17: warning: implicit declaration of function 'XUartLite_RecvByte'; did you mean 'XUartLite_Recv'? [-Wimplicit-function-declaration]
+   msg_recv[0] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+                 ^~~~~~~~~~~~~~~~~~
+                 XUartLite_Recv
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+14:13:10 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:14:6: error: array size missing in 'msg_recv'
+  u16 msg_recv[];
+      ^~~~~~~~
+../src/helloworld.c:25:17: warning: implicit declaration of function 'XUartLite_RecvByte'; did you mean 'XUartLite_Recv'? [-Wimplicit-function-declaration]
+   msg_recv[0] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+                 ^~~~~~~~~~~~~~~~~~
+                 XUartLite_Recv
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+make: *** [src/helloworld.o] 오류 1
+14:13:56 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:26:17: warning: implicit declaration of function 'XUartLite_RecvByte'; did you mean 'XUartLite_Recv'? [-Wimplicit-function-declaration]
+   msg_recv[0] = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+                 ^~~~~~~~~~~~~~~~~~
+                 XUartLite_Recv
+../src/helloworld.c:14:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:10:5: warning: array 'msg_recv' assumed to have one element
+ u16 msg_recv[];
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24112	   1168	  22664	  47944	   bb48	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+14:16:48 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24176	   1168	  22664	  48008	   bb88	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+14:17:14 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24112	   1168	  22664	  47944	   bb48	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+14:28:01 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+14:28:16 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+14:28:47 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+14:29:11 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+14:29:41 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+14:29:57 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+14:31:50 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24024	   1168	  22664	  47856	   baf0	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '
+14:34:46 **** Incremental Build of configuration Debug for project uart_stm32 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../uart_stm32_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:5: warning: unused variable 'msg_send' [-Wunused-variable]
+  u8 msg_send[MAX] = "hello\n\r";
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_stm32.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../uart_stm32_bsp/ps7_cortexa9_0/lib -o "uart_stm32.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_stm32.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size uart_stm32.elf  |tee "uart_stm32.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24112	   1168	  22664	  47944	   bb48	uart_stm32.elf
+'Finished building: uart_stm32.elf.size'
+' '

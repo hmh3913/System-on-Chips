@@ -5,9 +5,9 @@
 ############################################################
 open_project Matrix_Mul
 set_top matrixmul
-add_files Matrix_Mul/matrixmul.c
 add_files Matrix_Mul/matrixmul.h
-add_files -tb Matrix_Mul/matrixmul_test.c
+add_files Matrix_Mul/matrixmul.c
+add_files -tb Matrix_Mul/matrixmul_test.c -cflags "-Wno-unknown-pragmas"
 open_solution "solution1"
 set_part {xc7z020clg484-1} -tool vivado
 create_clock -period 10 -name default

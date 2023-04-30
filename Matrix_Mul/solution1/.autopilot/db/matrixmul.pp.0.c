@@ -149,17 +149,17 @@ typedef struct Input_Matrix_Mul
  mat_b_t B[32][32];
 } INPUT_MATRIX_MUL;
 
-void matrixmul(unsigned int lm, unsigned int ln, unsigned int lp, INPUT_MATRIX_MUL input, result_t AB[32][32]);
+void matrixmul(unsigned int lm, unsigned int ln, unsigned int lp, INPUT_MATRIX_MUL *input, result_t AB[32][32]);
 # 2 "Matrix_Mul/matrixmul.c" 2
 
 
-void matrixmul(unsigned int lm, unsigned int ln, unsigned int lp, INPUT_MATRIX_MUL input, result_t AB[32][32])
-{_ssdm_SpecArrayDimSize(AB, 32);
-#pragma HLS INTERFACE axis register both port=&AB
-#pragma HLS INTERFACE axis register both port=&input
-#pragma HLS INTERFACE s_axilite port=&lp
-#pragma HLS INTERFACE s_axilite port=&ln
-#pragma HLS INTERFACE s_axilite port=&lm
+void matrixmul(unsigned int lm, unsigned int ln, unsigned int lp, INPUT_MATRIX_MUL *input, result_t AB[32][32])
+{
+#pragma HLS INTERFACE axis register both port=AB
+#pragma HLS INTERFACE axis register both port=input
+#pragma HLS INTERFACE s_axilite port=lp
+#pragma HLS INTERFACE s_axilite port=ln
+#pragma HLS INTERFACE s_axilite port=lm
  unsigned int i, j, k;
     unsigned int m = 1 << lm;
     unsigned int n = 1 << ln;
@@ -179,7 +179,7 @@ void matrixmul(unsigned int lm, unsigned int ln, unsigned int lp, INPUT_MATRIX_M
     for (i = 0; i < n; i++) {
         for (j = 0; j < p; j++) {
             for (k = 0; k < m; k++) {
-             tmp[i][j] += input.A[i][k] * input.B[k][j];
+             tmp[i][j] = input.A[i][k] * input.B[k][j];
              AB[i][j] = tmp[i][j];
             }
         }
