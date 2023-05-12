@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Xilinx\SoC\FIR_UART\FIR_UART.runs\design_1_auto_pc_0_synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: 사용 권한이 없습니다.
