@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_2port_2048x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hmh39/Downloads/Codes/Addr_Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hmh39/Downloads/Codes/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hmh39/Downloads/Codes/RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32I_SoC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hmh39/Downloads/Codes/rv32i_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32i_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/tb_RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RV32I_SoC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,13 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/hmh39/Downloads/Codes/Addr_Decoder.v,1656669983,verilog,,C:/Users/hmh39/Downloads/Codes/GPIO.v,,Addr_Decoder,,,../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hmh39/Downloads/Codes/GPIO.v,1656678234,verilog,,C:/Users/hmh39/Downloads/Codes/RV32I_SoC.v,,GPIO,,,../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hmh39/Downloads/Codes/RV32I_SoC.v,1684368596,verilog,,C:/Users/hmh39/Downloads/Codes/rv32i_cpu.v,,RV32I_SoC,,,../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hmh39/Downloads/Codes/rv32i_cpu.v,1684996903,verilog,,C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/tb_RV32I_SoC.v,,rv32i_cpu,,,../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1684995473,verilog,,C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v,,clk_wiz_0,,,../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1684995473,verilog,,C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v,1684996122,verilog,,C:/Users/hmh39/Downloads/Codes/Addr_Decoder.v,,ram_2port_2048x32,,,../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_Tutorial/RISCV_Tutorial.srcs/sources_1/tb_RV32I_SoC.v,1684368580,verilog,,,,tb_RV32I_SoC,,,../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0,,,,,

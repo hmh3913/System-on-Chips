@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../RISCV_Tutorial.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../RISCV_Tutorial.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v" \
+"../../../../../../../Users/hmh39/Downloads/Codes/Addr_Decoder.v" \
+"../../../../../../../Users/hmh39/Downloads/Codes/GPIO.v" \
+"../../../../../../../Users/hmh39/Downloads/Codes/RV32I_SoC.v" \
+"../../../../../../../Users/hmh39/Downloads/Codes/rv32i_cpu.v" \
+"../../../../RISCV_Tutorial.srcs/sources_1/tb_RV32I_SoC.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
