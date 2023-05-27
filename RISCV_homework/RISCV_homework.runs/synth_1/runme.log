@@ -1,0 +1,1400 @@
+
+*** Running vivado
+    with args -log RV32I_SoC.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RV32I_SoC.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source RV32I_SoC.tcl -notrace
+Command: synth_design -top RV32I_SoC -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24268 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 386.914 ; gain = 98.898
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RV32I_SoC' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ram_2port_2048x32' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/.Xil/Vivado-11320-DESKTOP-K0IDMNB/realtime/ram_2port_2048x32_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram_2port_2048x32' (1#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/.Xil/Vivado-11320-DESKTOP-K0IDMNB/realtime/ram_2port_2048x32_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/.Xil/Vivado-11320-DESKTOP-K0IDMNB/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (2#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/.Xil/Vivado-11320-DESKTOP-K0IDMNB/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'rv32i_cpu' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v:11]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (3#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/regfile.v:1]
+WARNING: [Synth 8-151] case item 7'b0110111 is unreachable [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v:70]
+WARNING: [Synth 8-151] case item 7'b0110111 is unreachable [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v:103]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:13]
+INFO: [Synth 8-6157] synthesizing module 'RippleAdder' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RippleAdder.v:2]
+INFO: [Synth 8-6157] synthesizing module 'FullAdder' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/FullAdder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'FullAdder' (4#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/FullAdder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RippleAdder' (5#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RippleAdder.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (6#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'rv32i_cpu' (7#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v:11]
+INFO: [Synth 8-6157] synthesizing module 'Addr_Decoder' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Addr_Decoder' (8#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'GPIO' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/GPIO.v:23]
+WARNING: [Synth 8-3848] Net DataOut in module/entity GPIO does not have driver. [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/GPIO.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'GPIO' (9#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/GPIO.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'Addr' does not match port width (12) of module 'GPIO' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.v:97]
+INFO: [Synth 8-6155] done synthesizing module 'RV32I_SoC' (10#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.v:23]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[31]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[30]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[29]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[28]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[27]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[26]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[25]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[24]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[23]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[22]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[21]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[20]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[19]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[18]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[17]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[16]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[15]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[14]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[13]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[12]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[11]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[10]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[9]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[8]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[7]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[6]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[5]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[4]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[3]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[2]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[1]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[0]
+WARNING: [Synth 8-3331] design GPIO has unconnected port REN
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[31]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[30]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[29]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[28]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[27]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[26]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[25]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[24]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[23]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[22]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[21]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[20]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[19]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[18]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[17]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[16]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[15]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[14]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[13]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[12]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[11]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[10]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[9]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[8]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[11]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[10]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[9]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[8]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[7]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[6]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[5]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[4]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[3]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[2]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[1]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[0]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[31]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[30]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[29]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[28]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[27]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[26]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[25]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[24]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[23]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[22]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[21]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[20]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[19]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[18]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[17]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[16]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[15]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[14]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[13]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[12]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[11]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[10]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[9]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[8]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[7]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[6]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[5]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[4]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[3]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[2]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[1]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 441.941 ; gain = 153.926
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 441.941 ; gain = 153.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 441.941 ; gain = 153.926
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/ram_2port_2048x32/ram_2port_2048x32/ram_2port_2048x32_in_context.xdc] for cell 'iMEM'
+Finished Parsing XDC File [c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/ram_2port_2048x32/ram_2port_2048x32/ram_2port_2048x32_in_context.xdc] for cell 'iMEM'
+Parsing XDC File [c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'iPLL'
+Finished Parsing XDC File [c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'iPLL'
+Parsing XDC File [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.xdc]
+Finished Parsing XDC File [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/RV32I_SoC_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/RV32I_SoC_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 811.445 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 811.445 ; gain = 523.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 811.445 ; gain = 523.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_100mhz. (constraint file  c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100mhz. (constraint file  c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 6).
+Applied set_property DONT_TOUCH = true for iMEM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for iPLL. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 811.445 ; gain = 523.430
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:27]
+INFO: [Synth 8-5546] ROM "result" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memwrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lui" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "regwrite" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "alusrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "alucontrol" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "alucontrol" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cs_mem" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cs_mem" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "LEDS" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'result_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:29]
+WARNING: [Synth 8-327] inferring latch for variable 'tempB_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'tempA_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'cs_mem_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v:53]
+WARNING: [Synth 8-327] inferring latch for variable 'cs_gpio_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v:54]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 811.445 ; gain = 523.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 65    
++---Registers : 
+	               32 Bit    Registers := 31    
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 9     
+	  12 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  32 Input      1 Bit        Muxes := 31    
+	   2 Input      1 Bit        Muxes := 12    
+	  12 Input      1 Bit        Muxes := 3     
+	   9 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RV32I_SoC 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 31    
++---Muxes : 
+	  32 Input      1 Bit        Muxes := 31    
+Module FullAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	  12 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  12 Input      1 Bit        Muxes := 3     
+Module rv32i_cpu 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 4     
+Module Addr_Decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module GPIO 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "alusrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memwrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lui" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "alucontrol" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "regwrite" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "LEDS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "iDec/cs_mem" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "iDec/cs_mem" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[24]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[24]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[24]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[24]  is always disabled
+INFO: [Common 17-14] Message 'Synth 8-264' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[31]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[30]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[29]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[28]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[27]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[26]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[25]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[24]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[23]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[22]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[21]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[20]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[19]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[18]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[17]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[16]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[15]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[14]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[13]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[12]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[11]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[10]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[9]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[8]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[7]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[6]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[5]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[4]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[3]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[2]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[1]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[0]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[31]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[30]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[29]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[28]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[27]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[26]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[25]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[24]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[23]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[22]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[21]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[20]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[19]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[18]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[17]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[16]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[15]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[14]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[13]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[12]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[11]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[10]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[9]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[8]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[7]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[6]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[5]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[4]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[3]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[2]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[1]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[0]) is unused and will be removed from module RV32I_SoC.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 811.445 ; gain = 523.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'iPLL/clk0' to pin 'iPLL/bbstub_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'iPLL/clk180' to pin 'iPLL/bbstub_clk180/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'iPLL/clk90' to pin 'iPLL/bbstub_clk90/O'
+INFO: [Synth 8-5819] Moved 3 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 811.445 ; gain = 523.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 811.445 ; gain = 523.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 825.723 ; gain = 537.707
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 825.723 ; gain = 537.707
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 825.723 ; gain = 537.707
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 825.723 ; gain = 537.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 825.723 ; gain = 537.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 825.723 ; gain = 537.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 825.723 ; gain = 537.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------+----------+
+|      |BlackBox name     |Instances |
++------+------------------+----------+
+|1     |ram_2port_2048x32 |         1|
+|2     |clk_wiz_0         |         1|
++------+------------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |clk_wiz_0         |     1|
+|2     |ram_2port_2048x32 |     1|
+|3     |BUFG              |     1|
+|4     |CARRY4            |    15|
+|5     |LUT1              |     3|
+|6     |LUT2              |    52|
+|7     |LUT3              |    40|
+|8     |LUT4              |    41|
+|9     |LUT5              |    79|
+|10    |LUT6              |   601|
+|11    |MUXF7             |   257|
+|12    |MUXF8             |    32|
+|13    |FDCE              |    30|
+|14    |FDPE              |     1|
+|15    |FDRE              |  1043|
+|16    |LD                |    32|
+|17    |LDC               |     1|
+|18    |LDP               |     1|
+|19    |IBUF              |     1|
+|20    |OBUF              |    22|
++------+------------------+------+
+
+Report Instance Areas: 
++------+-----------------+-------------+------+
+|      |Instance         |Module       |Cells |
++------+-----------------+-------------+------+
+|1     |top              |             |  2320|
+|2     |  iCPU           |rv32i_cpu    |  2113|
+|3     |    alu_inst     |alu          |    84|
+|4     |    regfile_inst |regfile      |  2014|
+|5     |  iDec           |Addr_Decoder |     3|
+|6     |  iGPIO          |GPIO         |    71|
++------+-----------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 825.723 ; gain = 537.707
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 286 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 825.723 ; gain = 168.203
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 825.723 ; gain = 537.707
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 339 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'RV32I_SoC' is not ideal for floorplanning, since the cellview 'regfile' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 32 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 34 instances were transformed.
+  LD => LDCE (inverted pins: G): 32 instances
+  LDC => LDCE: 1 instances
+  LDP => LDPE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 274 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 829.168 ; gain = 549.180
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/RV32I_SoC.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RV32I_SoC_utilization_synth.rpt -pb RV32I_SoC_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 829.168 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat May 27 20:29:37 2023...
+
+*** Running vivado
+    with args -log RV32I_SoC.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RV32I_SoC.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source RV32I_SoC.tcl -notrace
+Command: synth_design -top RV32I_SoC -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7628 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 387.727 ; gain = 98.438
+---------------------------------------------------------------------------------
+
+*** Running vivado
+    with args -log RV32I_SoC.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RV32I_SoC.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source RV32I_SoC.tcl -notrace
+Command: synth_design -top RV32I_SoC -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18756 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 387.652 ; gain = 98.887
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RV32I_SoC' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ram_2port_2048x32' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/.Xil/Vivado-21932-DESKTOP-K0IDMNB/realtime/ram_2port_2048x32_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram_2port_2048x32' (1#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/.Xil/Vivado-21932-DESKTOP-K0IDMNB/realtime/ram_2port_2048x32_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/.Xil/Vivado-21932-DESKTOP-K0IDMNB/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (2#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/.Xil/Vivado-21932-DESKTOP-K0IDMNB/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'rv32i_cpu' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v:11]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (3#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/regfile.v:1]
+WARNING: [Synth 8-151] case item 7'b0110111 is unreachable [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v:70]
+WARNING: [Synth 8-151] case item 7'b0110111 is unreachable [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v:103]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:13]
+INFO: [Synth 8-6157] synthesizing module 'RippleAdder' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RippleAdder.v:2]
+INFO: [Synth 8-6157] synthesizing module 'FullAdder' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/FullAdder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'FullAdder' (4#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/FullAdder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RippleAdder' (5#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RippleAdder.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (6#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'rv32i_cpu' (7#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v:11]
+INFO: [Synth 8-6157] synthesizing module 'Addr_Decoder' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Addr_Decoder' (8#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'GPIO' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/GPIO.v:23]
+WARNING: [Synth 8-3848] Net DataOut in module/entity GPIO does not have driver. [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/GPIO.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'GPIO' (9#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/GPIO.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'Addr' does not match port width (12) of module 'GPIO' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.v:97]
+INFO: [Synth 8-6155] done synthesizing module 'RV32I_SoC' (10#1) [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.v:23]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[31]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[30]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[29]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[28]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[27]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[26]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[25]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[24]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[23]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[22]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[21]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[20]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[19]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[18]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[17]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[16]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[15]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[14]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[13]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[12]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[11]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[10]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[9]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[8]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[7]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[6]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[5]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[4]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[3]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[2]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[1]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataOut[0]
+WARNING: [Synth 8-3331] design GPIO has unconnected port REN
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[31]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[30]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[29]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[28]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[27]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[26]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[25]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[24]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[23]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[22]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[21]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[20]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[19]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[18]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[17]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[16]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[15]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[14]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[13]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[12]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[11]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[10]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[9]
+WARNING: [Synth 8-3331] design GPIO has unconnected port DataIn[8]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[11]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[10]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[9]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[8]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[7]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[6]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[5]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[4]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[3]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[2]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[1]
+WARNING: [Synth 8-3331] design Addr_Decoder has unconnected port addr[0]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[31]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[30]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[29]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[28]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[27]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[26]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[25]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[24]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[23]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[22]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[21]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[20]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[19]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[18]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[17]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[16]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[15]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[14]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[13]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[12]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[11]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[10]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[9]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[8]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[7]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[6]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[5]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[4]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[3]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[2]
+WARNING: [Synth 8-3331] design rv32i_cpu has unconnected port MemRdata[1]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 442.523 ; gain = 153.758
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 442.523 ; gain = 153.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 442.523 ; gain = 153.758
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/ram_2port_2048x32/ram_2port_2048x32/ram_2port_2048x32_in_context.xdc] for cell 'iMEM'
+Finished Parsing XDC File [c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/ram_2port_2048x32/ram_2port_2048x32/ram_2port_2048x32_in_context.xdc] for cell 'iMEM'
+Parsing XDC File [c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'iPLL'
+Finished Parsing XDC File [c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'iPLL'
+Parsing XDC File [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.xdc]
+Finished Parsing XDC File [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/RV32I_SoC_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/RV32I_SoC_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 812.234 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 812.234 ; gain = 523.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 812.234 ; gain = 523.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_100mhz. (constraint file  c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100mhz. (constraint file  c:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 6).
+Applied set_property DONT_TOUCH = true for iMEM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for iPLL. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 812.234 ; gain = 523.469
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:27]
+INFO: [Synth 8-5546] ROM "result" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memwrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lui" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "regwrite" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "alusrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "alucontrol" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "alucontrol" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cs_mem" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cs_mem" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "LEDS" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'result_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:29]
+WARNING: [Synth 8-327] inferring latch for variable 'tempB_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'tempA_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'cs_mem_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v:53]
+WARNING: [Synth 8-327] inferring latch for variable 'cs_gpio_reg' [C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v:54]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 812.234 ; gain = 523.469
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 65    
++---Registers : 
+	               32 Bit    Registers := 31    
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 9     
+	  12 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  32 Input      1 Bit        Muxes := 31    
+	   2 Input      1 Bit        Muxes := 12    
+	  12 Input      1 Bit        Muxes := 3     
+	   9 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RV32I_SoC 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 31    
++---Muxes : 
+	  32 Input      1 Bit        Muxes := 31    
+Module FullAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	  12 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  12 Input      1 Bit        Muxes := 3     
+Module rv32i_cpu 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 4     
+Module Addr_Decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module GPIO 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "alusrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memwrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lui" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "alucontrol" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "regwrite" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "LEDS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "iDec/cs_mem" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "iDec/cs_mem" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[24]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempA_reg[24]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[24]  is always disabled
+WARNING: [Synth 8-264] enable of latch \iCPU/alu_inst/tempB_reg[24]  is always disabled
+INFO: [Common 17-14] Message 'Synth 8-264' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[31]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[30]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[29]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[28]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[27]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[26]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[25]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[24]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[23]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[22]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[21]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[20]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[19]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[18]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[17]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[16]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[15]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[14]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[13]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[12]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[11]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[10]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[9]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[8]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[7]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[6]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[5]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[4]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[3]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[2]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[1]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempB_reg[0]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[31]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[30]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[29]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[28]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[27]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[26]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[25]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[24]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[23]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[22]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[21]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[20]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[19]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[18]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[17]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[16]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[15]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[14]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[13]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[12]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[11]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[10]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[9]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[8]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[7]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[6]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[5]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[4]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[3]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[2]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[1]) is unused and will be removed from module RV32I_SoC.
+WARNING: [Synth 8-3332] Sequential element (iCPU/alu_inst/tempA_reg[0]) is unused and will be removed from module RV32I_SoC.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 812.234 ; gain = 523.469
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'iPLL/clk0' to pin 'iPLL/bbstub_clk0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'iPLL/clk180' to pin 'iPLL/bbstub_clk180/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'iPLL/clk90' to pin 'iPLL/bbstub_clk90/O'
+INFO: [Synth 8-5819] Moved 3 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 812.234 ; gain = 523.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 812.234 ; gain = 523.469
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 826.164 ; gain = 537.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 826.164 ; gain = 537.398
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 826.164 ; gain = 537.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 826.164 ; gain = 537.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 826.164 ; gain = 537.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 826.164 ; gain = 537.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 826.164 ; gain = 537.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------+----------+
+|      |BlackBox name     |Instances |
++------+------------------+----------+
+|1     |ram_2port_2048x32 |         1|
+|2     |clk_wiz_0         |         1|
++------+------------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |clk_wiz_0         |     1|
+|2     |ram_2port_2048x32 |     1|
+|3     |BUFG              |     1|
+|4     |CARRY4            |    15|
+|5     |LUT1              |     3|
+|6     |LUT2              |    52|
+|7     |LUT3              |    40|
+|8     |LUT4              |    41|
+|9     |LUT5              |    79|
+|10    |LUT6              |   601|
+|11    |MUXF7             |   257|
+|12    |MUXF8             |    32|
+|13    |FDCE              |    30|
+|14    |FDPE              |     1|
+|15    |FDRE              |  1043|
+|16    |LD                |    32|
+|17    |LDC               |     1|
+|18    |LDP               |     1|
+|19    |IBUF              |     1|
+|20    |OBUF              |    22|
++------+------------------+------+
+
+Report Instance Areas: 
++------+-----------------+-------------+------+
+|      |Instance         |Module       |Cells |
++------+-----------------+-------------+------+
+|1     |top              |             |  2320|
+|2     |  iCPU           |rv32i_cpu    |  2113|
+|3     |    alu_inst     |alu          |    84|
+|4     |    regfile_inst |regfile      |  2014|
+|5     |  iDec           |Addr_Decoder |     3|
+|6     |  iGPIO          |GPIO         |    71|
++------+-----------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 826.164 ; gain = 537.398
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 286 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 826.164 ; gain = 167.688
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 826.164 ; gain = 537.398
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 339 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'RV32I_SoC' is not ideal for floorplanning, since the cellview 'regfile' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 32 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 34 instances were transformed.
+  LD => LDCE (inverted pins: G): 32 instances
+  LDC => LDCE: 1 instances
+  LDP => LDPE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 274 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 827.109 ; gain = 546.105
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/SoC/RISCV_homework/RISCV_homework.runs/synth_1/RV32I_SoC.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RV32I_SoC_utilization_synth.rpt -pb RV32I_SoC_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 827.109 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat May 27 20:38:55 2023...

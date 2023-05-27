@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_2port_2048x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32I_SoC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RippleAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RippleAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32i_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/tb_RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RV32I_SoC

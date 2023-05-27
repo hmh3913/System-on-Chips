@@ -1,0 +1,17 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1685168466,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v,,clk_wiz_0,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1685187419,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v,1685178483,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v,,ram_2port_2048x32,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/Addr_Decoder.v,1656669983,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/FullAdder.v,,Addr_Decoder,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/FullAdder.v,1685167753,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/GPIO.v,,FullAdder,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/GPIO.v,1656678234,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.v,,GPIO,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RV32I_SoC.v,1684368596,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RippleAdder.v,,RV32I_SoC,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/RippleAdder.v,1685167803,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v,,RippleAdder,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/alu.v,1685165459,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/regfile.v,,alu,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/regfile.v,1685163067,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v,,regfile,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/rv32i_cpu.v,1685161759,verilog,,C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/tb_RV32I_SoC.v,,rv32i_cpu,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Xilinx/SoC/RISCV_homework/RISCV_homework.srcs/sources_1/new/tb_RV32I_SoC.v,1684368580,verilog,,,,tb_RV32I_SoC,,,../../../../RISCV_homework.srcs/sources_1/ip/clk_wiz_0,,,,,

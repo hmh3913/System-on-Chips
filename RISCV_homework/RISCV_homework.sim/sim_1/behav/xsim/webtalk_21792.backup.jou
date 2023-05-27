@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat May 27 15:21:21 2023
+# Process ID: 21792
+# Current directory: C:/Xilinx/SoC/RISCV_homework/RISCV_homework.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Xilinx/SoC/RISCV_homework/RISCV_homework.sim/sim_1/behav/xsim/xsim.dir/tb_RV32I_SoC_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Xilinx/SoC/RISCV_homework/RISCV_homework.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Xilinx/SoC/RISCV_homework/RISCV_homework.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SoC/RISCV_homework/RISCV_homework.sim/sim_1/behav/xsim/xsim.dir/tb_RV32I_SoC_behav/webtalk/xsim_webtalk.tcl -notrace
