@@ -1,0 +1,112 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  2 21:32:03 2023
+| Host         : hmh running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file RV32I_SoC_control_sets_placed.rpt
+| Design       : RV32I_SoC
+| Device       : xc7z020
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    45 |
+| Unused register locations in slices containing registers |    92 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            1 |
+|     14 |            6 |
+|    16+ |           37 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             192 |           26 |
+| No           | No                    | Yes                    |              50 |            7 |
+| No           | Yes                   | No                     |               4 |            1 |
+| Yes          | No                    | No                     |              16 |            4 |
+| Yes          | No                    | Yes                    |              24 |            4 |
+| Yes          | Yes                   | No                     |            2006 |          431 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------+------------------------------------+-----------------------------------+------------------+----------------+
+|           Clock Signal           |            Enable Signal           |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++----------------------------------+------------------------------------+-----------------------------------+------------------+----------------+
+|  clk_100mhz_IBUF                 |                                    |                                   |                1 |              2 |
+|  iCPU/regfile_inst/LEDS_reg[7]_0 |                                    | iCPU/regfile_inst/LEDS_reg[7]_1   |                1 |              4 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/HEX2_reg[6][0]   | rst                               |                2 |             14 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/HEX0_reg[6][0]   | rst                               |                2 |             14 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/HEX1_reg[6]_0[0] | rst                               |                1 |             14 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/E[0]             | rst                               |                3 |             14 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/HEX4_reg[6][0]   | rst                               |                1 |             14 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/HEX3_reg[6][0]   | rst                               |                2 |             14 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/LEDS_reg[7][0]   |                                   |                4 |             16 |
+|  iPLL/inst/clk0                  | p_0_in                             | rst                               |                4 |             24 |
+|  iPLL/inst/clk0                  |                                    | rst                               |                7 |             50 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x3               | iCPU/regfile_inst/x3[31]_i_1_n_2  |               17 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x27              | iCPU/regfile_inst/x27[31]_i_1_n_2 |               18 |             62 |
+|  iPLL/inst/clk0                  |                                    |                                   |                7 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x19              | iCPU/regfile_inst/x19[31]_i_1_n_2 |                8 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x21              | iCPU/regfile_inst/x21[31]_i_1_n_2 |               13 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x2               | iCPU/regfile_inst/x2[31]_i_1_n_2  |               11 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x20              | iCPU/regfile_inst/x20[31]_i_1_n_2 |               10 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x22              | iCPU/regfile_inst/x22[31]_i_1_n_2 |               15 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x23              | iCPU/regfile_inst/x23[31]_i_1_n_2 |               13 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x24              | iCPU/regfile_inst/x24[31]_i_1_n_2 |               10 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x26              | iCPU/regfile_inst/x26[31]_i_1_n_2 |               13 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x25              | iCPU/regfile_inst/x25[31]_i_1_n_2 |               10 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x16              | iCPU/regfile_inst/x16[31]_i_1_n_2 |               15 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x18              | iCPU/regfile_inst/x18[31]_i_1_n_2 |               11 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x17              | iCPU/regfile_inst/x17[31]_i_1_n_2 |                8 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x28              | iCPU/regfile_inst/x28[31]_i_1_n_2 |               12 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x29              | iCPU/regfile_inst/x29[31]_i_1_n_2 |               21 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x7               | iCPU/regfile_inst/x7[31]_i_1_n_2  |               18 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x30              | iCPU/regfile_inst/x30[31]_i_1_n_2 |               20 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x31              | iCPU/regfile_inst/x31[31]_i_1_n_2 |               23 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x4               | iCPU/regfile_inst/x4[31]_i_1_n_2  |                8 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x6               | iCPU/regfile_inst/x6[31]_i_1_n_2  |               11 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x5               | iCPU/regfile_inst/x5[31]_i_1_n_2  |               12 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x14              | iCPU/regfile_inst/x14[31]_i_1_n_2 |               12 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x8               | iCPU/regfile_inst/x8[31]_i_1_n_2  |               24 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x9               | iCPU/regfile_inst/x9[31]_i_1_n_2  |               19 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x13              | iCPU/regfile_inst/x13[31]_i_1_n_2 |               11 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x12              | iCPU/regfile_inst/x12[31]_i_1_n_2 |               11 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x15              | iCPU/regfile_inst/x15[31]_i_1_n_2 |               16 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x11              | iCPU/regfile_inst/x11[31]_i_1_n_2 |               11 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x10              | iCPU/regfile_inst/x10[31]_i_1_n_2 |               11 |             62 |
+|  iPLL/inst/clk0                  | iCPU/regfile_inst/x1               | iCPU/regfile_inst/x1[31]_i_1_n_2  |                8 |             62 |
+|  n_1_1748_BUFG                   |                                    |                                   |                9 |             64 |
+|  n_0_1749_BUFG                   |                                    |                                   |                9 |             64 |
++----------------------------------+------------------------------------+-----------------------------------+------------------+----------------+
+
+
