@@ -1,0 +1,598 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 10 12:32:41 2023
+# Process ID: 19820
+# Current directory: C:/Xilinx/SoC/Lab12-RV32-Start
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32920 C:\Xilinx\SoC\Lab12-RV32-Start\Lab12-RV32-Start2.xpr
+# Log file: C:/Xilinx/SoC/Lab12-RV32-Start/vivado.log
+# Journal file: C:/Xilinx/SoC/Lab12-RV32-Start\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+generate_target Simulation [get_files C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/ram_2port_2048x32/ram_2port_2048x32.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ram_2port_2048x32'...
+export_ip_user_files -of_objects [get_files C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/ram_2port_2048x32/ram_2port_2048x32.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/ram_2port_2048x32/ram_2port_2048x32.xci] -directory C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.ip_user_files/sim_scripts -ip_user_files_dir C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.ip_user_files -ipstatic_source_dir C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.cache/compile_simlib/modelsim} {questa=C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.cache/compile_simlib/questa} {riviera=C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.cache/compile_simlib/riviera} {activehdl=C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_RV32I_SoC' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/ram_2port_2048x32.mif'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_RV32I_SoC_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_2port_2048x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/Addr_Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32I_SoC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RippleAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RippleAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/rv32i_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32i_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/tb_RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RV32I_SoC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 38f2470b31654bb7bfc52a17470327a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_RV32I_SoC_behav xil_defaultlib.tb_RV32I_SoC xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port wea [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:43]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port Addr [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:97]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.ram_2port_2048x32
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.RippleAdder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.rv32i_cpu
+Compiling module xil_defaultlib.Addr_Decoder
+Compiling module xil_defaultlib.GPIO
+Compiling module xil_defaultlib.RV32I_SoC
+Compiling module xil_defaultlib.tb_RV32I_SoC
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_RV32I_SoC_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/xsim.dir/tb_RV32I_SoC_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Jun 10 12:35:59 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_RV32I_SoC_behav -key {Behavioral:sim_1:Functional:tb_RV32I_SoC} -tclbatch {tb_RV32I_SoC.tcl} -view {C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg
+source tb_RV32I_SoC.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_RV32I_SoC.DUT.iMEM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_RV32I_SoC_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1218.387 ; gain = 8.828
+run all
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.336 ; gain = 7.340
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_RV32I_SoC' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/ram_2port_2048x32.mif'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_RV32I_SoC_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 38f2470b31654bb7bfc52a17470327a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_RV32I_SoC_behav xil_defaultlib.tb_RV32I_SoC xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port wea [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:43]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port Addr [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:97]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_RV32I_SoC_behav -key {Behavioral:sim_1:Functional:tb_RV32I_SoC} -tclbatch {tb_RV32I_SoC.tcl} -view {C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg
+source tb_RV32I_SoC.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_RV32I_SoC.DUT.iMEM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_RV32I_SoC_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_RV32I_SoC' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/ram_2port_2048x32.mif'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_RV32I_SoC_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_2port_2048x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/Addr_Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32I_SoC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RippleAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RippleAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/rv32i_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32i_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/tb_RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RV32I_SoC
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 38f2470b31654bb7bfc52a17470327a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_RV32I_SoC_behav xil_defaultlib.tb_RV32I_SoC xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port wea [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:43]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port Addr [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:97]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.ram_2port_2048x32
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.RippleAdder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.rv32i_cpu
+Compiling module xil_defaultlib.Addr_Decoder
+Compiling module xil_defaultlib.GPIO
+Compiling module xil_defaultlib.RV32I_SoC
+Compiling module xil_defaultlib.tb_RV32I_SoC
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_RV32I_SoC_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_RV32I_SoC_behav -key {Behavioral:sim_1:Functional:tb_RV32I_SoC} -tclbatch {tb_RV32I_SoC.tcl} -view {C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg
+source tb_RV32I_SoC.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_RV32I_SoC.DUT.iMEM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_RV32I_SoC_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1244.238 ; gain = 2.176
+run 10 us
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_RV32I_SoC' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/ram_2port_2048x32.mif'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_RV32I_SoC_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_2port_2048x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/Addr_Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32I_SoC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RippleAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RippleAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/rv32i_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32i_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/tb_RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RV32I_SoC
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 38f2470b31654bb7bfc52a17470327a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_RV32I_SoC_behav xil_defaultlib.tb_RV32I_SoC xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port wea [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:43]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port Addr [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:97]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.ram_2port_2048x32
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.RippleAdder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.rv32i_cpu
+Compiling module xil_defaultlib.Addr_Decoder
+Compiling module xil_defaultlib.GPIO
+Compiling module xil_defaultlib.RV32I_SoC
+Compiling module xil_defaultlib.tb_RV32I_SoC
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_RV32I_SoC_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_RV32I_SoC_behav -key {Behavioral:sim_1:Functional:tb_RV32I_SoC} -tclbatch {tb_RV32I_SoC.tcl} -view {C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg
+source tb_RV32I_SoC.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_RV32I_SoC.DUT.iMEM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_RV32I_SoC_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1247.188 ; gain = 1.828
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_RV32I_SoC' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/ram_2port_2048x32.mif'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_RV32I_SoC_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/ip/ram_2port_2048x32/sim/ram_2port_2048x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_2port_2048x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/Addr_Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Addr_Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32I_SoC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RippleAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RippleAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/rv32i_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32i_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/tb_RV32I_SoC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RV32I_SoC
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 38f2470b31654bb7bfc52a17470327a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_RV32I_SoC_behav xil_defaultlib.tb_RV32I_SoC xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port wea [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:43]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port Addr [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:97]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="zyn...
+Compiling module xil_defaultlib.ram_2port_2048x32
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.RippleAdder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.rv32i_cpu
+Compiling module xil_defaultlib.Addr_Decoder
+Compiling module xil_defaultlib.GPIO
+Compiling module xil_defaultlib.RV32I_SoC
+Compiling module xil_defaultlib.tb_RV32I_SoC
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_RV32I_SoC_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_RV32I_SoC_behav -key {Behavioral:sim_1:Functional:tb_RV32I_SoC} -tclbatch {tb_RV32I_SoC.tcl} -view {C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Xilinx/SoC/Lab12-RV32-Start/tb_RV32I_SoC_behav.wcfg
+source tb_RV32I_SoC.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_RV32I_SoC.DUT.iMEM.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_RV32I_SoC_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1253.164 ; gain = 3.387
+run 10 us
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/synth_1
+
+reset_run ram_2port_2048x32_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/ram_2port_2048x32_synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ram_2port_2048x32'...
+[Sat Jun 10 13:05:07 2023] Launched ram_2port_2048x32_synth_1, synth_1...
+Run output will be captured here:
+ram_2port_2048x32_synth_1: C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/ram_2port_2048x32_synth_1/runme.log
+synth_1: C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/synth_1/runme.log
+[Sat Jun 10 13:05:07 2023] Launched impl_1...
+Run output will be captured here: C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/impl_1/runme.log
+run 10 us
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251988368
+set_property PROGRAM.FILE {C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/impl_1/RV32I_SoC.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/impl_1/RV32I_SoC.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_RV32I_SoC' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/ram_2port_2048x32.mif'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [SIM-utils-43] Exported 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim/insts_data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_RV32I_SoC_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 38f2470b31654bb7bfc52a17470327a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_RV32I_SoC_behav xil_defaultlib.tb_RV32I_SoC xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port wea [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:43]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port Addr [C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.srcs/sources_1/new/RV32I_SoC.v:97]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps

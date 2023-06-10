@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 10 13:06:41 2023
+# Process ID: 24996
+# Current directory: C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/impl_1
+# Command line: vivado.exe -log RV32I_SoC.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RV32I_SoC.tcl -notrace
+# Log file: C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/impl_1/RV32I_SoC.vdi
+# Journal file: C:/Xilinx/SoC/Lab12-RV32-Start/Lab12-RV32-Start2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source RV32I_SoC.tcl -notrace
